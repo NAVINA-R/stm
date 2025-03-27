@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedestrian Traffic Predictor</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            padding-top: 20px;
+        }
+        .card {
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .result-card {
+            background-color: #e9f7ef;
+        }
+        .chart-container {
+            height: 300px;
+            margin-bottom: 20px;
+        }
+        .form-label {
+            font-weight: 500;
+        }
+        .traffic-light {
+            width: 100px;
+            height: 250px;
+            background-color: #333;
+            border-radius: 10px;
+            margin: 20px auto;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .light {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            opacity: 0.3;
+            transition: opacity 0.3s;
+        }
+        .light.active {
+            opacity: 1;
+            box-shadow: 0 0 20px #fff;
+        }
+        .red {
+            background-color: #ff4444;
+        }
+        .yellow {
+            background-color: #ffbb33;
+        }
+        .green {
+            background-color: #00C851;
+        }
+        .signal-status {
+            font-weight: bold;
+            text-align: center;
+            margin-top: 10px;
+        }
+        .signal-timer {
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 10px;
+        }
+        .pedestrian-light {
+            width: 60px;
+            height: 120px;
+            background-color: #333;
+            border-radius: 10px;
+            margin: 10px auto;
+            padding: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .ped-light {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            opacity: 0.3;
+            transition: opacity 0.3s;
+        }
+        .ped-walk {
+            background-color: #00C851;
+        }
+        .ped-stop {
+            background-color: #ff4444;
+        }
+        .signal-container {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center mb-4">
+                <h1>Pedestrian Traffic Predictor</h1>
+                <p class="lead">Predict crossing patterns and wait times for safer walkways</p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h5>Input Parameters</h5>
+                    </div>
+                    <div class="card-body">
+                        <form id="predictionForm">
+                            <div class="mb-3">
+                                <label for="timestamp" class="form-label">Date & Time</label>
+                                <input type="datetime-local" class="form-control" id="timestamp" required>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="walking_speed" class="form-label">Walking Speed (m/s)</label>
+                                    <input type="number" step="0.01" class="form-control" id="walking_speed" value="1.2" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="density" class="form-label">Pedestrian Density (people/m²)</label>
+                                    <input type="number" step="0.01" class="form-control" id="density" value="0.5" required>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="vehicle_count" class="form-label">Vehicle Count (per min)</label>
+                                    <input type="number" class="form-control" id="vehicle_count" value="20" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="pedestrian_count" class="form-label">Pedestrian Count (per min)</label>
+                                    <input type="number" class="form-control" id="pedestrian_count" value="15" required>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="temperature" class="form-label">Temperature (°C)</label>
+                                    <input type="number" class="form-control" id="temperature" value="20" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="congestion_level" class="form-label">Congestion Level</label>
+                                    <select class="form-select" id="congestion_level" required>
+                                        <option value="Low">Low</option>
+                                        <option value="Medium" selected>Medium</option>
+                                        <option value="High">High</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="behavior" class="form-label">Current Behavior</label>
+                                    <select class="form-select" id="behavior" required>
+                                        <option value="Normal">Normal</option>
+                                        <option value="Waiting">Waiting</option>
+                                        <option value="Jaywalking">Jaywalking</option>
+                                        <option value="Group Crossing">Group Crossing</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="age_group" class="form-label">Age Group</label>
+                                    <select class="form-select" id="age_group" required>
+                                        <option value="Child">Child</option>
+                                        <option value="Adult" selected>Adult</option>
+                                        <option value="Elderly">Elderly</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="peak_offpeak" class="form-label">Time of Day</label>
+                                    <select class="form-select" id="peak_offpeak" required>
+                                        <option value="Peak">Peak</option>
+                                        <option value="Off-Peak">Off-Peak</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="weather" class="form-label">Weather</label>
+                                    <select class="form-select" id="weather" required>
+                                        <option value="Clear">Clear</option>
+                                        <option value="Rain">Rain</option>
+                                        <option value="Snow">Snow</option>
+                                        <option value="Fog">Fog</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="lighting_condition" class="form-label">Lighting Condition</label>
+                                    <select class="form-select" id="lighting_condition" required>
+                                        <option value="Daytime">Daytime</option>
+                                        <option value="Nighttime">Nighttime</option>
+                                        <option value="Low-light">Low-light</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="road_surface" class="form-label">Road Surface</label>
+                                    <select class="form-select" id="road_surface" required>
+                                        <option value="Dry">Dry</option>
+                                        <option value="Wet">Wet</option>
+                                        <option value="Snow-covered">Snow-covered</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="traffic_signal_phase" class="form-label">Traffic Signal Phase</label>
+                                    <select class="form-select" id="traffic_signal_phase" required>
+                                        <option value="Red">Red</option>
+                                        <option value="Yellow">Yellow</option>
+                                        <option value="Green">Green</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="pedestrian_signal" class="form-label">Pedestrian Signal</label>
+                                    <select class="form-select" id="pedestrian_signal" required>
+                                        <option value="Walk">Walk</option>
+                                        <option value="Don't Walk">Don't Walk</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary w-100">Predict</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6">
+                <div class="card result-card">
+                    <div class="card-header bg-success text-white">
+                        <h5>Prediction Results</h5>
+                    </div>
+                    <div class="card-body">
+                        <div id="results" class="text-center">
+                            <p class="text-muted">Submit the form to see predictions</p>
+                        </div>
+                        
+                        <div class="chart-container">
+                            <canvas id="behaviorChart"></canvas>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="alert alert-info">
+                                    <h6>Predicted Wait Time:</h6>
+                                    <p id="waitTimeResult" class="display-6 text-center">-- seconds</p>
+                                    <p id="timestampInfo" class="small text-muted text-center"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="alert alert-warning">
+                                    <h6>Signal Recommendation:</h6>
+                                    <p id="signalRecommendation" class="display-6 text-center">--</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="text-center">
+                            <h5>Signal Simulation</h5>
+                            <div class="signal-container">
+                                <div>
+                                    <h6>Vehicle Signal</h6>
+                                    <div class="traffic-light">
+                                        <div class="light red" id="red-light"></div>
+                                        <div class="light yellow" id="yellow-light"></div>
+                                        <div class="light green" id="green-light"></div>
+                                    </div>
+                                    <div class="signal-status" id="signal-status">Signal: --</div>
+                                    <div class="signal-timer" id="signal-timer">--</div>
+                                </div>
+                                <div>
+                                    <h6>Pedestrian Signal</h6>
+                                    <div class="pedestrian-light">
+                                        <div class="ped-light ped-walk" id="ped-walk-light"></div>
+                                        <div class="ped-light ped-stop" id="ped-stop-light"></div>
+                                    </div>
+                                    <div class="signal-status" id="ped-signal-status">Signal: --</div>
+                                    <div class="signal-timer" id="ped-signal-timer">--</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        // Initialize chart
+        const ctx = document.getElementById('behaviorChart').getContext('2d');
+        let behaviorChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Normal', 'Waiting', 'Jaywalking', 'Group Crossing'],
+                datasets: [{
+                    label: 'Behavior Probability',
+                    data: [0, 0, 0, 0],
+                    backgroundColor: [
+                        'rgba(54, 162, 235, 0.7)',
+                        'rgba(255, 206, 86, 0.7)',
+                        'rgba(255, 99, 132, 0.7)',
+                        'rgba(75, 192, 192, 0.7)'
+                    ],
+                    borderColor: [
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 206, 86, 1)',
+                        'rgba(255, 99, 132, 1)',
+                        'rgba(75, 192, 192, 1)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 1,
+                        title: {
+                            display: true,
+                            text: 'Probability'
+                        }
+                    }
+                },
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Predicted Behavior Probabilities'
+                    }
+                }
+            }
+        });
+
+        // Traffic signal simulation variables
+        let signalInterval;
+        let currentSignalState = 'red';
+        let signalTimer = 0;
+        let maxSignalTime = 30;
+        let currentPedSignalState = 'stop';
+        let pedSignalTimer = 0;
+        
+        // Function to update traffic signal display
+        function updateSignalDisplay(state) {
+            // Reset all vehicle lights
+            document.getElementById('red-light').classList.remove('active');
+            document.getElementById('yellow-light').classList.remove('active');
+            document.getElementById('green-light').classList.remove('active');
+            
+            // Reset all pedestrian lights
+            document.getElementById('ped-walk-light').classList.remove('active');
+            document.getElementById('ped-stop-light').classList.remove('active');
+            
+            // Activate the current vehicle light
+            if (state === 'red') {
+                document.getElementById('red-light').classList.add('active');
+                document.getElementById('signal-status').textContent = 'Signal: RED (Stop)';
+                // Pedestrian signal is opposite
+                document.getElementById('ped-walk-light').classList.add('active');
+                document.getElementById('ped-signal-status').textContent = 'Signal: WALK';
+                currentPedSignalState = 'walk';
+            } else if (state === 'yellow') {
+                document.getElementById('yellow-light').classList.add('active');
+                document.getElementById('signal-status').textContent = 'Signal: YELLOW (Prepare)';
+                // Pedestrian signal shows don't walk during yellow
+                document.getElementById('ped-stop-light').classList.add('active');
+                document.getElementById('ped-signal-status').textContent = "Signal: DON'T WALK";
+                currentPedSignalState = 'stop';
+            } else if (state === 'green') {
+                document.getElementById('green-light').classList.add('active');
+                document.getElementById('signal-status').textContent = 'Signal: GREEN (Go)';
+                // Pedestrian signal is opposite
+                document.getElementById('ped-stop-light').classList.add('active');
+                document.getElementById('ped-signal-status').textContent = "Signal: DON'T WALK";
+                currentPedSignalState = 'stop';
+            }
+            
+            // Update the timer displays
+            document.getElementById('signal-timer').textContent = signalTimer;
+            document.getElementById('ped-signal-timer').textContent = pedSignalTimer;
+        }
+        
+        // Function to calculate required green time based on wait time and other factors
+        function calculateGreenTime(waitTime, behavior, density, ageGroup) {
+            // Base green time is proportional to wait time (longer waits get more green time)
+            let baseGreenTime = Math.min(30, Math.max(5, waitTime * 0.5));
+            
+            // Adjust for pedestrian density (higher density needs more time)
+            baseGreenTime *= (1 + parseFloat(density));
+            
+            // Adjust for age group
+            if (ageGroup === 'Elderly') baseGreenTime *= 1.3;
+            if (ageGroup === 'Child') baseGreenTime *= 1.2;
+            
+            // Adjust for behavior
+            if (behavior === 'Group Crossing') baseGreenTime *= 1.5;
+            if (behavior === 'Jaywalking') baseGreenTime *= 0.8; // Less time if they're likely to jaywalk
+            
+            // Ensure within reasonable bounds
+            return Math.min(45, Math.max(5, Math.round(baseGreenTime)));
+        }
+        
+        // Function to start signal simulation
+        function startSignalSimulation(initialState, waitTime, behavior, density, ageGroup) {
+            // Clear any existing interval
+            if (signalInterval) {
+                clearInterval(signalInterval);
+            }
+            
+            // Calculate appropriate green time based on prediction
+            const greenTime = calculateGreenTime(waitTime, behavior, density, ageGroup);
+            const yellowTime = 3; // Standard 3-second yellow
+            const minRedTime = 5; // Minimum red time for safety
+            
+            // Set initial state
+            currentSignalState = initialState;
+            
+            // Set initial timers based on state
+            if (initialState === 'red') {
+                signalTimer = Math.max(minRedTime, Math.floor(waitTime * 0.3));
+                pedSignalTimer = signalTimer;
+            } else if (initialState === 'green') {
+                signalTimer = greenTime;
+                pedSignalTimer = 0; // Don't walk during vehicle green
+            } else if (initialState === 'yellow') {
+                signalTimer = yellowTime;
+                pedSignalTimer = 0;
+            }
+            
+            maxSignalTime = signalTimer;
+            
+            // Initial display
+            updateSignalDisplay(currentSignalState);
+            
+            // Start the timer
+            signalInterval = setInterval(() => {
+                signalTimer--;
+                if (currentPedSignalState === 'walk') {
+                    pedSignalTimer--;
+                }
+                
+                document.getElementById('signal-timer').textContent = signalTimer;
+                document.getElementById('ped-signal-timer').textContent = currentPedSignalState === 'walk' ? pedSignalTimer : '--';
+                
+                if (signalTimer <= 0) {
+                    // Transition to next state
+                    if (currentSignalState === 'red') {
+                        currentSignalState = 'green';
+                        signalTimer = greenTime;
+                        pedSignalTimer = 0;
+                    } else if (currentSignalState === 'green') {
+                        currentSignalState = 'yellow';
+                        signalTimer = yellowTime;
+                        pedSignalTimer = 0;
+                    } else if (currentSignalState === 'yellow') {
+                        currentSignalState = 'red';
+                        signalTimer = Math.max(minRedTime, Math.floor(waitTime * 0.3));
+                        pedSignalTimer = signalTimer;
+                    }
+                    
+                    maxSignalTime = signalTimer;
+                    updateSignalDisplay(currentSignalState);
+                }
+            }, 1000);
+        }
+        
+        // Function to determine initial signal state based on prediction
+        function determineInitialSignal(predictedBehavior, waitTime) {
+            if (predictedBehavior === 'Jaywalking') {
+                return 'red'; // Immediate red to prevent jaywalking
+            } else if (predictedBehavior === 'Group Crossing' || waitTime > 30) {
+                return 'green'; // Start with green to clear the backlog
+            } else {
+                return 'red'; // Default to starting with red
+            }
+        }
+
+        // Handle form submission
+        document.getElementById('predictionForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Show loading state
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = '<div class="spinner-border text-primary" role="status"><span class="visually-hidden">Loading...</span></div>';
+            
+            // Gather form data
+            const formData = {
+                timestamp: document.getElementById('timestamp').value,
+                walking_speed: document.getElementById('walking_speed').value,
+                density: document.getElementById('density').value,
+                vehicle_count: document.getElementById('vehicle_count').value,
+                pedestrian_count: document.getElementById('pedestrian_count').value,
+                temperature: document.getElementById('temperature').value,
+                congestion_level: document.getElementById('congestion_level').value,
+                behavior: document.getElementById('behavior').value,
+                age_group: document.getElementById('age_group').value,
+                peak_offpeak: document.getElementById('peak_offpeak').value,
+                weather: document.getElementById('weather').value,
+                lighting_condition: document.getElementById('lighting_condition').value,
+                road_surface: document.getElementById('road_surface').value,
+                traffic_signal_phase: document.getElementById('traffic_signal_phase').value,
+                pedestrian_signal: document.getElementById('pedestrian_signal').value
+            };
+            
+            // Simulate prediction response (in a real app, this would be a fetch call)
+            setTimeout(() => {
+                // Mock prediction data
+                const behaviors = ['Normal', 'Waiting', 'Jaywalking', 'Group Crossing'];
+                const predictedBehavior = behaviors[Math.floor(Math.random() * behaviors.length)];
+                const waitTime = Math.floor(Math.random() * 60) + 5; // 5-65 seconds
+                
+                const behaviorProbs = {
+                    Normal: Math.random(),
+                    Waiting: Math.random(),
+                    Jaywalking: Math.random(),
+                    'Group Crossing': Math.random()
+                };
+                
+                // Normalize probabilities to sum to 1
+                const total = Object.values(behaviorProbs).reduce((a, b) => a + b, 0);
+                for (let key in behaviorProbs) {
+                    behaviorProbs[key] = (behaviorProbs[key] / total).toFixed(2);
+                }
+                
+                const data = {
+                    predicted_behavior: predictedBehavior,
+                    behavior_probabilities: behaviorProbs,
+                    predicted_wait_time: waitTime,
+                    timestamp: new Date(formData.timestamp).toLocaleString(),
+                    signal_recommendation: waitTime > 30 ? 'Extended Green Phase' : 'Standard Cycle'
+                };
+                
+                // Update results
+                resultsDiv.innerHTML = `
+                    <h4>Predicted Behavior: <span class="text-primary">${data.predicted_behavior}</span></h4>
+                    <p class="text-muted">Most likely pedestrian crossing behavior</p>
+                `;
+                
+                // Update chart
+                behaviorChart.data.datasets[0].data = [
+                    data.behavior_probabilities.Normal || 0,
+                    data.behavior_probabilities.Waiting || 0,
+                    data.behavior_probabilities.Jaywalking || 0,
+                    data.behavior_probabilities['Group Crossing'] || 0
+                ];
+                behaviorChart.update();
+                
+                // Update wait time and recommendation
+                document.getElementById('waitTimeResult').textContent = `${data.predicted_wait_time} seconds`;
+                document.getElementById('timestampInfo').textContent = `For ${data.timestamp}`;
+                document.getElementById('signalRecommendation').textContent = data.signal_recommendation;
+                
+                // Start signal simulation based on prediction
+                const initialState = determineInitialSignal(data.predicted_behavior, data.predicted_wait_time);
+                startSignalSimulation(
+                    initialState, 
+                    data.predicted_wait_time,
+                    data.predicted_behavior,
+                    formData.density,
+                    formData.age_group
+                );
+                
+            }, 1500); // Simulate network delay
+            
+            /* In a real application, you would use this fetch code instead:
+            fetch('/predict', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                body: new URLSearchParams(formData)
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.error) {
+                    resultsDiv.innerHTML = `<div class="alert alert-danger">${data.error}</div>`;
+                    return;
+                }
+                
+                // Update results
+                resultsDiv.innerHTML = `
+                    <h4>Predicted Behavior: <span class="text-primary">${data.predicted_behavior}</span></h4>
+                    <p class="text-muted">Most likely pedestrian crossing behavior</p>
+                `;
+                
+                // Update chart
+                behaviorChart.data.datasets[0].data = [
+                    data.behavior_probabilities.Normal || 0,
+                    data.behavior_probabilities.Waiting || 0,
+                    data.behavior_probabilities.Jaywalking || 0,
+                    data.behavior_probabilities['Group Crossing'] || 0
+                ];
+                behaviorChart.update();
+                
+                // Update wait time and recommendation
+                document.getElementById('waitTimeResult').textContent = `${data.predicted_wait_time} seconds`;
+                document.getElementById('timestampInfo').textContent = `For ${data.timestamp}`;
+                document.getElementById('signalRecommendation').textContent = data.signal_recommendation;
+                
+                // Start signal simulation based on prediction
+                const initialState = determineInitialSignal(data.predicted_behavior, data.predicted_wait_time);
+                startSignalSimulation(
+                    initialState, 
+                    data.predicted_wait_time,
+                    data.predicted_behavior,
+                    formData.density,
+                    formData.age_group
+                );
+            })
+            .catch(error => {
+                resultsDiv.innerHTML = `<div class="alert alert-danger">Error: ${error.message}</div>`;
+            });
+            */
+        });
+        
+        // Set default timestamp to now
+        const now = new Date();
+        const timezoneOffset = now.getTimezoneOffset() * 60000;
+        const localISOTime = (new Date(now - timezoneOffset)).toISOString().slice(0, 16);
+        document.getElementById('timestamp').value = localISOTime;
+        
+        // Initialize signal display (red by default)
+        updateSignalDisplay('red');
+    </script>
+</body>
+</html>

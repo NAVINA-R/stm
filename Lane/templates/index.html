@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Lane Management System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f7fa;
+            color: #333;
+        }
+        .header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            margin-bottom: 30px;
+        }
+        .card {
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            border: none;
+        }
+        .card-header {
+            background-color: #3498db;
+            color: white;
+            border-radius: 10px 10px 0 0 !important;
+        }
+        .form-label {
+            font-weight: 600;
+        }
+        .btn-primary {
+            background-color: #3498db;
+            border-color: #3498db;
+        }
+        .btn-primary:hover {
+            background-color: #2980b9;
+            border-color: #2980b9;
+        }
+        .result-container {
+            display: none;
+            margin-top: 20px;
+        }
+        .lane-visualization {
+            height: 200px;
+            position: relative;
+            margin: 30px 0;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .lane {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+            transition: all 0.3s ease;
+        }
+        .lane-left {
+            background-color: #e74c3c;
+        }
+        .lane-middle {
+            background-color: #f39c12;
+        }
+        .lane-right {
+            background-color: #2ecc71;
+        }
+        .active-lane {
+            transform: scaleY(1.1);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+        .history-item {
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        .history-item:last-child {
+            border-bottom: none;
+        }
+        .feature-importance {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    padding: 10px;
+    max-height: 500px; /* Limits height while maintaining aspect ratio */
+    object-fit: contain; /* Ensures the entire image is visible */
+}
+    </style>
+</head>
+<body>
+    <div class="header text-center">
+        <h1><i class="fas fa-road me-2"></i> Smart Lane Management System</h1>
+        <p class="mb-0">AI-powered lane recommendation for optimal traffic flow</p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="mb-0"><i class="fas fa-cogs me-2"></i>Traffic Conditions Input</h4>
+                    </div>
+                    <div class="card-body">
+                        <form id="predictionForm">
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <label for="time_of_day" class="form-label">Time of Day (0-23)</label>
+                                    <input type="number" class="form-control" id="time_of_day" min="0" max="23" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="day_of_week" class="form-label">Day of Week</label>
+                                    <select class="form-select" id="day_of_week" required>
+                                        <option value="Monday">Monday</option>
+                                        <option value="Tuesday">Tuesday</option>
+                                        <option value="Wednesday">Wednesday</option>
+                                        <option value="Thursday">Thursday</option>
+                                        <option value="Friday">Friday</option>
+                                        <option value="Saturday">Saturday</option>
+                                        <option value="Sunday">Sunday</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <label for="weather_condition" class="form-label">Weather Condition</label>
+                                    <select class="form-select" id="weather_condition" required>
+                                        <option value="0">Clear</option>
+                                        <option value="1">Rainy</option>
+                                        <option value="2">Snowy</option>
+                                        <option value="3">Foggy</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="congestion_level" class="form-label">Congestion Level</label>
+                                    <select class="form-select" id="congestion_level" required>
+                                        <option value="0">Low</option>
+                                        <option value="1">Medium</option>
+                                        <option value="2">High</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <label for="avg_speed" class="form-label">Average Speed (mph)</label>
+                                    <input type="number" class="form-control" id="avg_speed" min="0" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="traffic_count" class="form-label">Traffic Count (past hour)</label>
+                                    <input type="number" class="form-control" id="traffic_count" min="0" required>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <label for="traffic_density" class="form-label">Traffic Density</label>
+                                    <input type="number" class="form-control" id="traffic_density" min="0" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="road_type" class="form-label">Road Type</label>
+                                    <select class="form-select" id="road_type" required>
+                                        <option value="0">Highway</option>
+                                        <option value="1">Arterial</option>
+                                        <option value="2">Local</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col-md-4">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="holiday">
+                                        <label class="form-check-label" for="holiday">Holiday</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="special_event">
+                                        <label class="form-check-label" for="special_event">Special Event Nearby</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="accident">
+                                        <label class="form-check-label" for="accident">Accident Nearby</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col-md-4">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="road_closure">
+                                        <label class="form-check-label" for="road_closure">Road Closure</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="alt_routes">
+                                        <label class="form-check-label" for="alt_routes">Alternative Routes Available</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-lg w-100">
+                                <i class="fas fa-road me-2"></i> Recommend Optimal Lane
+                            </button>
+                        </form>
+
+                        <div id="resultContainer" class="result-container mt-4">
+                            <div class="card">
+                                <div class="card-header bg-success">
+                                    <h4 class="mb-0"><i class="fas fa-check-circle me-2"></i>Recommended Lane</h4>
+                                </div>
+                                <div class="card-body">
+                                    <div class="lane-visualization">
+                                        <div class="lane lane-left" id="leftLane">LEFT</div>
+                                        <div class="lane lane-middle" id="middleLane">MIDDLE</div>
+                                        <div class="lane lane-right" id="rightLane">RIGHT</div>
+                                    </div>
+                                    <h3 class="text-center mb-3">Recommended: <span id="recommendedLane" class="fw-bold"></span></h3>
+                                    <p class="text-muted text-center mb-0"><small id="timestamp"></small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="mb-0"><i class="fas fa-chart-bar me-2"></i>Feature Importance</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="/static/feature_importance.png" alt="Feature Importance" class="feature-importance img-fluid">
+                        <p class="mt-3">This chart shows which factors most influence lane recommendations in our AI model.</p>
+                    </div>
+                </div>
+
+                <div class="card mt-4">
+                    <div class="card-header">
+                        <h4 class="mb-0"><i class="fas fa-history me-2"></i>Prediction History</h4>
+                    </div>
+                    <div class="card-body">
+                        <div id="historyList" class="list-group">
+                            <!-- History items will be added here dynamically -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        document.getElementById('predictionForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Show loading state
+            const submitBtn = document.querySelector('button[type="submit"]');
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i> Analyzing...';
+            
+            // Collect form data
+            const formData = {
+                time_of_day: document.getElementById('time_of_day').value,
+                day_of_week: document.getElementById('day_of_week').value,
+                weather_condition: document.getElementById('weather_condition').value,
+                holiday: document.getElementById('holiday').checked ? 'on' : '',
+                special_event: document.getElementById('special_event').checked ? 'on' : '',
+                avg_speed: document.getElementById('avg_speed').value,
+                traffic_count: document.getElementById('traffic_count').value,
+                road_type: document.getElementById('road_type').value,
+                accident: document.getElementById('accident').checked ? 'on' : '',
+                road_closure: document.getElementById('road_closure').checked ? 'on' : '',
+                traffic_density: document.getElementById('traffic_density').value,
+                alt_routes: document.getElementById('alt_routes').checked ? 'on' : '',
+                congestion_level: document.getElementById('congestion_level').value
+            };
+            
+            // Send to server
+            fetch('/predict', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                body: new URLSearchParams(formData)
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.status === 'success') {
+                    // Display results
+                    displayResult(data);
+                    // Add to history
+                    addToHistory(data);
+                } else {
+                    alert('Error: ' + data.message);
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('An error occurred. Please try again.');
+            })
+            .finally(() => {
+                submitBtn.disabled = false;
+                submitBtn.innerHTML = '<i class="fas fa-road me-2"></i> Recommend Optimal Lane';
+            });
+        });
+        
+        function displayResult(data) {
+            const resultContainer = document.getElementById('resultContainer');
+            const recommendedLane = document.getElementById('recommendedLane');
+            const timestamp = document.getElementById('timestamp');
+            
+            // Show result container
+            resultContainer.style.display = 'block';
+            
+            // Update text
+            recommendedLane.textContent = data.recommended_lane;
+            timestamp.textContent = 'Predicted at: ' + data.timestamp;
+            
+            // Highlight the recommended lane
+            const leftLane = document.getElementById('leftLane');
+            const middleLane = document.getElementById('middleLane');
+            const rightLane = document.getElementById('rightLane');
+            
+            // Reset all lanes
+            leftLane.classList.remove('active-lane');
+            middleLane.classList.remove('active-lane');
+            rightLane.classList.remove('active-lane');
+            
+            // Highlight the recommended lane
+            if (data.prediction === 1) {
+                leftLane.classList.add('active-lane');
+            } else if (data.prediction === 2) {
+                middleLane.classList.add('active-lane');
+            } else if (data.prediction === 3) {
+                rightLane.classList.add('active-lane');
+            }
+            
+            // Scroll to results
+            resultContainer.scrollIntoView({ behavior: 'smooth' });
+        }
+        
+        function addToHistory(data) {
+            const historyList = document.getElementById('historyList');
+            const historyItem = document.createElement('div');
+            historyItem.className = 'history-item';
+            
+            const laneClass = data.prediction === 1 ? 'badge bg-danger' : 
+                             data.prediction === 2 ? 'badge bg-warning text-dark' : 'badge bg-success';
+            
+            historyItem.innerHTML = `
+                <div class="d-flex justify-content-between">
+                    <span class="${laneClass}">${data.recommended_lane}</span>
+                    <small class="text-muted">${data.timestamp}</small>
+                </div>
+                <div class="mt-1">
+                    <small>Conditions: ${getConditionSummary(data)}</small>
+                </div>
+            `;
+            
+            // Add to top of history
+            if (historyList.firstChild) {
+                historyList.insertBefore(historyItem, historyList.firstChild);
+            } else {
+                historyList.appendChild(historyItem);
+            }
+            
+            // Limit history to 10 items
+            if (historyList.children.length > 10) {
+                historyList.removeChild(historyList.lastChild);
+            }
+        }
+        
+        function getConditionSummary(data) {
+            // This is a simplified summary - in a real app you'd use the actual form values
+            const conditions = [];
+            if (document.getElementById('holiday').checked) conditions.push('Holiday');
+            if (document.getElementById('special_event').checked) conditions.push('Event');
+            if (document.getElementById('accident').checked) conditions.push('Accident');
+            if (document.getElementById('road_closure').checked) conditions.push('Closure');
+            
+            const congestion = ['Low', 'Medium', 'High'][parseInt(document.getElementById('congestion_level').value)];
+            conditions.push(`Congestion: ${congestion}`);
+            
+            return conditions.join(', ');
+        }
+        
+        // Initialize with current time
+        document.addEventListener('DOMContentLoaded', function() {
+            const now = new Date();
+            document.getElementById('time_of_day').value = now.getHours();
+            
+            const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+            document.getElementById('day_of_week').value = days[now.getDay()];
+        });
+    </script>
+</body>
+</html>

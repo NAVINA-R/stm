@@ -1,0 +1,1001 @@
+Timestamp,Pedestrian_ID,Walking_Speed_mps,Direction_Degrees,Density_people_per_m2,Behavior,Age_Group,Peak_OffPeak,Vehicle_ID,Vehicle_Type,Vehicle_Speed_kmph,Vehicle_Acceleration_mps2,Near_Miss,Traffic_Violation,Weather,Temperature_C,Wind_Speed_mps,Visibility_m,Lighting_Condition,Road_Surface,Obstacle_Present,Traffic_Signal_Phase,Pedestrian_Signal,Signal_Duration_s,Response_to_Pedestrian,Vehicle_Count_per_min,Pedestrian_Count_per_min,Congestion_Level,Event_Type,Accident_Occurred,Accident_Severity
+2024-09-17 20:15:45,6228,1.55,162,0.22,Waiting,Adult,Peak,9922,Car,48.95,2.14,0,Red Light Violation,Snow,31.9,8.32,211.4,Nighttime,Wet,0,Red,Don't Walk,74,1,45,16,High,Child Running,0,Minor
+2024-04-24 18:33:07,5126,0.9,120,0.35,Group Crossing,Child,Off-Peak,5682,Car,44.62,1.47,0,Failed to Yield,Rain,12.8,0.8,582.24,Low-light,Dry,1,Green,Walk,81,0,50,17,Medium,Child Running,1,Fatal
+2024-01-22 07:27:33,3846,0.64,180,1.97,Jaywalking,Child,Off-Peak,9007,Motorcycle,54.2,1.75,0,Failed to Yield,Snow,27.6,5.07,414.59,Low-light,Dry,1,Red,Don't Walk,11,0,14,13,Low,Emergency Vehicle,1,Fatal
+2024-02-23 23:57:17,2178,0.99,141,1.18,Waiting,Child,Off-Peak,7665,Truck,23.4,-0.61,0,Red Light Violation,Snow,-1.9,2.34,853.82,Nighttime,Dry,1,Yellow,Don't Walk,17,0,47,9,High,Normal,0,Fatal
+2024-02-26 00:31:41,9215,1.44,8,2.47,Jaywalking,Adult,Off-Peak,6512,Bicycle,27.42,0.12,1,Red Light Violation,Rain,12.0,5.19,730.79,Low-light,Snow-covered,0,Green,Walk,41,0,21,7,Low,Emergency Vehicle,0,Major
+2024-07-18 01:05:31,4999,1.18,261,1.13,Normal,Elderly,Off-Peak,8727,Motorcycle,28.07,0.19,1,Failed to Yield,Rain,34.7,4.67,209.01,Nighttime,Wet,1,Yellow,Walk,17,0,30,13,High,Normal,0,Major
+2024-01-31 11:57:47,4380,1.47,176,1.39,Normal,Child,Peak,6365,Motorcycle,53.38,1.94,1,Red Light Violation,Fog,21.7,3.03,154.73,Nighttime,Dry,1,Yellow,Don't Walk,88,1,29,17,Low,Normal,1,Minor
+2024-12-08 21:51:10,2028,1.35,72,0.23,Group Crossing,Elderly,Peak,8864,Bus,59.96,2.93,0,Failed to Yield,Clear,33.5,9.15,429.73,Daytime,Wet,0,Green,Walk,78,0,30,8,Medium,Normal,1,Major
+2024-03-21 11:44:48,8696,0.83,354,0.5,Jaywalking,Elderly,Peak,6126,Car,37.63,0.39,0,Red Light Violation,Clear,20.9,9.79,748.27,Daytime,Snow-covered,1,Green,Walk,68,1,48,1,Low,Normal,0,None
+2024-09-03 21:20:25,8202,1.63,213,2.31,Normal,Elderly,Off-Peak,5925,Truck,30.98,-0.4,1,Failed to Yield,Fog,19.1,6.73,898.23,Nighttime,Wet,1,Green,Don't Walk,74,1,25,5,Low,Child Running,0,Major
+2024-10-14 18:25:42,6917,0.71,128,1.0,Waiting,Elderly,Peak,6474,Bicycle,37.34,1.95,0,Red Light Violation,Clear,3.4,1.43,689.05,Daytime,Snow-covered,1,Green,Walk,59,0,10,15,High,Normal,0,None
+2024-01-20 08:21:19,3768,1.79,334,2.03,Normal,Elderly,Peak,6841,Car,34.5,1.96,1,None,Clear,19.0,8.87,537.79,Low-light,Dry,0,Green,Don't Walk,83,0,8,10,Medium,Emergency Vehicle,1,Minor
+2024-01-22 21:03:15,1619,0.59,57,0.45,Jaywalking,Adult,Off-Peak,9578,Truck,69.22,-0.24,1,Failed to Yield,Rain,18.0,2.38,199.08,Low-light,Snow-covered,1,Red,Walk,19,0,10,14,Low,Emergency Vehicle,1,Major
+2024-02-13 07:32:58,2150,1.72,262,1.04,Group Crossing,Child,Peak,7539,Bicycle,43.0,-0.05,1,Failed to Yield,Clear,13.3,7.54,846.07,Low-light,Snow-covered,1,Yellow,Don't Walk,42,1,27,8,High,Emergency Vehicle,1,None
+2024-02-17 09:08:36,7371,1.91,290,0.47,Group Crossing,Elderly,Peak,5893,Motorcycle,51.95,0.82,1,Failed to Yield,Fog,2.0,7.66,642.21,Daytime,Wet,0,Red,Don't Walk,13,1,7,9,Medium,Emergency Vehicle,0,Major
+2024-02-16 17:28:04,8453,1.42,169,0.13,Normal,Child,Peak,8011,Car,15.45,-0.85,1,Failed to Yield,Clear,22.4,2.33,664.81,Daytime,Wet,1,Yellow,Don't Walk,68,0,46,14,Medium,Emergency Vehicle,1,None
+2024-03-04 12:28:10,1496,0.87,231,1.27,Jaywalking,Elderly,Peak,9745,Truck,74.75,0.4,1,None,Rain,16.4,1.96,727.01,Nighttime,Wet,0,Green,Don't Walk,10,0,17,7,Medium,Normal,0,Major
+2024-09-01 15:25:58,5048,1.64,47,1.31,Group Crossing,Child,Off-Peak,7586,Bus,46.17,1.63,0,Red Light Violation,Rain,12.9,8.9,628.33,Nighttime,Wet,1,Yellow,Walk,82,1,8,13,Low,Normal,0,Major
+2024-04-25 23:51:54,8985,0.91,281,0.26,Group Crossing,Elderly,Peak,6154,Bus,63.85,-0.13,0,Red Light Violation,Snow,13.2,4.86,936.25,Low-light,Dry,1,Yellow,Don't Walk,20,0,42,20,Low,Emergency Vehicle,1,Minor
+2024-07-15 11:27:34,1248,1.24,221,0.9,Jaywalking,Adult,Peak,5507,Bicycle,54.94,2.92,0,Red Light Violation,Fog,23.6,0.27,261.03,Daytime,Wet,0,Red,Walk,70,0,35,17,Low,Emergency Vehicle,0,Fatal
+2024-07-22 12:49:02,9318,1.62,167,1.75,Group Crossing,Elderly,Off-Peak,5295,Car,16.2,1.84,1,Red Light Violation,Clear,18.6,6.49,395.08,Daytime,Dry,1,Green,Walk,76,0,7,1,Low,Normal,0,None
+2024-03-14 14:47:15,9219,1.75,61,2.17,Normal,Child,Off-Peak,8404,Car,69.57,0.28,1,None,Snow,6.1,8.97,680.51,Daytime,Wet,1,Green,Don't Walk,89,0,13,3,Medium,Emergency Vehicle,0,None
+2024-06-20 02:56:17,2078,1.35,135,2.25,Jaywalking,Child,Peak,6738,Bus,13.5,-0.48,0,Failed to Yield,Snow,17.9,3.91,457.7,Nighttime,Snow-covered,1,Yellow,Don't Walk,33,1,7,17,Medium,Child Running,0,Major
+2024-08-04 17:37:22,2568,1.94,52,1.69,Jaywalking,Child,Peak,6337,Motorcycle,30.46,-1.81,0,None,Clear,0.6,9.8,159.39,Nighttime,Wet,0,Red,Don't Walk,21,1,7,13,High,Emergency Vehicle,0,Major
+2024-11-27 03:49:44,1750,1.34,156,0.76,Group Crossing,Elderly,Off-Peak,6393,Motorcycle,76.39,-1.35,0,Failed to Yield,Clear,21.7,9.03,612.69,Nighttime,Wet,1,Yellow,Don't Walk,21,1,32,14,High,Child Running,0,None
+2024-09-08 11:43:45,8307,0.87,225,0.59,Normal,Child,Peak,5520,Car,17.87,-0.05,1,Red Light Violation,Fog,7.6,5.86,774.79,Low-light,Wet,0,Green,Walk,65,1,38,20,High,Child Running,1,Major
+2024-11-18 13:28:00,8371,0.71,86,0.52,Jaywalking,Elderly,Off-Peak,7379,Bus,21.13,1.99,0,Failed to Yield,Clear,15.1,1.07,52.76,Low-light,Snow-covered,0,Green,Don't Walk,75,1,15,15,High,Emergency Vehicle,1,None
+2024-08-16 19:36:34,2017,1.83,283,2.33,Group Crossing,Elderly,Peak,5291,Bus,56.99,-0.56,1,Failed to Yield,Snow,28.3,5.11,620.78,Low-light,Dry,0,Green,Walk,25,0,22,1,Low,Child Running,0,Minor
+2024-02-18 20:48:01,8004,1.39,31,1.88,Normal,Child,Peak,8203,Motorcycle,53.53,-0.19,1,Red Light Violation,Snow,22.5,0.68,151.17,Low-light,Dry,0,Green,Don't Walk,59,0,36,11,High,Emergency Vehicle,0,Major
+2024-10-22 20:07:10,4243,1.44,58,2.05,Jaywalking,Adult,Off-Peak,9464,Car,53.04,2.9,1,Failed to Yield,Rain,13.9,0.93,70.18,Low-light,Wet,1,Red,Walk,70,1,46,11,Medium,Normal,1,Minor
+2024-02-01 19:47:43,9996,1.65,343,0.3,Normal,Adult,Off-Peak,6694,Bicycle,58.99,-0.96,0,Failed to Yield,Clear,-0.8,6.93,902.14,Low-light,Snow-covered,1,Red,Don't Walk,87,1,10,19,Medium,Normal,1,Major
+2024-09-09 12:37:30,7312,0.51,124,0.54,Waiting,Elderly,Peak,7323,Truck,77.19,0.55,1,None,Rain,16.2,8.14,698.21,Nighttime,Wet,1,Yellow,Walk,11,1,47,15,Medium,Child Running,1,Minor
+2024-04-19 20:06:26,9418,1.87,24,2.45,Waiting,Elderly,Off-Peak,9315,Car,61.25,-0.69,0,None,Snow,10.6,8.68,722.47,Daytime,Wet,1,Yellow,Walk,58,0,8,3,Low,Child Running,1,Fatal
+2024-09-30 09:35:44,5389,0.97,206,0.43,Group Crossing,Elderly,Off-Peak,5146,Bicycle,79.33,-0.91,1,Failed to Yield,Snow,8.4,6.92,886.94,Daytime,Snow-covered,1,Red,Walk,41,1,7,8,Low,Emergency Vehicle,1,Major
+2024-05-25 23:39:15,8289,1.8,48,0.34,Normal,Elderly,Off-Peak,6040,Car,22.13,2.31,1,Failed to Yield,Fog,4.1,5.22,370.13,Low-light,Snow-covered,1,Yellow,Walk,73,1,6,4,Low,Normal,1,None
+2024-11-23 12:38:44,8754,1.07,125,1.62,Waiting,Adult,Peak,7055,Car,51.11,2.24,1,Red Light Violation,Fog,22.1,0.16,348.28,Nighttime,Wet,1,Yellow,Don't Walk,50,0,28,17,Low,Child Running,0,Fatal
+2024-01-13 04:57:09,9460,0.74,57,1.45,Waiting,Elderly,Peak,5079,Bus,29.59,1.94,1,Failed to Yield,Clear,33.9,7.86,127.79,Nighttime,Snow-covered,0,Green,Don't Walk,42,0,18,5,Medium,Emergency Vehicle,1,Minor
+2024-06-18 09:39:32,1490,1.91,251,0.52,Normal,Elderly,Peak,6961,Bicycle,33.7,0.62,0,None,Clear,14.2,5.33,398.73,Nighttime,Dry,0,Red,Walk,55,0,9,19,Medium,Emergency Vehicle,1,Minor
+2024-04-09 17:16:33,2052,1.98,229,0.95,Jaywalking,Elderly,Off-Peak,8462,Motorcycle,52.52,1.04,0,Failed to Yield,Snow,18.0,6.12,933.11,Daytime,Wet,0,Yellow,Walk,61,1,34,19,Low,Child Running,0,Minor
+2024-08-11 05:49:27,9422,1.4,131,1.11,Normal,Child,Peak,9005,Bus,64.99,-1.88,0,None,Snow,0.7,3.57,678.26,Nighttime,Wet,0,Green,Walk,66,1,14,11,Low,Emergency Vehicle,1,None
+2024-10-28 15:57:18,1083,1.1,318,0.12,Normal,Elderly,Off-Peak,8458,Car,47.08,0.75,1,Red Light Violation,Clear,26.3,9.77,59.6,Daytime,Snow-covered,0,Red,Don't Walk,12,0,16,12,Low,Emergency Vehicle,0,None
+2024-06-21 14:58:44,8677,0.52,198,2.49,Group Crossing,Adult,Peak,6962,Bicycle,39.05,-0.28,1,Failed to Yield,Fog,17.3,4.52,987.27,Low-light,Dry,0,Yellow,Walk,84,1,41,1,High,Emergency Vehicle,1,Fatal
+2024-08-14 18:24:08,1773,1.73,25,0.69,Jaywalking,Child,Peak,8040,Car,15.13,-0.07,0,Red Light Violation,Clear,4.9,2.55,389.49,Low-light,Dry,0,Red,Walk,44,1,40,20,High,Emergency Vehicle,1,None
+2024-11-17 05:03:16,8799,1.93,187,1.57,Normal,Child,Peak,5231,Bicycle,24.87,0.66,1,Failed to Yield,Clear,13.5,5.07,278.93,Nighttime,Snow-covered,0,Green,Walk,80,1,29,10,Low,Emergency Vehicle,1,Major
+2024-05-08 10:13:27,7582,0.99,70,1.73,Group Crossing,Child,Peak,8646,Bicycle,22.32,-1.2,0,Red Light Violation,Fog,-0.4,1.29,665.3,Low-light,Dry,1,Yellow,Don't Walk,53,1,31,12,Low,Normal,1,Major
+2024-09-14 12:52:45,8829,1.3,69,1.59,Jaywalking,Elderly,Off-Peak,5235,Bicycle,65.81,-1.55,1,Failed to Yield,Snow,30.7,5.79,990.56,Nighttime,Wet,0,Yellow,Don't Walk,61,0,36,13,High,Child Running,1,Major
+2024-03-10 17:06:51,2745,1.59,226,0.73,Group Crossing,Elderly,Peak,7711,Car,49.14,-1.84,1,Red Light Violation,Rain,0.5,8.06,361.78,Nighttime,Snow-covered,1,Red,Walk,35,1,17,11,Low,Child Running,0,Fatal
+2024-01-29 15:53:16,2873,0.74,352,2.42,Jaywalking,Adult,Peak,5010,Bicycle,59.55,2.12,1,None,Fog,14.8,5.98,365.76,Nighttime,Wet,1,Green,Don't Walk,74,0,9,14,High,Child Running,0,Minor
+2024-07-08 11:20:26,7060,1.32,171,2.01,Normal,Elderly,Peak,6032,Bus,63.99,-0.01,1,None,Snow,19.7,2.4,66.56,Low-light,Snow-covered,0,Green,Walk,31,1,28,2,Low,Emergency Vehicle,0,None
+2024-10-19 22:00:33,9539,0.68,331,1.51,Jaywalking,Elderly,Off-Peak,8021,Bus,19.91,-0.02,0,Red Light Violation,Clear,1.7,4.6,436.9,Nighttime,Dry,1,Yellow,Walk,60,0,34,14,Medium,Emergency Vehicle,0,Fatal
+2024-03-16 23:46:33,5593,1.28,85,0.39,Jaywalking,Adult,Peak,6872,Car,11.65,-0.35,0,None,Rain,22.6,1.56,779.64,Daytime,Dry,0,Green,Don't Walk,59,1,27,15,Medium,Normal,1,Fatal
+2024-05-22 23:15:31,5089,1.85,65,0.71,Jaywalking,Adult,Off-Peak,7694,Car,69.75,0.23,1,Failed to Yield,Fog,4.0,9.08,80.85,Daytime,Snow-covered,0,Green,Don't Walk,54,0,37,1,Low,Emergency Vehicle,1,None
+2024-08-27 14:56:08,6424,0.54,230,2.08,Jaywalking,Child,Peak,8838,Motorcycle,10.16,0.23,1,Failed to Yield,Snow,8.2,7.26,426.42,Daytime,Dry,1,Red,Walk,39,1,17,4,High,Child Running,0,Minor
+2024-11-23 17:00:43,8478,0.72,146,0.78,Jaywalking,Child,Off-Peak,5263,Bus,74.24,1.32,0,None,Snow,-4.3,7.93,692.65,Nighttime,Wet,0,Yellow,Don't Walk,56,1,10,15,Low,Emergency Vehicle,1,Minor
+2024-12-06 06:23:29,5070,1.21,129,0.89,Waiting,Elderly,Off-Peak,7696,Truck,79.35,0.79,0,None,Rain,15.3,5.99,696.44,Low-light,Wet,0,Green,Don't Walk,82,0,46,18,Low,Emergency Vehicle,1,None
+2024-05-21 22:30:56,9890,1.69,342,1.08,Group Crossing,Adult,Peak,5337,Truck,60.73,-1.56,0,Red Light Violation,Rain,31.7,1.96,873.17,Daytime,Snow-covered,0,Red,Walk,59,1,18,19,Low,Child Running,0,Fatal
+2024-01-27 16:44:45,1598,0.84,318,2.11,Group Crossing,Adult,Off-Peak,8522,Car,55.3,0.38,1,Failed to Yield,Rain,0.4,2.13,383.27,Daytime,Snow-covered,1,Red,Walk,17,1,24,3,High,Normal,1,Major
+2024-07-18 06:51:49,8597,1.51,153,1.39,Normal,Adult,Peak,9048,Bicycle,69.75,2.88,0,None,Snow,26.8,1.64,612.31,Nighttime,Wet,1,Green,Walk,23,1,42,11,Medium,Emergency Vehicle,0,Fatal
+2024-09-03 01:26:01,9049,0.82,203,2.33,Normal,Child,Off-Peak,6052,Bicycle,49.59,1.51,1,None,Snow,28.0,5.36,947.56,Low-light,Dry,1,Green,Walk,78,1,10,8,Medium,Normal,0,Minor
+2024-02-13 05:17:05,6492,1.78,198,1.57,Jaywalking,Child,Off-Peak,5764,Motorcycle,12.05,-0.48,1,None,Snow,13.7,8.8,374.59,Daytime,Dry,0,Green,Walk,33,1,31,16,Low,Child Running,1,None
+2024-07-31 12:23:12,8701,0.62,116,1.58,Normal,Child,Off-Peak,7411,Bicycle,44.44,-1.39,0,None,Clear,6.9,8.37,530.64,Low-light,Snow-covered,0,Yellow,Don't Walk,56,0,42,12,Low,Normal,0,Major
+2024-06-01 18:26:57,8921,1.16,50,1.55,Group Crossing,Adult,Peak,8457,Truck,70.57,-0.56,1,Failed to Yield,Fog,0.3,6.49,317.53,Low-light,Snow-covered,0,Yellow,Don't Walk,78,0,5,9,High,Emergency Vehicle,1,Major
+2024-05-12 13:20:09,2029,1.95,153,2.23,Normal,Adult,Off-Peak,5675,Car,48.84,-0.41,0,Failed to Yield,Fog,4.1,8.89,515.96,Daytime,Dry,0,Red,Walk,80,0,15,8,High,Emergency Vehicle,1,Major
+2024-05-15 18:45:05,7590,1.03,58,2.1,Normal,Elderly,Off-Peak,7257,Bicycle,69.29,-0.79,0,None,Fog,4.4,6.47,754.62,Daytime,Wet,0,Red,Walk,84,0,14,20,Medium,Normal,1,Major
+2024-12-04 08:17:53,1875,0.76,156,0.83,Normal,Elderly,Off-Peak,7233,Bus,69.48,-0.83,1,Red Light Violation,Rain,20.6,5.02,812.0,Low-light,Wet,1,Yellow,Don't Walk,87,0,47,1,Low,Child Running,1,None
+2024-08-17 17:25:16,6650,1.62,332,0.75,Normal,Adult,Off-Peak,8611,Truck,38.08,2.97,1,Failed to Yield,Snow,7.5,0.62,817.98,Low-light,Wet,1,Red,Don't Walk,48,1,17,9,High,Normal,1,Fatal
+2024-12-24 06:29:17,2935,1.79,221,1.01,Normal,Child,Off-Peak,7381,Car,45.68,2.27,1,None,Rain,0.9,6.31,808.73,Nighttime,Wet,1,Red,Walk,41,0,39,6,High,Child Running,0,Minor
+2024-09-10 06:10:13,2606,1.19,27,0.48,Group Crossing,Child,Off-Peak,6383,Bus,12.81,2.34,0,Failed to Yield,Snow,10.9,5.41,890.19,Nighttime,Wet,0,Red,Walk,25,1,15,11,High,Normal,1,Minor
+2024-03-25 02:33:51,9227,1.44,153,1.68,Waiting,Elderly,Off-Peak,9004,Motorcycle,55.25,2.83,0,Red Light Violation,Fog,29.5,9.8,650.82,Nighttime,Snow-covered,1,Red,Walk,41,1,32,20,Medium,Child Running,0,Major
+2024-12-14 23:14:12,9590,1.58,95,0.27,Jaywalking,Child,Peak,6733,Bicycle,76.53,0.4,0,None,Snow,18.7,0.5,999.05,Low-light,Snow-covered,1,Red,Don't Walk,25,1,29,20,Medium,Emergency Vehicle,1,Fatal
+2024-04-10 10:53:05,6822,1.09,341,1.2,Jaywalking,Elderly,Off-Peak,8002,Truck,13.06,1.46,0,Red Light Violation,Snow,8.9,7.82,360.37,Nighttime,Dry,0,Yellow,Don't Walk,49,1,9,4,Low,Child Running,0,Fatal
+2024-09-16 01:36:09,8194,1.13,296,0.24,Normal,Adult,Peak,7428,Truck,77.29,1.25,1,None,Fog,24.5,6.97,85.64,Low-light,Wet,1,Red,Walk,32,1,46,18,Medium,Child Running,1,Major
+2024-04-08 22:36:23,1512,1.8,140,1.2,Jaywalking,Elderly,Off-Peak,8115,Bus,28.29,-0.31,1,None,Fog,14.2,9.38,821.69,Low-light,Wet,0,Green,Walk,66,1,13,5,High,Child Running,0,Major
+2024-11-12 03:39:57,6849,0.52,160,0.7,Normal,Elderly,Off-Peak,5643,Truck,13.96,-0.49,1,Red Light Violation,Rain,19.6,4.43,906.39,Nighttime,Wet,0,Yellow,Don't Walk,50,1,23,16,High,Child Running,1,Major
+2024-07-20 11:01:16,7010,1.07,309,0.14,Normal,Child,Peak,5416,Truck,23.26,0.97,1,Red Light Violation,Clear,4.6,4.99,664.76,Daytime,Snow-covered,0,Red,Walk,28,1,30,2,Low,Normal,1,Major
+2024-07-21 23:54:37,2378,1.87,209,1.85,Normal,Elderly,Off-Peak,7713,Truck,56.0,0.98,0,None,Rain,21.5,6.44,656.72,Low-light,Wet,1,Green,Don't Walk,31,0,47,6,Medium,Emergency Vehicle,0,Major
+2024-08-20 21:37:05,9763,0.63,334,2.42,Group Crossing,Elderly,Peak,7276,Bus,68.99,0.99,0,Red Light Violation,Rain,16.5,9.48,457.64,Daytime,Wet,1,Yellow,Don't Walk,15,0,22,19,High,Normal,1,Minor
+2024-01-26 03:03:27,5731,1.17,44,2.27,Normal,Elderly,Off-Peak,6220,Bicycle,22.79,-1.68,1,None,Snow,30.9,9.51,869.13,Low-light,Wet,0,Yellow,Don't Walk,68,1,17,7,Low,Emergency Vehicle,0,Fatal
+2024-07-05 02:53:14,1329,2.0,103,1.62,Normal,Adult,Off-Peak,9436,Truck,12.88,0.42,1,None,Clear,26.2,2.45,534.01,Low-light,Wet,1,Red,Walk,54,0,17,19,Medium,Normal,1,None
+2024-09-14 00:25:26,4804,1.3,171,0.54,Normal,Elderly,Off-Peak,7396,Motorcycle,35.88,2.59,0,Failed to Yield,Fog,17.4,2.1,395.08,Daytime,Dry,0,Green,Walk,37,1,46,7,Medium,Normal,1,None
+2024-11-04 12:32:18,8151,1.08,36,1.14,Waiting,Child,Off-Peak,6744,Bus,32.41,1.32,1,None,Clear,26.2,9.01,568.9,Low-light,Dry,1,Green,Don't Walk,33,0,18,11,High,Emergency Vehicle,1,None
+2024-05-10 21:12:23,8081,1.05,109,0.33,Normal,Adult,Peak,6931,Bicycle,31.82,1.43,1,Red Light Violation,Snow,22.0,4.24,865.5,Low-light,Dry,1,Yellow,Don't Walk,76,1,41,10,Low,Emergency Vehicle,0,Minor
+2024-06-26 18:36:18,3807,1.65,227,0.95,Waiting,Child,Off-Peak,8871,Truck,14.48,-1.46,1,Failed to Yield,Rain,34.0,2.64,570.77,Nighttime,Snow-covered,1,Red,Don't Walk,69,1,42,7,Medium,Emergency Vehicle,0,Major
+2024-05-04 11:15:01,6552,1.87,329,2.25,Normal,Child,Peak,9754,Bus,25.58,1.61,0,None,Fog,32.3,5.75,994.47,Daytime,Snow-covered,1,Yellow,Don't Walk,10,1,35,19,Medium,Emergency Vehicle,1,Minor
+2024-04-23 00:40:30,6554,0.83,50,1.35,Group Crossing,Child,Off-Peak,9125,Bicycle,16.24,-1.08,0,Red Light Violation,Clear,4.2,7.44,821.22,Nighttime,Dry,1,Green,Don't Walk,69,0,30,16,Medium,Normal,0,None
+2024-01-31 01:42:08,4287,1.37,108,1.19,Waiting,Adult,Off-Peak,6929,Bus,39.24,2.7,0,Red Light Violation,Clear,-4.5,1.8,678.55,Nighttime,Snow-covered,1,Yellow,Don't Walk,56,0,8,7,High,Child Running,0,Minor
+2024-12-31 13:25:07,7612,1.72,187,0.71,Normal,Adult,Off-Peak,7733,Car,41.62,0.63,1,Red Light Violation,Snow,31.9,7.31,665.49,Nighttime,Snow-covered,0,Green,Walk,12,1,31,2,Medium,Child Running,1,None
+2024-08-26 03:02:09,5490,1.84,90,0.45,Jaywalking,Elderly,Peak,6211,Car,14.78,-1.95,1,Red Light Violation,Clear,19.3,8.45,778.33,Low-light,Snow-covered,0,Red,Walk,13,0,31,14,Medium,Normal,0,Minor
+2024-02-03 07:21:13,2852,0.8,166,2.27,Jaywalking,Adult,Off-Peak,5674,Motorcycle,70.49,-1.25,0,Failed to Yield,Snow,34.5,2.94,564.99,Daytime,Snow-covered,1,Green,Don't Walk,11,1,38,14,Low,Emergency Vehicle,1,None
+2024-04-24 00:34:21,7288,0.61,282,0.24,Normal,Elderly,Peak,9100,Bus,77.99,1.15,1,Red Light Violation,Clear,13.7,8.08,320.31,Low-light,Snow-covered,1,Yellow,Don't Walk,21,1,44,6,Low,Child Running,0,Minor
+2024-10-08 14:50:39,9878,0.74,304,1.21,Normal,Elderly,Off-Peak,9131,Bicycle,33.62,1.11,1,Red Light Violation,Clear,14.4,1.83,577.7,Nighttime,Dry,0,Yellow,Don't Walk,40,0,35,4,High,Child Running,0,Minor
+2024-04-27 10:11:50,9536,1.44,127,0.76,Group Crossing,Child,Off-Peak,8228,Truck,75.37,0.49,0,Failed to Yield,Clear,6.2,7.41,759.27,Low-light,Wet,0,Yellow,Walk,51,0,24,14,High,Emergency Vehicle,1,Major
+2024-08-11 01:51:24,3889,0.81,329,0.44,Jaywalking,Elderly,Peak,6380,Motorcycle,37.53,2.46,1,None,Clear,-4.9,0.3,478.14,Nighttime,Wet,1,Yellow,Don't Walk,29,0,15,15,Medium,Normal,0,None
+2024-01-10 18:04:25,5514,1.69,34,1.78,Waiting,Child,Off-Peak,6970,Bus,66.66,0.96,1,Red Light Violation,Clear,28.7,6.18,61.86,Low-light,Wet,0,Red,Don't Walk,16,1,38,3,Low,Child Running,0,Minor
+2024-02-03 00:46:29,7411,0.57,140,0.21,Group Crossing,Elderly,Peak,5057,Truck,26.95,2.38,1,Failed to Yield,Clear,6.3,2.01,922.59,Low-light,Wet,0,Yellow,Don't Walk,73,1,24,7,High,Emergency Vehicle,1,Minor
+2024-04-10 10:11:05,8305,1.17,333,2.27,Jaywalking,Adult,Peak,9889,Car,74.31,2.74,1,Red Light Violation,Fog,33.4,8.33,862.69,Low-light,Dry,0,Red,Don't Walk,72,1,22,3,Medium,Child Running,1,Major
+2024-12-27 23:54:17,1785,0.92,172,2.25,Waiting,Child,Off-Peak,6079,Car,10.32,-1.18,1,Failed to Yield,Clear,5.2,0.76,754.74,Nighttime,Dry,1,Red,Walk,85,0,31,1,Medium,Normal,1,Fatal
+2024-11-15 19:19:44,6600,1.06,11,1.97,Normal,Adult,Peak,9004,Truck,49.29,-0.59,0,Red Light Violation,Snow,33.8,7.04,927.33,Daytime,Dry,0,Yellow,Walk,85,0,43,6,High,Emergency Vehicle,0,None
+2024-02-05 03:42:22,2770,1.34,111,2.03,Normal,Adult,Off-Peak,7332,Bus,42.27,2.08,0,Failed to Yield,Snow,8.7,4.44,972.19,Nighttime,Dry,1,Red,Don't Walk,39,0,19,2,Low,Normal,1,Major
+2024-06-11 14:47:30,3792,2.0,96,0.88,Normal,Elderly,Peak,9737,Motorcycle,37.13,2.71,0,Failed to Yield,Rain,1.3,3.9,319.51,Nighttime,Snow-covered,1,Green,Don't Walk,29,0,44,17,High,Child Running,0,None
+2024-08-29 14:24:09,2920,0.82,355,1.22,Normal,Adult,Peak,6386,Truck,23.2,0.98,1,None,Snow,-2.4,0.41,560.56,Low-light,Dry,1,Yellow,Don't Walk,73,0,29,3,High,Emergency Vehicle,1,Minor
+2024-09-20 13:46:15,2769,1.73,259,0.95,Waiting,Child,Off-Peak,7336,Bicycle,28.89,-0.66,0,None,Rain,6.5,8.76,220.91,Daytime,Dry,0,Red,Don't Walk,89,1,5,5,Low,Child Running,1,Minor
+2024-09-07 08:36:45,7885,0.93,233,0.47,Normal,Adult,Off-Peak,9290,Truck,16.07,2.49,0,Red Light Violation,Clear,22.6,3.97,709.3,Low-light,Wet,0,Green,Walk,48,0,43,5,Medium,Emergency Vehicle,0,Minor
+2024-09-28 22:19:30,4841,1.35,301,1.69,Normal,Child,Off-Peak,9356,Bicycle,60.98,-1.31,0,Failed to Yield,Clear,1.7,6.91,586.92,Daytime,Snow-covered,0,Green,Walk,70,0,38,5,Medium,Emergency Vehicle,1,None
+2024-01-10 09:31:13,8008,1.29,266,1.75,Waiting,Elderly,Peak,5149,Motorcycle,76.23,1.82,0,None,Snow,32.9,5.16,295.55,Low-light,Snow-covered,0,Green,Walk,85,1,36,15,High,Child Running,0,Fatal
+2024-05-31 22:15:02,3793,1.44,331,2.27,Group Crossing,Child,Off-Peak,8767,Bicycle,54.38,0.14,1,Failed to Yield,Clear,18.7,0.53,301.33,Low-light,Wet,1,Green,Walk,16,1,5,3,Low,Normal,1,Major
+2024-09-30 01:16:15,5322,1.97,283,1.09,Normal,Elderly,Peak,6048,Car,18.24,1.01,1,Red Light Violation,Clear,33.8,9.95,165.21,Low-light,Wet,1,Green,Walk,87,0,43,1,Medium,Child Running,1,None
+2024-09-30 05:26:33,2964,1.07,291,0.69,Normal,Adult,Peak,6862,Truck,20.43,0.75,0,None,Rain,-3.8,6.29,737.34,Low-light,Wet,1,Green,Don't Walk,47,0,50,10,High,Child Running,0,Major
+2024-12-17 20:57:45,6401,1.09,63,0.88,Jaywalking,Elderly,Off-Peak,6462,Truck,14.8,0.55,1,None,Rain,-4.6,7.72,981.09,Nighttime,Dry,0,Yellow,Walk,38,1,12,18,Low,Child Running,1,Fatal
+2024-07-07 15:07:45,3709,1.41,342,1.83,Group Crossing,Child,Off-Peak,9817,Bus,61.79,-1.87,0,None,Snow,30.0,6.59,642.79,Low-light,Wet,1,Green,Walk,72,1,44,16,Medium,Normal,1,Minor
+2024-01-31 14:52:06,9534,0.82,193,2.27,Normal,Child,Peak,5623,Motorcycle,24.48,-0.81,0,Red Light Violation,Snow,30.5,5.2,777.67,Daytime,Snow-covered,1,Green,Walk,42,0,42,13,High,Normal,0,None
+2024-02-12 03:00:50,6770,0.92,340,2.24,Jaywalking,Elderly,Peak,9566,Car,28.33,-0.86,1,None,Clear,33.6,4.38,839.85,Daytime,Dry,1,Red,Walk,90,1,25,9,High,Emergency Vehicle,1,Major
+2024-03-25 15:03:25,7996,0.99,21,0.73,Normal,Elderly,Off-Peak,5585,Truck,36.06,0.84,0,None,Rain,1.3,3.41,554.26,Low-light,Snow-covered,0,Red,Don't Walk,47,0,36,7,Low,Emergency Vehicle,1,Minor
+2024-04-08 08:10:13,6918,1.79,166,0.35,Group Crossing,Elderly,Peak,6648,Car,76.26,0.35,1,Red Light Violation,Fog,4.9,8.95,868.35,Daytime,Snow-covered,0,Green,Don't Walk,11,1,33,14,Medium,Child Running,0,None
+2024-02-03 15:57:10,4044,1.05,166,1.83,Group Crossing,Elderly,Peak,5828,Car,10.45,2.35,1,None,Clear,10.2,8.4,415.52,Daytime,Snow-covered,0,Red,Walk,22,1,26,7,Low,Normal,1,Minor
+2024-06-29 11:22:28,3292,0.64,117,1.9,Jaywalking,Elderly,Peak,7233,Bicycle,42.82,-0.84,1,Failed to Yield,Clear,0.5,4.99,55.28,Nighttime,Wet,0,Yellow,Walk,17,0,39,8,High,Child Running,0,Major
+2024-01-31 10:56:36,2406,1.02,331,0.25,Group Crossing,Adult,Off-Peak,7592,Car,32.28,2.75,0,None,Clear,23.9,8.46,717.81,Daytime,Dry,0,Green,Don't Walk,88,0,45,13,Medium,Emergency Vehicle,1,Fatal
+2024-08-22 03:06:59,4541,1.68,182,1.35,Normal,Elderly,Peak,8315,Bus,46.29,-1.56,0,None,Clear,24.4,1.62,185.47,Low-light,Snow-covered,0,Red,Walk,49,0,42,10,Medium,Normal,0,Fatal
+2024-02-22 23:34:41,3994,1.09,279,0.36,Waiting,Adult,Peak,5711,Truck,35.49,-0.94,0,Red Light Violation,Snow,28.2,4.75,973.52,Daytime,Snow-covered,1,Green,Don't Walk,68,0,19,8,Medium,Child Running,1,Major
+2024-05-08 06:46:31,9491,0.86,259,0.23,Jaywalking,Adult,Off-Peak,8712,Bicycle,38.1,0.43,0,Failed to Yield,Snow,3.4,2.07,581.77,Daytime,Dry,1,Yellow,Walk,54,0,50,1,High,Emergency Vehicle,1,None
+2024-12-30 10:36:53,7112,1.9,76,0.89,Waiting,Adult,Peak,8488,Bicycle,24.95,0.69,1,Red Light Violation,Clear,28.5,7.84,182.83,Low-light,Snow-covered,1,Green,Walk,39,0,23,9,Medium,Child Running,0,Minor
+2024-10-29 17:19:29,9298,1.82,118,1.54,Normal,Elderly,Off-Peak,9064,Bicycle,20.51,1.22,0,None,Snow,15.5,1.62,558.17,Daytime,Snow-covered,1,Yellow,Walk,54,1,11,14,Low,Emergency Vehicle,1,Fatal
+2024-01-17 17:22:31,9170,1.05,274,0.52,Normal,Child,Peak,9675,Motorcycle,67.39,-1.35,0,Red Light Violation,Rain,23.4,2.51,184.2,Daytime,Dry,1,Green,Don't Walk,79,1,38,17,High,Emergency Vehicle,1,Fatal
+2024-02-16 10:46:50,1142,0.97,32,1.42,Jaywalking,Adult,Off-Peak,6894,Motorcycle,10.39,0.82,1,Failed to Yield,Rain,6.9,0.43,111.9,Daytime,Wet,0,Red,Don't Walk,74,1,48,19,High,Normal,0,None
+2024-03-03 18:46:01,5174,0.53,164,1.01,Normal,Child,Off-Peak,9022,Bicycle,10.87,0.1,0,Failed to Yield,Snow,5.3,6.66,672.06,Daytime,Wet,0,Red,Walk,29,1,36,18,High,Normal,1,Major
+2024-08-17 18:48:38,4351,1.4,231,0.29,Waiting,Elderly,Peak,9011,Car,20.54,2.11,0,Failed to Yield,Snow,12.4,0.68,198.31,Nighttime,Dry,1,Green,Walk,17,0,25,17,Medium,Child Running,1,None
+2024-12-02 02:56:37,2837,1.39,295,1.02,Group Crossing,Adult,Off-Peak,7474,Bicycle,48.17,-1.44,0,Failed to Yield,Fog,2.8,1.41,685.01,Low-light,Dry,0,Yellow,Don't Walk,26,1,6,20,Medium,Child Running,0,Major
+2024-04-04 01:06:51,4129,1.2,37,1.59,Normal,Child,Off-Peak,8917,Bicycle,56.82,1.09,0,Red Light Violation,Snow,25.5,4.38,108.49,Low-light,Dry,0,Green,Walk,49,1,13,15,High,Child Running,1,Major
+2024-04-19 10:17:37,2735,1.69,65,2.33,Normal,Adult,Off-Peak,9149,Truck,74.45,1.02,1,Red Light Violation,Snow,28.3,0.35,909.35,Low-light,Wet,0,Red,Walk,18,0,36,11,High,Normal,0,None
+2024-08-22 16:45:12,2532,1.05,244,2.13,Group Crossing,Adult,Off-Peak,5192,Car,68.86,-1.33,1,Failed to Yield,Clear,33.3,9.17,283.95,Daytime,Dry,1,Green,Walk,49,1,35,12,High,Emergency Vehicle,1,Minor
+2024-05-04 18:27:38,4523,1.56,342,0.69,Jaywalking,Adult,Off-Peak,6121,Motorcycle,59.06,2.95,0,None,Rain,1.7,8.11,927.94,Nighttime,Wet,1,Green,Walk,50,1,22,14,Low,Emergency Vehicle,1,Minor
+2024-10-05 04:13:15,9244,1.06,309,0.78,Jaywalking,Adult,Peak,7839,Car,40.82,0.22,0,Failed to Yield,Fog,29.8,7.86,305.25,Low-light,Dry,0,Red,Don't Walk,66,0,41,12,Low,Child Running,1,Major
+2024-05-19 23:35:46,2639,1.57,4,1.9,Group Crossing,Adult,Off-Peak,6289,Bus,26.89,1.71,1,Red Light Violation,Clear,12.1,2.35,682.72,Daytime,Snow-covered,1,Red,Walk,58,1,40,13,High,Child Running,1,Major
+2024-01-09 04:21:53,7163,1.57,158,0.17,Group Crossing,Adult,Off-Peak,7184,Motorcycle,69.94,-1.45,0,Failed to Yield,Rain,12.3,4.57,951.44,Low-light,Wet,0,Red,Walk,39,0,8,13,High,Emergency Vehicle,0,Minor
+2024-08-20 16:05:40,5608,1.44,59,0.14,Waiting,Child,Peak,6085,Car,55.02,0.15,1,Failed to Yield,Rain,10.8,5.81,486.68,Low-light,Snow-covered,1,Yellow,Walk,40,0,7,7,Medium,Child Running,0,Fatal
+2024-04-11 15:00:46,1465,1.01,87,1.23,Group Crossing,Elderly,Off-Peak,7082,Motorcycle,70.06,1.65,0,Failed to Yield,Fog,32.8,9.55,734.64,Nighttime,Wet,0,Green,Don't Walk,29,1,5,19,Medium,Normal,0,Major
+2024-04-25 15:06:21,3494,1.67,20,0.28,Waiting,Child,Off-Peak,7969,Bus,77.58,1.51,0,None,Rain,25.5,7.91,236.92,Daytime,Wet,0,Red,Walk,38,0,27,3,Medium,Normal,0,Major
+2024-06-17 00:31:29,9366,1.68,58,0.16,Group Crossing,Adult,Peak,9159,Motorcycle,79.13,2.15,0,None,Rain,6.3,5.14,484.0,Daytime,Dry,0,Red,Don't Walk,56,1,47,12,Medium,Emergency Vehicle,0,Fatal
+2024-12-24 06:39:24,6157,1.61,340,0.68,Group Crossing,Child,Peak,5434,Car,53.79,-1.04,0,Failed to Yield,Clear,0.9,5.53,621.0,Daytime,Snow-covered,0,Green,Don't Walk,11,0,19,8,Medium,Emergency Vehicle,1,Fatal
+2024-04-15 01:35:47,7892,1.94,321,0.25,Group Crossing,Elderly,Off-Peak,8008,Car,19.81,-1.66,1,None,Fog,7.0,3.21,161.5,Nighttime,Snow-covered,0,Yellow,Walk,66,1,11,10,Medium,Normal,1,None
+2024-01-25 03:02:39,6495,1.64,283,1.86,Waiting,Elderly,Peak,9843,Bicycle,55.55,0.83,1,Red Light Violation,Rain,26.4,3.24,496.75,Nighttime,Snow-covered,0,Yellow,Don't Walk,69,1,44,6,Medium,Normal,0,Major
+2024-06-29 10:12:47,9351,1.33,98,1.77,Group Crossing,Elderly,Off-Peak,9350,Car,77.8,0.62,1,Failed to Yield,Clear,20.9,4.71,78.38,Low-light,Snow-covered,1,Red,Walk,66,1,26,18,High,Child Running,0,Fatal
+2024-09-11 03:00:07,8568,0.87,160,1.38,Jaywalking,Elderly,Peak,8044,Car,52.01,1.43,0,None,Clear,9.6,7.69,765.75,Daytime,Dry,1,Red,Don't Walk,32,0,39,17,Medium,Child Running,0,Minor
+2024-06-07 07:59:15,3334,1.98,173,1.39,Normal,Adult,Peak,8028,Car,11.89,-1.24,1,None,Snow,21.0,0.36,174.05,Nighttime,Wet,0,Yellow,Don't Walk,56,0,18,5,High,Normal,1,Major
+2024-01-10 23:13:06,3664,0.54,304,1.73,Waiting,Child,Peak,7875,Bus,58.36,0.2,1,Failed to Yield,Snow,22.9,0.4,822.63,Low-light,Wet,0,Yellow,Walk,90,1,22,12,Low,Normal,1,Major
+2024-11-03 06:38:40,9647,1.94,39,0.82,Jaywalking,Adult,Off-Peak,5844,Truck,34.79,1.82,1,None,Clear,-0.3,2.14,977.67,Daytime,Wet,0,Red,Don't Walk,41,0,43,4,Low,Emergency Vehicle,0,None
+2024-11-10 14:20:42,2651,0.76,262,0.46,Group Crossing,Elderly,Off-Peak,5725,Bus,18.77,-1.19,0,Failed to Yield,Rain,1.6,8.22,875.15,Low-light,Wet,0,Yellow,Walk,57,1,21,18,High,Child Running,0,None
+2024-09-24 10:15:55,7354,1.82,255,2.35,Normal,Adult,Peak,8113,Motorcycle,70.99,2.9,1,Red Light Violation,Snow,29.5,0.42,329.2,Daytime,Dry,0,Red,Don't Walk,32,0,5,12,Medium,Emergency Vehicle,1,None
+2024-05-08 07:17:38,2066,0.87,320,1.75,Group Crossing,Elderly,Peak,5670,Bicycle,16.67,2.97,1,Failed to Yield,Snow,23.8,1.38,87.04,Low-light,Snow-covered,0,Green,Don't Walk,65,1,45,20,High,Child Running,0,Minor
+2024-06-18 11:55:19,9747,1.62,66,0.42,Waiting,Child,Off-Peak,6507,Truck,48.61,2.49,1,None,Snow,-0.4,7.32,261.83,Low-light,Wet,0,Yellow,Walk,61,0,38,15,Medium,Normal,1,Major
+2024-10-31 00:58:30,4255,0.78,271,0.25,Group Crossing,Child,Off-Peak,9310,Motorcycle,28.05,-1.25,0,Red Light Violation,Fog,14.4,3.16,119.4,Low-light,Dry,0,Green,Walk,24,1,18,14,Low,Normal,1,None
+2024-03-27 18:38:30,4486,1.51,310,1.7,Group Crossing,Adult,Off-Peak,5402,Bus,54.36,-1.73,1,None,Fog,13.3,7.14,747.26,Nighttime,Dry,0,Red,Walk,20,0,32,17,Medium,Emergency Vehicle,1,Fatal
+2024-10-28 04:11:23,6758,1.16,200,0.5,Normal,Adult,Off-Peak,7396,Motorcycle,32.53,0.68,0,None,Fog,23.5,4.05,542.95,Daytime,Snow-covered,0,Red,Walk,25,1,26,12,Low,Emergency Vehicle,1,Major
+2024-07-08 21:29:40,7875,0.94,91,1.75,Group Crossing,Child,Off-Peak,8221,Truck,47.21,2.62,0,None,Clear,11.8,0.26,869.04,Daytime,Dry,0,Red,Walk,16,1,32,15,High,Normal,0,None
+2024-05-24 04:51:39,8703,1.12,344,1.8,Group Crossing,Child,Off-Peak,6803,Bicycle,57.12,1.22,1,Failed to Yield,Rain,20.4,6.61,501.93,Daytime,Dry,1,Yellow,Don't Walk,90,1,25,19,Medium,Emergency Vehicle,1,None
+2024-04-22 16:52:30,2799,0.88,177,1.2,Jaywalking,Elderly,Off-Peak,8091,Car,35.98,2.83,1,None,Snow,31.8,7.83,598.06,Nighttime,Snow-covered,0,Green,Don't Walk,55,0,10,3,High,Normal,0,Major
+2024-11-01 22:44:13,4377,1.71,71,1.36,Waiting,Child,Off-Peak,9320,Car,41.71,-0.5,0,Red Light Violation,Snow,14.5,6.55,50.87,Daytime,Snow-covered,0,Red,Don't Walk,54,0,22,12,Medium,Normal,1,Fatal
+2024-03-15 06:13:32,7364,0.96,71,0.6,Group Crossing,Adult,Peak,5969,Bicycle,31.0,-0.82,1,Failed to Yield,Fog,22.2,9.13,503.05,Nighttime,Dry,0,Green,Walk,38,1,29,18,Medium,Emergency Vehicle,0,Minor
+2024-11-01 18:36:39,4084,0.77,199,1.23,Group Crossing,Elderly,Off-Peak,6525,Motorcycle,61.29,1.6,1,Failed to Yield,Clear,13.2,5.26,317.35,Daytime,Dry,0,Yellow,Walk,13,1,29,3,High,Emergency Vehicle,0,Fatal
+2024-06-20 13:02:25,9431,1.3,97,2.28,Waiting,Child,Off-Peak,6460,Truck,79.47,-0.01,1,None,Snow,15.2,8.85,282.2,Low-light,Wet,1,Green,Walk,73,1,36,20,High,Emergency Vehicle,0,None
+2024-03-08 02:37:28,3450,0.69,76,2.22,Normal,Adult,Off-Peak,6010,Bus,17.84,0.43,1,Failed to Yield,Fog,11.3,6.27,982.15,Low-light,Wet,0,Green,Don't Walk,71,1,8,19,High,Child Running,1,Minor
+2024-01-25 19:59:40,3363,1.93,76,1.4,Group Crossing,Child,Off-Peak,7183,Motorcycle,51.01,-1.14,0,Red Light Violation,Snow,-0.6,4.88,855.07,Daytime,Wet,1,Red,Don't Walk,83,1,43,1,High,Child Running,0,None
+2024-09-28 22:12:08,9569,0.54,182,0.59,Jaywalking,Elderly,Off-Peak,7466,Truck,40.25,-0.89,0,Red Light Violation,Rain,-2.4,1.61,944.31,Nighttime,Wet,0,Red,Walk,19,1,20,12,High,Child Running,0,Minor
+2024-06-02 19:17:55,9911,1.75,93,2.05,Normal,Child,Off-Peak,9573,Motorcycle,20.85,1.05,0,Failed to Yield,Clear,6.1,1.89,922.51,Low-light,Snow-covered,0,Green,Walk,52,0,34,6,High,Normal,0,Fatal
+2024-02-25 10:02:51,8533,1.29,130,1.32,Group Crossing,Child,Peak,8984,Truck,71.64,1.98,0,None,Snow,35.0,9.83,524.63,Daytime,Dry,1,Red,Walk,24,1,30,12,Medium,Emergency Vehicle,1,Minor
+2024-07-27 09:36:44,3729,1.39,252,0.9,Normal,Adult,Peak,9855,Bicycle,65.86,-1.11,1,Failed to Yield,Fog,3.7,0.24,686.48,Low-light,Snow-covered,1,Yellow,Don't Walk,47,1,28,17,Low,Normal,1,None
+2024-12-03 18:32:16,3926,1.63,220,0.16,Normal,Adult,Off-Peak,7524,Car,49.85,1.17,0,Red Light Violation,Snow,18.0,6.92,440.7,Daytime,Snow-covered,0,Yellow,Walk,41,1,22,18,Medium,Emergency Vehicle,1,Fatal
+2024-03-08 23:11:25,8068,1.61,269,1.33,Waiting,Elderly,Off-Peak,6375,Car,58.42,0.77,1,Red Light Violation,Rain,33.3,7.75,841.0,Low-light,Snow-covered,0,Yellow,Walk,68,0,36,8,Low,Emergency Vehicle,0,Fatal
+2024-05-20 15:14:30,4015,1.71,317,1.25,Jaywalking,Elderly,Peak,7064,Car,17.3,0.67,0,Red Light Violation,Clear,2.0,1.49,908.98,Nighttime,Dry,1,Red,Walk,45,1,28,9,Low,Emergency Vehicle,1,None
+2024-09-09 10:48:52,8037,1.66,184,2.4,Group Crossing,Adult,Peak,7836,Bicycle,59.22,1.64,0,None,Rain,19.0,6.69,542.14,Nighttime,Dry,1,Yellow,Don't Walk,88,0,19,12,Low,Normal,1,None
+2024-10-24 22:41:59,5472,1.37,71,1.86,Waiting,Elderly,Off-Peak,8402,Bicycle,44.33,2.95,1,None,Clear,-4.4,7.32,657.27,Low-light,Dry,1,Green,Walk,54,0,50,10,High,Emergency Vehicle,1,Major
+2024-09-11 23:04:40,4351,0.92,277,1.27,Group Crossing,Child,Peak,6446,Car,55.68,2.41,1,Failed to Yield,Clear,5.9,9.27,696.28,Low-light,Dry,0,Green,Don't Walk,54,1,21,15,High,Emergency Vehicle,1,Major
+2024-06-11 04:03:33,3678,1.48,243,2.32,Jaywalking,Elderly,Peak,8261,Car,24.28,-1.52,1,None,Fog,19.9,6.09,67.86,Daytime,Dry,0,Green,Walk,58,0,35,12,Low,Emergency Vehicle,1,Minor
+2024-03-04 21:10:09,3772,1.12,292,1.83,Group Crossing,Child,Off-Peak,6294,Bicycle,75.45,-0.11,1,Failed to Yield,Rain,20.3,0.16,100.81,Nighttime,Snow-covered,0,Green,Don't Walk,90,1,42,12,High,Normal,0,Major
+2024-01-07 17:44:19,3198,0.97,95,1.37,Normal,Elderly,Peak,9866,Bus,32.31,2.68,0,Red Light Violation,Snow,12.8,0.25,397.16,Daytime,Dry,1,Red,Walk,79,0,21,1,Medium,Child Running,1,Minor
+2024-01-03 12:50:18,2074,0.83,212,1.29,Waiting,Child,Off-Peak,5661,Truck,71.42,0.85,1,Red Light Violation,Rain,11.8,9.97,61.61,Low-light,Dry,1,Green,Walk,50,0,24,20,High,Normal,1,Fatal
+2024-03-07 08:35:28,2497,1.42,168,0.85,Group Crossing,Child,Peak,7807,Motorcycle,47.12,1.2,1,Red Light Violation,Fog,1.8,5.55,594.41,Daytime,Dry,1,Yellow,Don't Walk,58,0,17,15,High,Emergency Vehicle,1,Fatal
+2024-01-17 11:46:52,4025,1.58,106,2.15,Jaywalking,Elderly,Off-Peak,6772,Motorcycle,34.54,-0.8,0,None,Clear,12.1,6.44,432.65,Daytime,Snow-covered,1,Green,Walk,67,1,46,1,Low,Normal,1,Fatal
+2024-10-06 07:35:45,7729,2.0,126,1.82,Normal,Child,Peak,7920,Motorcycle,20.71,2.88,0,Red Light Violation,Rain,28.7,6.19,800.36,Low-light,Dry,1,Yellow,Don't Walk,41,0,21,9,High,Emergency Vehicle,0,Minor
+2024-07-06 12:33:12,2412,0.84,202,2.06,Group Crossing,Child,Off-Peak,9220,Bicycle,31.19,-1.27,1,None,Fog,16.6,3.35,531.5,Daytime,Wet,0,Green,Walk,71,0,19,10,Medium,Emergency Vehicle,0,None
+2024-06-23 18:18:12,8522,1.33,48,0.6,Group Crossing,Child,Off-Peak,6391,Motorcycle,40.86,-0.7,0,Red Light Violation,Fog,29.5,4.21,889.88,Low-light,Dry,0,Yellow,Walk,58,1,28,2,Medium,Emergency Vehicle,0,Major
+2024-03-13 11:50:25,8899,1.62,271,0.61,Normal,Adult,Peak,7640,Car,32.89,-0.57,1,Failed to Yield,Snow,32.8,8.65,271.42,Nighttime,Wet,0,Red,Don't Walk,46,0,24,4,High,Child Running,1,None
+2024-02-01 08:12:26,6238,1.0,202,1.03,Normal,Child,Off-Peak,7803,Motorcycle,39.92,2.35,0,Failed to Yield,Clear,26.4,8.09,649.48,Nighttime,Wet,1,Yellow,Don't Walk,20,1,7,9,High,Normal,0,None
+2024-12-12 05:36:22,4063,0.51,209,0.44,Jaywalking,Child,Peak,9144,Car,77.28,1.64,0,None,Snow,5.9,1.47,94.71,Daytime,Wet,1,Yellow,Walk,30,1,47,7,Low,Normal,1,Major
+2024-05-20 00:50:10,2897,0.96,39,0.46,Jaywalking,Elderly,Off-Peak,8215,Truck,54.3,2.54,1,None,Snow,4.9,1.19,924.63,Daytime,Snow-covered,0,Red,Don't Walk,30,0,40,7,Medium,Child Running,1,Fatal
+2024-06-28 14:40:01,8647,1.0,229,2.19,Group Crossing,Elderly,Off-Peak,8468,Motorcycle,30.5,-0.35,1,None,Snow,-1.0,2.26,777.55,Nighttime,Dry,1,Yellow,Walk,45,0,46,8,High,Child Running,1,Major
+2024-07-16 13:09:38,6093,0.92,80,0.39,Normal,Adult,Peak,8325,Car,53.52,-0.09,1,Failed to Yield,Clear,30.9,5.14,326.97,Nighttime,Wet,1,Yellow,Walk,50,0,8,9,Low,Emergency Vehicle,1,Major
+2024-04-21 10:45:09,3535,0.81,44,0.59,Jaywalking,Elderly,Off-Peak,6780,Bicycle,73.29,-0.93,0,None,Snow,9.6,9.39,654.35,Nighttime,Dry,0,Red,Don't Walk,13,1,31,2,Medium,Emergency Vehicle,0,Major
+2024-10-11 19:56:41,8691,0.78,166,0.96,Group Crossing,Elderly,Peak,7314,Car,23.65,2.64,1,None,Clear,26.2,9.83,476.52,Nighttime,Wet,1,Red,Walk,13,1,42,16,Medium,Child Running,0,None
+2024-02-19 23:43:46,8829,1.47,288,2.44,Jaywalking,Child,Off-Peak,8362,Truck,74.45,1.25,1,Red Light Violation,Rain,-3.5,1.58,890.61,Nighttime,Snow-covered,1,Red,Walk,23,0,50,15,Low,Normal,0,Major
+2024-03-06 11:50:56,7554,1.6,304,1.77,Group Crossing,Elderly,Off-Peak,9497,Motorcycle,10.22,-0.49,1,Failed to Yield,Fog,6.9,7.61,380.26,Daytime,Dry,1,Red,Walk,31,0,26,9,Medium,Child Running,1,Major
+2024-07-14 16:14:02,3800,1.37,312,0.94,Group Crossing,Adult,Off-Peak,8614,Bicycle,75.75,0.24,1,None,Rain,12.6,3.78,214.46,Daytime,Dry,1,Red,Walk,20,1,18,1,Medium,Child Running,1,None
+2024-06-13 00:41:12,8307,1.61,48,0.16,Normal,Adult,Peak,8925,Truck,15.82,-1.89,1,Failed to Yield,Clear,-1.2,9.08,825.37,Nighttime,Dry,1,Red,Don't Walk,24,0,44,18,Low,Child Running,1,Fatal
+2024-02-19 09:27:41,6762,1.9,203,0.69,Jaywalking,Adult,Peak,9333,Truck,64.86,-0.85,0,None,Rain,16.4,9.08,988.93,Low-light,Snow-covered,1,Green,Walk,83,1,13,10,Low,Normal,0,Minor
+2024-02-20 20:43:47,8907,1.62,118,1.05,Group Crossing,Elderly,Off-Peak,9535,Car,46.88,0.11,1,Failed to Yield,Rain,25.4,4.4,286.96,Low-light,Snow-covered,1,Yellow,Don't Walk,50,0,40,6,Medium,Normal,0,Minor
+2024-04-01 12:28:27,7420,1.1,88,1.41,Waiting,Adult,Off-Peak,7608,Car,39.2,-0.44,1,Red Light Violation,Clear,16.1,5.77,209.66,Nighttime,Dry,1,Green,Don't Walk,39,0,30,4,Medium,Emergency Vehicle,1,None
+2024-12-25 11:35:06,5663,1.81,55,0.46,Normal,Elderly,Off-Peak,9074,Bicycle,47.75,2.41,0,Red Light Violation,Snow,21.8,8.6,659.09,Daytime,Dry,0,Red,Walk,65,1,29,5,Medium,Normal,0,Fatal
+2024-05-16 16:16:44,4838,1.3,20,1.14,Waiting,Adult,Off-Peak,5166,Truck,19.67,1.45,1,Failed to Yield,Fog,20.1,5.43,609.21,Daytime,Dry,1,Red,Walk,48,0,29,8,High,Emergency Vehicle,0,Major
+2024-02-11 13:20:42,2315,1.5,345,2.36,Group Crossing,Elderly,Peak,6798,Car,49.62,1.84,0,None,Snow,31.4,8.31,959.62,Nighttime,Wet,1,Green,Don't Walk,86,0,9,15,High,Child Running,1,None
+2024-02-07 07:16:54,9802,1.09,28,0.43,Jaywalking,Adult,Off-Peak,6537,Bus,75.38,-1.29,1,None,Fog,26.5,0.37,786.11,Nighttime,Dry,0,Red,Don't Walk,49,1,49,12,High,Normal,0,Minor
+2024-03-03 21:34:06,1008,2.0,264,2.27,Waiting,Elderly,Peak,8110,Bicycle,16.06,1.98,0,None,Clear,33.4,0.76,136.38,Low-light,Snow-covered,0,Green,Walk,82,0,5,13,High,Child Running,1,Minor
+2024-04-19 22:34:13,8842,1.03,181,0.1,Jaywalking,Elderly,Peak,7085,Motorcycle,19.45,1.62,0,Red Light Violation,Clear,23.1,9.26,376.69,Low-light,Snow-covered,0,Green,Don't Walk,62,0,25,7,High,Child Running,1,Fatal
+2024-11-01 08:42:18,4043,0.98,147,1.42,Group Crossing,Elderly,Off-Peak,9943,Bus,51.95,1.37,0,Red Light Violation,Fog,-3.4,6.05,496.59,Nighttime,Wet,1,Green,Walk,16,0,20,11,Low,Normal,1,Fatal
+2024-04-04 09:22:48,8585,1.4,40,1.13,Waiting,Adult,Peak,5627,Bicycle,12.0,-0.51,0,Failed to Yield,Rain,20.9,0.93,693.8,Daytime,Wet,1,Green,Walk,11,0,18,8,Medium,Child Running,0,Major
+2024-08-15 06:28:48,1992,0.94,281,0.54,Normal,Elderly,Peak,8418,Motorcycle,53.18,2.71,1,Red Light Violation,Clear,12.2,9.52,326.27,Low-light,Wet,1,Red,Walk,56,0,42,9,Medium,Emergency Vehicle,0,Minor
+2024-11-26 02:03:27,8258,1.08,237,1.1,Normal,Adult,Peak,9337,Bus,45.66,0.08,1,Red Light Violation,Snow,13.6,5.52,413.76,Nighttime,Dry,0,Green,Don't Walk,65,0,21,8,High,Emergency Vehicle,0,None
+2024-05-24 22:45:02,5517,0.66,137,1.69,Waiting,Elderly,Peak,8083,Truck,17.59,-0.53,0,Failed to Yield,Snow,-1.3,2.16,202.62,Low-light,Dry,0,Yellow,Don't Walk,53,0,7,7,Low,Normal,0,Fatal
+2024-03-09 19:51:45,5362,1.76,353,2.02,Waiting,Elderly,Off-Peak,7044,Truck,67.55,0.81,1,Failed to Yield,Snow,-3.8,4.66,95.95,Nighttime,Dry,0,Yellow,Don't Walk,30,0,40,12,Low,Child Running,0,Major
+2024-04-10 21:53:26,6988,1.32,167,0.21,Jaywalking,Elderly,Peak,5701,Car,29.95,0.74,1,None,Snow,28.3,5.41,596.8,Nighttime,Snow-covered,1,Red,Walk,70,1,16,17,Low,Emergency Vehicle,0,Fatal
+2024-08-05 02:20:32,5977,1.79,287,1.09,Waiting,Child,Peak,5500,Car,30.25,2.59,0,None,Snow,25.5,6.84,216.12,Daytime,Dry,0,Yellow,Walk,90,0,36,7,Medium,Child Running,1,None
+2024-10-05 18:41:35,5857,1.71,1,1.72,Waiting,Child,Off-Peak,8565,Bicycle,23.29,-1.14,0,Red Light Violation,Rain,18.9,4.79,195.97,Daytime,Dry,0,Red,Don't Walk,84,1,13,17,Low,Normal,1,Minor
+2024-05-24 23:22:09,7492,1.06,250,2.18,Waiting,Adult,Peak,5863,Car,47.41,0.82,0,None,Rain,25.8,5.04,618.09,Nighttime,Snow-covered,0,Red,Walk,75,1,35,10,Low,Child Running,1,Minor
+2024-06-15 13:19:39,6937,1.19,85,2.4,Group Crossing,Elderly,Peak,8229,Bicycle,13.14,2.03,0,Red Light Violation,Fog,-3.2,6.46,901.03,Low-light,Snow-covered,0,Yellow,Don't Walk,34,0,36,14,Low,Normal,0,Major
+2024-05-18 03:53:33,9295,1.11,213,0.4,Waiting,Adult,Off-Peak,9379,Bicycle,42.13,0.95,0,None,Fog,28.2,0.7,669.34,Daytime,Snow-covered,0,Yellow,Walk,30,0,18,2,High,Emergency Vehicle,0,None
+2024-11-28 12:33:52,4241,1.46,242,1.79,Waiting,Elderly,Peak,6738,Bus,46.47,2.78,0,Failed to Yield,Clear,3.3,9.92,101.48,Nighttime,Snow-covered,0,Yellow,Walk,20,1,19,6,Medium,Emergency Vehicle,1,Major
+2024-03-03 16:47:12,7865,0.89,205,0.19,Normal,Adult,Off-Peak,9876,Motorcycle,39.23,2.56,1,Failed to Yield,Snow,10.6,5.19,101.33,Daytime,Dry,0,Green,Walk,90,1,41,9,High,Normal,0,Major
+2024-02-14 11:00:40,2056,1.46,267,1.05,Normal,Elderly,Off-Peak,5152,Motorcycle,14.64,2.81,0,Red Light Violation,Fog,26.3,3.71,76.88,Low-light,Snow-covered,1,Green,Don't Walk,35,1,38,15,Medium,Child Running,0,Major
+2024-02-27 01:03:08,2795,1.11,212,1.73,Group Crossing,Elderly,Off-Peak,9390,Car,72.29,1.02,0,Failed to Yield,Snow,24.2,8.29,277.3,Nighttime,Wet,0,Green,Don't Walk,60,0,7,7,Medium,Child Running,0,Minor
+2024-06-18 14:02:59,8704,1.94,158,1.71,Waiting,Adult,Peak,6708,Car,12.71,-1.92,0,None,Clear,11.8,9.47,493.61,Low-light,Dry,0,Yellow,Walk,23,1,28,18,High,Normal,1,Major
+2024-08-31 04:37:14,6057,1.69,293,1.41,Normal,Adult,Peak,7150,Car,44.05,1.01,0,Red Light Violation,Clear,1.7,1.93,372.14,Daytime,Wet,1,Red,Don't Walk,59,1,43,6,High,Emergency Vehicle,1,Major
+2024-10-24 20:01:23,4541,0.77,20,0.15,Jaywalking,Child,Off-Peak,8219,Motorcycle,34.67,-1.97,1,Failed to Yield,Snow,20.5,6.6,696.49,Low-light,Dry,1,Red,Don't Walk,88,0,42,20,Medium,Normal,0,Minor
+2024-03-01 06:35:47,1237,1.31,15,0.45,Jaywalking,Adult,Off-Peak,6946,Motorcycle,65.66,1.77,0,Red Light Violation,Fog,32.2,1.98,798.91,Daytime,Snow-covered,1,Green,Don't Walk,28,1,40,5,Low,Child Running,0,Major
+2024-09-27 20:36:37,9808,1.24,24,2.27,Normal,Child,Peak,9694,Bus,38.92,-1.99,0,Red Light Violation,Snow,17.3,3.83,130.58,Daytime,Wet,1,Red,Don't Walk,24,0,40,19,High,Emergency Vehicle,1,Minor
+2024-08-01 16:03:41,4645,1.4,257,1.7,Group Crossing,Elderly,Peak,7445,Car,49.07,1.01,0,Red Light Violation,Snow,8.1,3.93,769.3,Nighttime,Snow-covered,1,Yellow,Walk,81,1,8,10,High,Normal,0,None
+2024-10-12 10:08:09,3882,1.2,12,0.1,Normal,Adult,Peak,8802,Car,15.85,-1.02,0,None,Clear,8.1,2.16,865.21,Low-light,Snow-covered,0,Yellow,Don't Walk,36,1,27,5,Medium,Normal,0,Minor
+2024-09-23 19:06:15,6174,1.47,26,1.24,Group Crossing,Elderly,Off-Peak,7914,Truck,75.24,0.78,0,None,Snow,18.4,7.11,755.75,Low-light,Wet,0,Green,Don't Walk,16,1,19,4,Medium,Emergency Vehicle,0,Minor
+2024-06-19 04:22:26,5588,1.12,218,2.13,Group Crossing,Child,Peak,8352,Bicycle,44.2,-0.32,1,None,Fog,12.0,3.92,140.94,Nighttime,Dry,1,Yellow,Walk,30,1,7,12,Medium,Normal,0,Minor
+2024-01-10 08:26:35,6586,1.92,179,2.45,Waiting,Elderly,Peak,5431,Truck,60.83,-0.25,0,Red Light Violation,Rain,10.2,4.56,624.62,Daytime,Wet,0,Green,Walk,54,1,38,4,Low,Child Running,1,Fatal
+2024-11-28 03:34:07,5582,0.73,265,1.31,Jaywalking,Child,Peak,5450,Bicycle,52.73,-0.21,1,Red Light Violation,Rain,10.7,0.92,762.5,Daytime,Dry,1,Red,Walk,84,1,23,10,High,Child Running,1,Fatal
+2024-09-01 09:11:07,4165,0.95,317,0.54,Normal,Child,Peak,8034,Bicycle,40.55,-0.68,0,Failed to Yield,Snow,31.8,2.63,253.1,Nighttime,Dry,1,Red,Walk,45,1,47,17,Medium,Normal,1,Major
+2024-04-08 09:38:46,6866,1.93,59,0.97,Normal,Child,Off-Peak,6890,Motorcycle,27.82,1.3,1,Red Light Violation,Clear,18.8,5.19,865.14,Daytime,Wet,1,Red,Walk,59,1,43,17,Low,Child Running,0,Fatal
+2024-11-20 20:19:55,2322,1.62,244,0.85,Jaywalking,Elderly,Off-Peak,6603,Car,60.53,2.04,1,Red Light Violation,Snow,11.1,2.88,914.04,Daytime,Dry,1,Green,Walk,77,0,48,5,Low,Child Running,1,Minor
+2024-08-04 22:40:24,5497,1.09,31,2.46,Waiting,Elderly,Peak,9442,Bus,13.87,-1.16,1,Red Light Violation,Snow,3.8,1.22,928.85,Low-light,Snow-covered,0,Red,Walk,45,1,40,4,Low,Child Running,0,None
+2024-02-03 15:32:07,4005,1.21,318,1.44,Waiting,Child,Peak,6683,Bus,25.59,0.81,0,Red Light Violation,Rain,27.7,8.6,156.05,Nighttime,Dry,0,Red,Don't Walk,75,1,41,16,Medium,Normal,1,None
+2024-06-05 10:17:33,8558,0.91,179,1.86,Normal,Child,Off-Peak,5737,Truck,76.67,-0.17,1,None,Fog,32.3,1.85,630.87,Daytime,Wet,0,Green,Don't Walk,46,0,5,13,Low,Emergency Vehicle,0,Minor
+2024-12-06 13:55:14,8922,1.83,251,1.18,Waiting,Child,Peak,9097,Car,45.28,-0.48,0,Red Light Violation,Rain,24.1,7.03,896.57,Low-light,Snow-covered,0,Red,Walk,17,0,32,11,Low,Emergency Vehicle,0,Minor
+2024-05-20 00:55:25,6967,1.32,49,0.11,Waiting,Adult,Peak,8561,Car,11.29,-2.0,0,Failed to Yield,Rain,-1.0,8.6,437.54,Nighttime,Snow-covered,1,Green,Don't Walk,11,1,50,12,Medium,Normal,0,Fatal
+2024-09-13 16:17:49,7490,0.92,284,1.38,Normal,Child,Off-Peak,5105,Bus,18.6,0.99,0,None,Fog,-1.7,1.56,366.17,Daytime,Dry,0,Red,Don't Walk,22,0,14,17,High,Child Running,0,Fatal
+2024-03-27 04:51:22,9530,1.18,80,0.64,Waiting,Elderly,Off-Peak,7405,Bus,14.82,-0.97,1,None,Rain,17.4,2.82,939.66,Daytime,Wet,0,Yellow,Walk,41,0,12,18,High,Emergency Vehicle,1,None
+2024-08-25 08:45:59,6589,0.74,324,0.81,Normal,Elderly,Off-Peak,9369,Bus,44.07,-0.02,1,Failed to Yield,Rain,11.3,1.9,838.79,Low-light,Wet,1,Yellow,Walk,50,1,13,7,Medium,Child Running,1,Minor
+2024-03-06 20:07:04,6028,1.88,209,1.5,Group Crossing,Child,Peak,5501,Car,76.29,1.41,0,Red Light Violation,Snow,13.4,1.14,116.02,Low-light,Wet,1,Green,Don't Walk,32,1,37,10,High,Child Running,0,Minor
+2024-08-18 08:12:27,5117,2.0,287,1.34,Group Crossing,Adult,Peak,9507,Bus,55.42,2.12,1,None,Rain,3.7,9.14,769.12,Low-light,Dry,1,Green,Walk,37,0,32,12,Low,Child Running,1,Minor
+2024-01-11 11:13:12,6215,0.92,30,2.43,Jaywalking,Elderly,Off-Peak,5810,Bicycle,27.22,-1.24,0,Failed to Yield,Clear,24.4,4.3,433.08,Nighttime,Wet,0,Red,Walk,75,1,14,19,High,Normal,0,Major
+2024-10-30 01:39:16,3037,1.41,67,0.64,Waiting,Elderly,Off-Peak,8149,Car,36.32,0.84,1,Red Light Violation,Fog,12.7,4.18,511.8,Nighttime,Snow-covered,1,Red,Don't Walk,78,0,47,3,Medium,Normal,1,Fatal
+2024-06-13 02:40:56,6069,0.65,314,0.18,Normal,Child,Peak,9356,Bus,24.08,-1.38,1,Failed to Yield,Clear,16.4,1.79,596.55,Nighttime,Wet,0,Yellow,Walk,28,0,5,5,Low,Emergency Vehicle,0,Fatal
+2024-09-28 15:24:27,8426,0.6,287,0.43,Waiting,Adult,Peak,5812,Bus,23.48,1.86,0,None,Clear,8.3,7.09,650.84,Nighttime,Snow-covered,0,Yellow,Don't Walk,39,1,47,8,High,Child Running,1,Fatal
+2024-01-12 07:20:10,3326,0.54,314,1.71,Jaywalking,Adult,Off-Peak,6123,Bicycle,30.03,-1.11,0,Red Light Violation,Fog,14.2,5.9,131.06,Daytime,Dry,1,Yellow,Walk,10,1,25,4,Low,Child Running,1,Fatal
+2024-04-09 19:31:30,7952,1.1,295,0.83,Normal,Child,Off-Peak,8285,Bicycle,40.71,1.73,0,Failed to Yield,Clear,31.8,4.37,431.92,Nighttime,Wet,1,Red,Don't Walk,81,1,38,20,Medium,Emergency Vehicle,1,Major
+2024-09-13 03:39:14,5840,0.63,215,0.62,Jaywalking,Child,Off-Peak,6310,Truck,12.76,-0.69,1,Failed to Yield,Snow,27.2,5.63,272.64,Low-light,Snow-covered,0,Green,Don't Walk,62,1,11,4,Medium,Emergency Vehicle,1,Major
+2024-05-25 21:54:54,9383,0.72,71,1.61,Jaywalking,Elderly,Off-Peak,5556,Bicycle,17.52,2.9,0,Red Light Violation,Clear,5.9,2.94,237.3,Daytime,Wet,1,Green,Walk,32,0,16,17,Medium,Normal,0,Minor
+2024-01-08 08:42:50,9636,1.98,149,0.85,Normal,Elderly,Peak,5604,Motorcycle,66.65,-1.56,1,Failed to Yield,Fog,4.5,6.63,581.27,Nighttime,Dry,0,Red,Don't Walk,38,1,12,7,Low,Normal,1,Minor
+2024-05-28 23:32:25,2969,0.97,143,0.8,Waiting,Child,Off-Peak,6048,Truck,34.25,0.07,1,Failed to Yield,Snow,-3.0,9.3,796.58,Low-light,Dry,0,Green,Walk,31,1,5,12,Low,Emergency Vehicle,0,None
+2024-02-16 02:00:25,3290,1.98,263,1.21,Jaywalking,Adult,Off-Peak,7867,Car,27.41,0.25,1,Failed to Yield,Fog,10.9,2.18,947.81,Daytime,Dry,0,Red,Don't Walk,72,1,41,17,Medium,Child Running,1,None
+2024-01-27 03:31:09,5913,1.94,258,2.02,Group Crossing,Adult,Peak,7118,Bicycle,77.65,1.69,0,Red Light Violation,Rain,-1.0,8.59,843.15,Daytime,Wet,0,Yellow,Walk,31,1,16,1,Medium,Normal,1,Fatal
+2024-08-23 20:06:54,3655,1.4,232,1.72,Waiting,Adult,Off-Peak,9659,Truck,44.49,1.61,1,None,Clear,27.1,2.94,563.38,Nighttime,Wet,1,Green,Walk,11,0,47,4,Low,Normal,0,Major
+2024-03-04 13:22:44,3100,1.86,342,0.15,Waiting,Elderly,Off-Peak,7404,Motorcycle,13.07,1.84,1,Red Light Violation,Clear,13.8,5.56,746.13,Low-light,Snow-covered,1,Red,Don't Walk,14,1,33,14,Low,Normal,1,None
+2024-06-22 09:38:49,4766,0.67,20,0.12,Jaywalking,Elderly,Peak,5615,Truck,53.86,-1.79,1,Red Light Violation,Rain,-0.5,4.7,148.07,Nighttime,Snow-covered,1,Red,Walk,34,0,24,3,High,Child Running,1,None
+2024-09-29 06:58:30,7011,1.54,180,2.03,Normal,Adult,Peak,7809,Motorcycle,47.46,-1.3,1,None,Snow,8.0,1.42,781.05,Nighttime,Dry,0,Green,Don't Walk,24,0,6,3,Low,Emergency Vehicle,1,Minor
+2024-10-19 23:48:50,3261,1.4,286,1.46,Jaywalking,Adult,Peak,9317,Car,36.52,0.78,1,Red Light Violation,Snow,9.3,6.29,954.85,Low-light,Snow-covered,0,Green,Walk,21,0,36,13,High,Normal,1,Minor
+2024-08-20 05:33:09,4247,1.3,279,2.07,Waiting,Child,Off-Peak,5637,Car,64.02,-0.57,0,None,Fog,-3.9,3.96,480.52,Nighttime,Snow-covered,1,Yellow,Don't Walk,40,0,36,16,High,Emergency Vehicle,1,None
+2024-06-24 11:25:49,8394,0.8,194,1.1,Jaywalking,Adult,Off-Peak,8556,Motorcycle,30.5,0.6,1,None,Fog,-3.0,6.79,297.86,Low-light,Wet,1,Red,Don't Walk,23,1,28,19,Medium,Emergency Vehicle,1,Major
+2024-01-15 15:36:11,7363,1.83,194,1.86,Normal,Child,Off-Peak,9747,Truck,66.99,0.55,0,None,Rain,32.9,6.51,58.72,Low-light,Wet,0,Yellow,Walk,42,1,26,15,Medium,Normal,1,None
+2024-05-02 08:57:07,6191,0.76,94,0.86,Waiting,Child,Peak,5431,Bus,73.34,-1.24,0,None,Rain,4.9,1.11,653.8,Daytime,Snow-covered,0,Red,Walk,40,1,39,1,Low,Emergency Vehicle,0,None
+2024-03-08 00:07:03,2835,0.68,141,0.62,Jaywalking,Child,Peak,5350,Car,68.61,-1.61,0,None,Snow,12.6,9.45,61.33,Daytime,Wet,0,Red,Don't Walk,78,0,10,8,High,Emergency Vehicle,1,Minor
+2024-01-31 16:15:47,8042,1.1,290,0.27,Normal,Elderly,Off-Peak,6368,Bicycle,44.48,2.33,1,Red Light Violation,Rain,-3.0,0.59,674.91,Low-light,Dry,1,Yellow,Don't Walk,50,1,22,16,High,Child Running,1,None
+2024-06-19 21:23:45,9158,0.62,142,2.05,Group Crossing,Adult,Peak,7559,Bicycle,77.03,1.69,0,Red Light Violation,Clear,-3.1,6.19,849.85,Daytime,Wet,1,Green,Walk,85,0,10,2,Low,Normal,1,Major
+2024-01-09 20:12:22,6576,1.83,86,2.23,Normal,Elderly,Off-Peak,9449,Motorcycle,73.3,0.25,1,None,Clear,33.8,2.32,875.57,Daytime,Snow-covered,1,Red,Don't Walk,77,1,38,8,Low,Normal,1,Minor
+2024-10-05 04:17:53,1411,1.46,107,1.99,Waiting,Adult,Peak,8883,Bicycle,18.3,0.41,1,None,Fog,31.4,2.76,405.92,Low-light,Wet,1,Green,Walk,77,1,37,2,High,Normal,1,Minor
+2024-09-06 16:44:44,2423,0.61,218,1.93,Group Crossing,Adult,Peak,5870,Truck,45.99,2.06,1,Red Light Violation,Fog,14.3,2.74,133.66,Nighttime,Snow-covered,1,Green,Don't Walk,55,1,22,2,Medium,Child Running,0,Fatal
+2024-10-12 22:01:30,1379,1.23,9,0.2,Waiting,Child,Off-Peak,5130,Truck,17.65,-0.83,0,Failed to Yield,Clear,21.7,7.55,253.46,Low-light,Snow-covered,1,Red,Walk,90,1,30,10,Medium,Emergency Vehicle,1,Fatal
+2024-10-10 11:27:46,9521,1.75,291,2.28,Normal,Elderly,Peak,7454,Bus,24.29,0.75,0,Red Light Violation,Snow,4.3,3.54,64.5,Low-light,Dry,1,Red,Walk,61,0,29,8,High,Normal,0,Major
+2024-02-11 14:22:00,6487,1.57,322,1.66,Normal,Child,Off-Peak,6945,Truck,52.58,1.46,1,None,Clear,25.9,7.57,881.39,Nighttime,Wet,0,Red,Don't Walk,72,1,8,20,Low,Normal,1,Minor
+2024-03-31 11:01:28,9275,1.26,107,0.85,Jaywalking,Elderly,Peak,7479,Truck,68.18,2.12,0,Red Light Violation,Clear,27.8,4.45,374.05,Nighttime,Wet,1,Yellow,Walk,38,1,50,18,Medium,Emergency Vehicle,1,Fatal
+2024-10-05 22:09:35,9376,1.09,246,1.03,Jaywalking,Adult,Off-Peak,9630,Bicycle,78.42,-1.05,1,None,Clear,28.0,6.74,655.71,Low-light,Dry,0,Yellow,Walk,61,1,5,14,High,Emergency Vehicle,1,None
+2024-03-27 16:05:08,9619,1.68,190,2.09,Normal,Elderly,Peak,5221,Motorcycle,17.83,1.36,1,None,Rain,16.1,5.69,247.0,Nighttime,Dry,0,Red,Don't Walk,20,1,31,16,High,Emergency Vehicle,1,Fatal
+2024-12-05 17:49:40,9225,1.33,228,0.55,Jaywalking,Adult,Peak,8699,Truck,54.54,2.01,0,Failed to Yield,Fog,22.3,4.69,334.11,Nighttime,Wet,1,Yellow,Walk,45,1,27,6,Low,Normal,1,Minor
+2024-12-28 10:33:53,4390,0.99,2,0.43,Group Crossing,Elderly,Peak,8118,Bicycle,33.72,1.56,0,Failed to Yield,Fog,6.6,2.36,437.88,Daytime,Dry,1,Green,Don't Walk,58,1,45,8,High,Child Running,1,Minor
+2024-06-14 17:46:29,5669,0.69,45,0.31,Jaywalking,Adult,Off-Peak,9862,Motorcycle,71.28,0.18,1,Failed to Yield,Rain,20.0,3.54,535.39,Daytime,Wet,1,Green,Walk,66,1,16,2,Low,Emergency Vehicle,0,Major
+2024-12-15 09:40:57,5678,1.43,239,0.15,Group Crossing,Elderly,Peak,6455,Car,55.24,-0.24,0,None,Fog,21.3,4.8,589.38,Low-light,Wet,1,Green,Walk,16,1,22,3,Medium,Emergency Vehicle,1,Minor
+2024-12-11 04:41:43,8373,0.87,345,1.15,Waiting,Child,Peak,7692,Motorcycle,78.09,-1.0,1,Red Light Violation,Rain,6.8,5.73,470.51,Nighttime,Wet,0,Green,Don't Walk,64,1,36,1,Low,Normal,0,Minor
+2024-04-21 14:48:39,6531,1.24,40,0.72,Group Crossing,Elderly,Peak,8173,Car,37.5,-0.72,0,None,Fog,7.5,1.59,580.5,Daytime,Wet,1,Red,Don't Walk,46,0,42,17,Low,Normal,0,Major
+2024-02-22 16:10:49,1526,0.82,127,0.69,Jaywalking,Adult,Peak,8325,Bicycle,22.03,1.38,0,Failed to Yield,Clear,27.9,2.29,539.2,Nighttime,Dry,1,Red,Don't Walk,58,1,13,9,Medium,Normal,0,Minor
+2024-05-31 02:50:48,6542,1.83,199,1.56,Jaywalking,Adult,Peak,6459,Motorcycle,39.19,0.84,0,Red Light Violation,Fog,28.5,7.66,920.98,Nighttime,Wet,0,Yellow,Don't Walk,17,0,46,12,Low,Emergency Vehicle,0,Fatal
+2024-08-19 09:46:38,9770,1.19,170,1.06,Group Crossing,Adult,Peak,8382,Bicycle,25.66,1.49,1,Failed to Yield,Snow,-1.4,2.65,777.68,Daytime,Dry,0,Green,Walk,80,0,29,10,Medium,Child Running,0,Minor
+2024-08-29 05:41:23,5304,1.72,62,0.17,Group Crossing,Child,Off-Peak,9460,Motorcycle,14.1,-0.04,1,None,Rain,33.1,5.04,856.41,Low-light,Dry,1,Green,Don't Walk,52,1,41,9,Medium,Emergency Vehicle,1,Fatal
+2024-09-08 04:32:04,6173,0.53,342,0.52,Waiting,Child,Peak,5592,Bus,69.61,1.11,0,None,Fog,10.1,1.92,728.82,Daytime,Snow-covered,1,Yellow,Walk,68,0,30,3,High,Child Running,0,None
+2024-01-03 05:11:07,4400,1.73,10,1.19,Group Crossing,Adult,Off-Peak,6754,Car,51.97,-0.64,1,Failed to Yield,Fog,32.4,3.98,887.36,Nighttime,Wet,0,Red,Don't Walk,21,0,19,10,Low,Normal,1,Minor
+2024-02-24 12:04:25,7176,0.93,141,2.39,Jaywalking,Elderly,Off-Peak,7341,Motorcycle,73.92,1.77,1,Red Light Violation,Clear,-0.3,3.05,282.83,Daytime,Wet,1,Yellow,Don't Walk,26,0,17,1,Low,Normal,0,Minor
+2024-08-02 18:33:30,2009,1.43,126,0.41,Normal,Child,Off-Peak,6360,Truck,47.15,-0.76,0,None,Clear,-1.9,5.74,879.55,Nighttime,Dry,0,Green,Walk,85,0,26,3,Medium,Child Running,1,Minor
+2024-03-24 21:58:22,2282,1.12,82,0.81,Waiting,Elderly,Peak,9690,Truck,77.31,-0.21,0,Red Light Violation,Fog,34.7,2.57,910.55,Nighttime,Wet,0,Yellow,Don't Walk,49,0,17,13,Low,Normal,1,Fatal
+2024-07-30 13:26:27,1848,1.41,298,0.42,Normal,Child,Off-Peak,8751,Bicycle,30.11,0.46,1,Red Light Violation,Snow,24.8,2.85,355.91,Daytime,Snow-covered,0,Green,Don't Walk,64,1,8,16,Low,Child Running,1,Major
+2024-10-03 22:25:02,7826,1.43,71,2.35,Group Crossing,Adult,Off-Peak,8950,Truck,39.2,0.62,0,Failed to Yield,Snow,2.0,3.11,215.07,Nighttime,Snow-covered,0,Red,Walk,38,0,21,20,Medium,Normal,0,Minor
+2024-06-26 08:55:29,7580,1.31,359,1.69,Group Crossing,Child,Peak,6014,Car,13.6,-1.77,0,Red Light Violation,Snow,1.6,1.9,733.68,Daytime,Wet,1,Green,Walk,15,1,21,6,Medium,Emergency Vehicle,1,None
+2024-09-13 17:29:11,6246,1.45,2,0.87,Waiting,Adult,Off-Peak,8370,Motorcycle,50.86,-0.36,1,Red Light Violation,Clear,23.5,7.42,239.64,Daytime,Wet,1,Red,Walk,14,1,38,14,Medium,Emergency Vehicle,1,Major
+2024-06-20 01:56:44,9585,0.55,17,1.71,Normal,Child,Peak,9703,Bus,26.06,-1.22,1,Red Light Violation,Snow,17.2,6.01,918.75,Low-light,Dry,0,Green,Don't Walk,66,0,10,20,Low,Emergency Vehicle,0,Minor
+2024-06-24 19:35:36,3657,1.73,73,0.75,Normal,Adult,Peak,7644,Truck,59.02,-0.63,1,Red Light Violation,Fog,-2.3,7.12,378.09,Daytime,Dry,0,Red,Walk,26,0,12,18,High,Normal,1,None
+2024-02-01 19:41:57,1057,1.61,217,1.13,Normal,Adult,Peak,6499,Bicycle,37.9,1.84,1,Failed to Yield,Snow,8.1,7.1,851.44,Low-light,Snow-covered,1,Green,Don't Walk,30,0,25,7,Medium,Child Running,0,Fatal
+2024-04-04 15:56:13,7194,1.03,43,1.52,Waiting,Elderly,Peak,8832,Car,71.67,-1.09,0,None,Rain,19.3,8.73,410.01,Nighttime,Snow-covered,0,Yellow,Walk,45,1,34,13,Medium,Emergency Vehicle,1,Minor
+2024-11-23 00:39:19,1781,1.12,230,0.73,Group Crossing,Adult,Peak,5267,Bicycle,69.78,-0.04,1,Red Light Violation,Clear,20.1,9.69,287.06,Low-light,Wet,1,Yellow,Don't Walk,87,0,47,15,Medium,Child Running,0,None
+2024-04-21 09:08:48,2398,1.59,224,2.31,Waiting,Elderly,Peak,8903,Bicycle,52.09,2.43,0,None,Rain,3.6,6.32,53.78,Daytime,Wet,0,Yellow,Walk,73,1,18,9,High,Emergency Vehicle,0,Fatal
+2024-03-03 06:56:46,1132,1.51,237,0.36,Normal,Adult,Peak,8262,Bicycle,42.69,0.17,0,Failed to Yield,Snow,29.4,6.8,402.24,Low-light,Snow-covered,0,Green,Don't Walk,82,1,28,10,High,Emergency Vehicle,0,Minor
+2024-09-04 09:12:01,2107,1.71,251,1.81,Normal,Child,Off-Peak,5019,Truck,20.51,0.38,1,Red Light Violation,Snow,13.1,6.2,380.53,Low-light,Snow-covered,1,Red,Don't Walk,42,1,46,7,High,Normal,1,Minor
+2024-09-25 05:05:28,3025,1.42,85,2.48,Jaywalking,Child,Off-Peak,7441,Bus,12.54,2.68,1,Failed to Yield,Snow,13.6,4.03,447.86,Low-light,Wet,1,Yellow,Don't Walk,44,1,40,10,High,Emergency Vehicle,0,None
+2024-02-02 17:36:47,9842,1.89,164,0.69,Jaywalking,Adult,Peak,9966,Motorcycle,28.14,-1.98,0,Red Light Violation,Clear,23.9,6.23,297.42,Nighttime,Dry,1,Green,Walk,76,1,24,17,Low,Child Running,1,Fatal
+2024-03-11 19:29:45,8275,1.82,286,0.35,Waiting,Elderly,Off-Peak,8123,Motorcycle,67.39,-1.5,1,None,Clear,19.2,5.28,940.7,Low-light,Dry,1,Yellow,Don't Walk,55,0,49,15,Medium,Normal,1,Major
+2024-04-07 11:25:00,5161,1.3,356,0.56,Normal,Elderly,Peak,7956,Car,68.37,2.92,0,Red Light Violation,Fog,-2.1,3.7,213.83,Daytime,Wet,1,Red,Walk,42,1,21,10,Medium,Emergency Vehicle,1,Fatal
+2024-01-07 13:06:03,3172,1.3,171,0.94,Group Crossing,Adult,Off-Peak,9960,Bus,15.68,-0.21,0,Failed to Yield,Clear,13.5,8.46,299.48,Low-light,Wet,1,Green,Walk,28,1,40,9,High,Normal,1,Minor
+2024-01-22 10:01:22,1235,1.81,179,1.33,Jaywalking,Child,Peak,9169,Car,72.45,-0.13,1,Failed to Yield,Fog,6.9,9.47,826.46,Low-light,Snow-covered,1,Yellow,Walk,79,1,22,13,Medium,Child Running,0,Fatal
+2024-01-02 16:23:55,5525,0.85,309,1.8,Waiting,Child,Off-Peak,8682,Bus,11.32,1.54,1,None,Clear,9.1,7.9,992.23,Low-light,Wet,0,Red,Don't Walk,41,0,28,19,High,Emergency Vehicle,1,Fatal
+2024-03-27 02:26:42,3479,1.63,296,0.3,Jaywalking,Adult,Peak,9538,Car,30.18,0.46,1,Red Light Violation,Snow,25.8,6.1,232.47,Daytime,Dry,0,Green,Don't Walk,90,1,48,1,Low,Emergency Vehicle,1,Major
+2024-03-04 23:54:29,8947,0.87,294,2.35,Waiting,Elderly,Peak,5034,Truck,45.87,-1.68,0,Failed to Yield,Snow,26.0,6.33,636.99,Low-light,Wet,1,Green,Don't Walk,77,1,22,10,High,Normal,1,None
+2024-07-05 17:15:46,2608,1.38,47,1.59,Group Crossing,Elderly,Peak,6539,Truck,26.92,-1.71,0,None,Fog,18.4,2.39,826.61,Low-light,Dry,1,Yellow,Don't Walk,11,1,37,2,Low,Normal,1,Fatal
+2024-03-21 04:12:39,4872,0.83,125,1.08,Waiting,Elderly,Off-Peak,6529,Car,21.07,1.96,0,None,Snow,-3.6,7.08,757.01,Nighttime,Wet,0,Green,Walk,14,0,14,1,Medium,Normal,0,Fatal
+2024-03-31 11:50:16,9377,1.9,121,2.0,Jaywalking,Adult,Peak,6233,Motorcycle,37.9,-1.5,1,None,Fog,12.3,9.68,704.55,Nighttime,Snow-covered,1,Red,Don't Walk,41,0,30,17,High,Emergency Vehicle,0,Fatal
+2024-07-18 09:55:02,7284,1.01,40,1.47,Group Crossing,Adult,Off-Peak,5458,Car,65.42,2.59,0,Failed to Yield,Clear,-2.6,5.25,866.34,Nighttime,Snow-covered,0,Red,Walk,23,0,37,5,Low,Emergency Vehicle,0,Fatal
+2024-07-25 21:23:11,4261,0.88,251,1.5,Jaywalking,Elderly,Off-Peak,6960,Truck,40.66,1.49,0,Failed to Yield,Rain,8.0,1.85,857.5,Daytime,Snow-covered,1,Green,Walk,50,0,7,11,Medium,Child Running,1,Major
+2024-03-27 07:03:45,4640,1.65,168,1.02,Group Crossing,Child,Off-Peak,9218,Bicycle,21.04,-1.1,1,Red Light Violation,Fog,15.1,2.33,518.01,Daytime,Dry,0,Yellow,Walk,15,0,43,4,High,Normal,1,Major
+2024-09-01 06:55:09,6048,0.85,1,2.34,Normal,Adult,Off-Peak,7833,Truck,66.85,1.34,1,Red Light Violation,Snow,7.7,3.84,842.56,Low-light,Wet,1,Green,Don't Walk,23,1,13,20,High,Emergency Vehicle,0,Major
+2024-11-23 00:06:56,1321,1.68,221,0.42,Normal,Elderly,Off-Peak,9956,Bus,44.38,-0.64,0,Red Light Violation,Fog,3.5,3.14,228.98,Daytime,Snow-covered,1,Yellow,Walk,35,1,21,8,High,Normal,1,None
+2024-08-06 16:30:06,6691,1.91,291,1.03,Group Crossing,Elderly,Peak,6650,Bicycle,59.39,0.84,0,None,Rain,1.5,0.63,422.1,Nighttime,Dry,0,Green,Don't Walk,81,0,37,7,Low,Emergency Vehicle,0,Fatal
+2024-08-07 13:56:58,3213,0.71,317,1.7,Waiting,Adult,Off-Peak,6788,Motorcycle,26.76,-0.06,1,None,Rain,12.8,4.72,816.3,Nighttime,Dry,0,Yellow,Don't Walk,12,1,31,5,Low,Normal,1,Fatal
+2024-10-09 21:26:52,5631,1.82,232,0.51,Group Crossing,Adult,Off-Peak,8543,Car,14.86,2.28,1,None,Snow,12.1,8.45,334.46,Low-light,Dry,1,Red,Don't Walk,28,0,26,5,Low,Child Running,0,Major
+2024-11-30 05:03:59,4617,1.23,280,0.82,Jaywalking,Adult,Peak,5807,Bus,10.2,2.44,1,Red Light Violation,Fog,30.9,1.71,562.93,Nighttime,Wet,1,Green,Don't Walk,26,0,8,7,Low,Child Running,1,None
+2024-09-12 07:28:44,5346,0.71,140,1.87,Waiting,Elderly,Peak,9168,Bus,60.9,-0.79,0,None,Clear,27.6,3.07,683.67,Nighttime,Dry,0,Red,Don't Walk,85,1,28,10,High,Emergency Vehicle,1,None
+2024-10-10 11:17:52,3356,1.18,203,1.42,Normal,Elderly,Peak,6144,Truck,32.64,-0.96,1,Failed to Yield,Clear,21.4,8.8,931.43,Daytime,Wet,0,Green,Walk,14,1,22,17,Medium,Child Running,0,Fatal
+2024-09-11 05:49:05,2405,1.49,16,0.95,Normal,Elderly,Off-Peak,5818,Car,70.69,1.25,0,Red Light Violation,Clear,4.7,9.35,666.35,Daytime,Snow-covered,0,Yellow,Don't Walk,26,0,39,10,High,Normal,0,Major
+2024-04-07 02:16:22,1297,1.7,204,1.74,Normal,Adult,Peak,9545,Car,16.48,-1.93,1,Red Light Violation,Snow,21.6,7.92,442.37,Low-light,Wet,1,Yellow,Don't Walk,33,0,48,2,Medium,Emergency Vehicle,1,Major
+2024-11-17 22:21:50,9032,1.25,228,0.67,Jaywalking,Elderly,Off-Peak,6062,Bicycle,47.98,2.94,0,Red Light Violation,Clear,4.9,9.25,259.04,Nighttime,Dry,1,Yellow,Walk,66,0,36,9,High,Emergency Vehicle,0,None
+2024-04-24 04:21:18,5882,1.34,312,1.83,Group Crossing,Adult,Peak,5186,Bicycle,51.92,1.93,0,None,Rain,5.5,9.25,896.55,Daytime,Wet,1,Green,Don't Walk,54,1,44,12,Low,Child Running,0,Major
+2024-02-06 02:01:42,6642,1.43,98,0.15,Jaywalking,Adult,Peak,7811,Bicycle,74.64,1.47,1,Failed to Yield,Clear,13.3,8.8,184.4,Nighttime,Snow-covered,1,Green,Walk,40,0,43,17,Low,Child Running,1,None
+2024-03-27 22:47:51,5256,1.16,207,1.96,Jaywalking,Adult,Peak,6810,Motorcycle,63.73,2.64,0,None,Clear,6.5,3.09,68.95,Nighttime,Wet,0,Green,Walk,15,0,47,17,Medium,Normal,0,Minor
+2024-05-31 02:07:39,7871,1.03,331,2.04,Waiting,Elderly,Off-Peak,5693,Bus,14.93,-0.74,1,None,Snow,7.5,2.73,829.56,Low-light,Wet,1,Green,Walk,12,1,5,14,Low,Normal,0,Minor
+2024-02-05 09:15:42,7393,0.77,261,2.04,Jaywalking,Adult,Off-Peak,5294,Truck,78.88,-0.78,1,Red Light Violation,Snow,28.1,9.12,452.29,Daytime,Snow-covered,1,Red,Walk,64,0,13,9,Medium,Normal,0,Fatal
+2024-07-05 11:36:50,2180,0.78,73,1.81,Group Crossing,Adult,Peak,6337,Car,77.78,-1.91,0,None,Snow,28.9,3.93,760.32,Nighttime,Wet,0,Yellow,Walk,65,1,44,4,Medium,Normal,0,None
+2024-08-11 02:59:44,8417,1.47,300,0.49,Waiting,Adult,Peak,6106,Bus,20.11,0.8,0,Failed to Yield,Clear,14.7,8.12,509.83,Daytime,Dry,1,Green,Don't Walk,60,1,10,13,Medium,Child Running,1,None
+2024-12-24 07:37:24,1452,1.91,313,1.53,Waiting,Elderly,Off-Peak,7764,Bus,70.74,-1.5,0,Failed to Yield,Fog,7.2,8.65,66.77,Daytime,Dry,1,Green,Walk,21,0,40,11,Low,Child Running,0,None
+2024-11-18 04:46:07,1648,0.69,303,1.32,Waiting,Elderly,Off-Peak,5210,Truck,21.33,0.64,0,Failed to Yield,Snow,24.6,2.35,650.58,Nighttime,Wet,0,Yellow,Walk,71,0,43,19,Medium,Child Running,1,Minor
+2024-09-14 03:25:48,4491,1.87,170,1.95,Waiting,Adult,Off-Peak,6587,Bus,10.49,1.07,1,Failed to Yield,Fog,6.8,9.25,245.62,Nighttime,Dry,0,Green,Walk,65,0,20,1,Low,Normal,0,Major
+2024-09-12 01:33:51,3429,1.97,314,0.76,Normal,Child,Off-Peak,5974,Motorcycle,57.3,-0.7,0,Failed to Yield,Snow,11.8,5.33,699.05,Daytime,Dry,0,Green,Walk,41,0,38,17,Medium,Emergency Vehicle,0,Major
+2024-12-05 14:29:16,7967,0.97,227,2.15,Jaywalking,Elderly,Peak,9956,Car,34.78,2.15,0,None,Rain,24.0,4.68,270.71,Low-light,Dry,1,Yellow,Walk,76,0,42,13,Medium,Normal,1,Major
+2024-06-30 23:54:17,8195,0.85,57,2.22,Jaywalking,Adult,Peak,7627,Motorcycle,41.77,-0.65,0,None,Snow,0.7,7.69,566.4,Daytime,Wet,1,Yellow,Walk,23,0,44,19,Medium,Emergency Vehicle,0,Minor
+2024-08-31 06:42:11,6288,0.69,223,2.16,Waiting,Child,Off-Peak,6264,Bus,37.2,0.22,1,Red Light Violation,Rain,-1.3,8.53,935.7,Low-light,Dry,0,Green,Walk,54,1,24,1,Medium,Normal,1,Fatal
+2024-12-26 14:20:16,7743,0.62,77,0.32,Jaywalking,Elderly,Off-Peak,7845,Car,20.31,-0.52,0,None,Clear,5.4,5.8,118.1,Low-light,Dry,1,Yellow,Walk,49,1,39,7,Low,Emergency Vehicle,0,Minor
+2024-09-24 19:31:45,3132,1.02,169,2.49,Group Crossing,Adult,Peak,8926,Truck,38.05,1.49,0,None,Rain,22.9,4.71,881.92,Daytime,Dry,1,Yellow,Don't Walk,67,1,8,20,High,Child Running,0,Major
+2024-07-14 04:49:50,4988,1.66,84,0.94,Group Crossing,Elderly,Off-Peak,6317,Motorcycle,48.2,0.07,0,None,Fog,-0.4,1.58,554.61,Low-light,Snow-covered,1,Yellow,Walk,10,1,12,9,Medium,Emergency Vehicle,0,None
+2024-09-21 09:43:57,5236,0.81,48,1.19,Waiting,Elderly,Peak,7493,Bicycle,57.73,-1.81,1,None,Fog,18.8,0.36,76.37,Nighttime,Dry,0,Red,Don't Walk,25,1,9,20,High,Normal,0,None
+2024-05-05 01:40:36,8047,1.11,291,1.03,Normal,Adult,Off-Peak,7140,Truck,13.91,0.69,1,None,Snow,14.0,7.58,385.15,Daytime,Snow-covered,0,Red,Don't Walk,63,0,7,8,High,Child Running,1,Major
+2024-08-22 23:07:35,7544,0.55,11,2.18,Group Crossing,Child,Off-Peak,5247,Motorcycle,28.89,2.69,0,None,Clear,-1.5,3.81,190.06,Daytime,Wet,1,Red,Don't Walk,47,0,15,4,High,Emergency Vehicle,0,Minor
+2024-02-01 19:12:49,4238,1.54,123,2.37,Waiting,Adult,Off-Peak,9536,Bus,47.35,2.8,1,Failed to Yield,Snow,31.5,1.09,518.91,Nighttime,Snow-covered,0,Yellow,Don't Walk,52,1,10,3,Medium,Child Running,1,Minor
+2024-01-06 20:22:44,3569,0.97,89,2.14,Normal,Child,Off-Peak,5073,Truck,79.79,-0.38,1,Failed to Yield,Clear,25.2,0.04,934.68,Low-light,Dry,1,Yellow,Don't Walk,39,1,17,15,High,Normal,1,Fatal
+2024-08-08 18:57:57,1008,1.25,159,0.94,Group Crossing,Child,Peak,5835,Bus,60.71,-0.71,0,Failed to Yield,Snow,-4.9,6.98,438.64,Daytime,Snow-covered,0,Yellow,Don't Walk,62,0,17,15,Medium,Emergency Vehicle,1,Minor
+2024-01-23 04:19:10,8411,1.83,52,2.28,Waiting,Elderly,Peak,7267,Car,61.68,0.01,0,Failed to Yield,Fog,15.8,2.45,967.65,Daytime,Dry,1,Red,Don't Walk,61,1,27,4,Low,Normal,0,None
+2024-04-15 20:23:41,1307,1.08,291,0.2,Normal,Adult,Peak,8284,Car,18.84,-0.68,1,Failed to Yield,Fog,9.0,2.35,404.81,Daytime,Snow-covered,0,Red,Walk,23,0,11,13,Medium,Normal,0,Major
+2024-10-14 15:03:21,8718,0.87,276,1.28,Normal,Elderly,Peak,9836,Truck,71.08,0.5,1,Red Light Violation,Fog,3.6,8.78,942.42,Nighttime,Wet,0,Red,Don't Walk,59,0,46,14,Low,Emergency Vehicle,0,Minor
+2024-12-16 07:58:29,3735,0.99,73,2.41,Normal,Child,Peak,7037,Bus,57.83,-0.93,0,Failed to Yield,Snow,19.6,4.86,691.41,Low-light,Snow-covered,0,Yellow,Walk,37,1,5,12,Medium,Child Running,0,None
+2024-07-01 02:52:32,9205,0.96,43,1.19,Waiting,Elderly,Peak,9410,Bicycle,43.92,-1.47,1,None,Fog,28.3,7.74,570.55,Daytime,Snow-covered,1,Red,Don't Walk,44,1,12,6,Medium,Child Running,1,Minor
+2024-06-28 07:19:19,5612,1.8,236,1.99,Waiting,Adult,Peak,7503,Bicycle,38.87,0.09,0,None,Clear,13.1,8.6,301.72,Nighttime,Wet,1,Yellow,Walk,81,0,33,7,High,Normal,1,Major
+2024-01-13 05:54:59,5964,1.47,196,0.15,Group Crossing,Child,Off-Peak,7413,Bicycle,30.46,1.71,1,Failed to Yield,Fog,-0.6,6.71,704.28,Nighttime,Dry,0,Red,Walk,19,1,39,19,Medium,Emergency Vehicle,1,Fatal
+2024-06-21 03:36:31,5005,0.87,335,0.48,Group Crossing,Child,Off-Peak,9521,Car,65.7,2.48,0,Red Light Violation,Snow,12.9,6.66,281.41,Low-light,Wet,1,Red,Don't Walk,31,1,39,11,Low,Normal,0,None
+2024-08-06 11:05:53,8653,0.57,50,2.47,Waiting,Elderly,Off-Peak,6042,Car,79.68,2.77,0,Red Light Violation,Snow,6.2,5.73,573.8,Daytime,Snow-covered,0,Red,Don't Walk,13,0,46,14,Low,Normal,0,None
+2024-04-16 10:47:27,1312,1.74,353,0.15,Waiting,Adult,Off-Peak,8870,Motorcycle,50.79,2.4,1,Red Light Violation,Fog,2.0,7.07,894.88,Daytime,Snow-covered,0,Red,Don't Walk,27,1,36,17,Medium,Child Running,0,Fatal
+2024-12-25 15:16:06,4559,1.25,333,1.31,Group Crossing,Elderly,Off-Peak,6820,Truck,62.27,2.73,1,Failed to Yield,Rain,16.4,6.71,730.3,Low-light,Dry,0,Green,Don't Walk,18,0,31,19,Medium,Normal,1,Minor
+2024-08-25 16:17:34,4770,0.86,342,1.59,Waiting,Adult,Off-Peak,5594,Bus,60.88,2.32,1,Failed to Yield,Rain,26.7,0.75,468.39,Daytime,Dry,0,Yellow,Walk,68,0,41,7,Medium,Child Running,1,Minor
+2024-10-29 19:34:09,6982,1.4,35,2.3,Jaywalking,Adult,Off-Peak,6589,Truck,18.12,-0.19,1,None,Fog,-0.8,2.91,884.64,Low-light,Dry,1,Red,Don't Walk,58,1,34,6,Medium,Emergency Vehicle,1,Minor
+2024-03-07 14:52:21,2073,1.34,185,0.12,Group Crossing,Adult,Off-Peak,8174,Car,61.56,2.55,0,None,Fog,22.7,0.27,554.1,Nighttime,Snow-covered,0,Red,Don't Walk,14,0,22,15,High,Normal,1,Minor
+2024-12-20 03:30:59,8841,1.81,152,1.92,Group Crossing,Adult,Peak,6118,Car,24.99,1.63,1,Red Light Violation,Snow,-2.8,2.33,72.92,Nighttime,Dry,0,Red,Don't Walk,24,1,20,1,Medium,Normal,1,None
+2024-06-11 07:59:43,3731,1.14,212,0.14,Normal,Child,Off-Peak,7976,Bus,52.87,1.56,1,Failed to Yield,Rain,33.7,4.78,307.72,Daytime,Dry,0,Red,Walk,28,0,36,14,High,Normal,0,Minor
+2024-03-24 04:39:32,2170,1.56,59,2.48,Waiting,Elderly,Peak,9429,Car,52.88,0.99,1,Failed to Yield,Fog,20.2,6.8,765.76,Nighttime,Dry,1,Yellow,Don't Walk,45,1,31,9,High,Child Running,0,Fatal
+2024-09-02 03:44:17,1235,0.93,234,2.06,Waiting,Child,Peak,6623,Truck,25.83,-1.74,0,Red Light Violation,Rain,26.3,7.87,311.33,Low-light,Dry,1,Green,Don't Walk,33,0,48,13,Medium,Normal,0,Major
+2024-07-23 02:36:56,6687,0.68,53,1.97,Normal,Child,Peak,5302,Bicycle,29.71,-0.7,0,None,Snow,15.1,5.7,918.28,Daytime,Wet,1,Green,Walk,88,1,7,2,High,Emergency Vehicle,1,Minor
+2024-10-23 17:43:01,4321,1.63,257,0.41,Jaywalking,Child,Off-Peak,6575,Motorcycle,32.25,2.3,1,Failed to Yield,Clear,-1.1,9.84,185.45,Daytime,Wet,1,Red,Walk,38,0,5,4,Low,Emergency Vehicle,1,Minor
+2024-04-12 12:27:21,2615,1.49,250,2.37,Waiting,Adult,Off-Peak,6694,Car,22.42,-1.4,0,Red Light Violation,Snow,13.9,6.29,572.65,Low-light,Wet,0,Yellow,Don't Walk,61,0,40,2,Low,Child Running,1,Major
+2024-09-02 17:12:00,8066,0.97,202,1.81,Jaywalking,Elderly,Off-Peak,8191,Car,18.09,-0.98,0,Failed to Yield,Clear,21.6,7.13,157.32,Daytime,Dry,1,Green,Don't Walk,20,0,7,7,Low,Child Running,1,Major
+2024-06-28 22:46:13,6547,1.67,337,1.43,Waiting,Adult,Off-Peak,8413,Bus,57.57,1.54,0,None,Fog,5.5,2.94,992.07,Daytime,Dry,0,Green,Don't Walk,28,0,20,4,Medium,Normal,0,Minor
+2024-04-15 10:51:25,1755,1.63,107,1.31,Jaywalking,Elderly,Peak,8059,Truck,63.2,-1.35,1,Red Light Violation,Rain,29.0,0.33,796.19,Nighttime,Wet,1,Green,Walk,83,0,30,16,Low,Child Running,1,Minor
+2024-08-23 15:09:33,2521,1.57,93,1.78,Waiting,Elderly,Peak,6689,Truck,54.38,2.59,0,None,Rain,7.2,9.16,753.75,Nighttime,Wet,1,Green,Don't Walk,47,0,9,3,High,Child Running,1,Fatal
+2024-12-02 21:56:15,9447,0.88,335,1.86,Jaywalking,Child,Off-Peak,8146,Bicycle,78.19,-0.71,0,None,Rain,24.4,7.7,799.75,Daytime,Wet,1,Green,Don't Walk,12,1,50,8,Low,Child Running,0,Fatal
+2024-10-11 15:31:53,8302,1.07,140,1.91,Group Crossing,Child,Peak,7603,Bus,76.02,-1.27,0,Failed to Yield,Clear,13.9,5.14,875.41,Low-light,Dry,1,Green,Walk,57,1,47,13,Low,Emergency Vehicle,0,Minor
+2024-08-28 05:51:25,8556,1.35,296,0.81,Jaywalking,Elderly,Peak,6090,Car,50.18,-0.86,0,Failed to Yield,Snow,2.3,9.57,331.25,Low-light,Wet,1,Yellow,Don't Walk,32,0,29,16,Low,Normal,1,Fatal
+2024-05-23 02:10:25,8646,1.53,276,1.7,Jaywalking,Adult,Peak,5602,Bus,36.66,2.21,1,Failed to Yield,Fog,17.8,4.3,121.94,Low-light,Wet,0,Red,Walk,22,0,41,3,High,Normal,1,Major
+2024-06-20 15:56:21,6477,1.99,130,0.23,Normal,Adult,Peak,8972,Motorcycle,64.84,-0.87,0,Red Light Violation,Rain,6.7,9.12,963.8,Daytime,Snow-covered,0,Yellow,Walk,38,1,19,6,Low,Emergency Vehicle,1,Minor
+2024-01-12 02:56:03,7966,1.21,316,0.54,Group Crossing,Adult,Peak,7177,Motorcycle,61.89,0.4,0,Red Light Violation,Clear,14.5,7.37,692.12,Daytime,Wet,1,Yellow,Walk,61,0,8,20,Medium,Emergency Vehicle,1,Minor
+2024-10-26 07:59:50,4872,0.99,337,0.26,Jaywalking,Child,Peak,9095,Car,16.96,1.65,0,Red Light Violation,Fog,17.6,3.38,514.29,Nighttime,Wet,0,Yellow,Walk,10,1,37,16,Low,Normal,0,Major
+2024-11-14 02:47:17,9207,1.22,114,1.61,Jaywalking,Elderly,Off-Peak,5126,Bus,42.78,2.53,0,None,Clear,-1.8,5.46,213.45,Daytime,Snow-covered,0,Yellow,Don't Walk,50,1,14,3,Medium,Normal,1,None
+2024-07-12 16:22:29,9229,1.56,253,2.19,Normal,Adult,Peak,9499,Truck,48.57,2.61,1,Failed to Yield,Clear,31.7,9.66,779.53,Low-light,Snow-covered,1,Green,Walk,40,0,34,9,Medium,Child Running,1,Fatal
+2024-04-16 00:34:36,5803,1.47,261,0.32,Normal,Elderly,Off-Peak,7472,Truck,17.76,1.39,0,Red Light Violation,Rain,23.4,5.99,988.88,Daytime,Wet,0,Green,Don't Walk,24,1,29,7,Low,Child Running,0,Major
+2024-01-28 19:45:48,7064,1.11,94,0.17,Normal,Child,Off-Peak,5375,Car,24.99,2.5,1,Failed to Yield,Clear,27.2,9.1,649.98,Low-light,Dry,1,Red,Walk,51,1,19,10,Medium,Emergency Vehicle,0,Major
+2024-01-27 17:57:25,8319,1.92,189,0.97,Jaywalking,Child,Off-Peak,6884,Truck,53.94,-1.89,0,Failed to Yield,Fog,27.7,1.62,568.14,Low-light,Snow-covered,1,Yellow,Don't Walk,13,0,40,2,Medium,Child Running,1,Minor
+2024-04-21 18:32:18,8031,1.04,29,0.22,Group Crossing,Elderly,Peak,9207,Car,68.53,-1.2,0,Failed to Yield,Clear,29.6,7.94,487.17,Nighttime,Dry,1,Yellow,Walk,61,1,30,15,Medium,Emergency Vehicle,0,Major
+2024-01-18 02:46:07,2021,0.86,161,0.65,Waiting,Elderly,Peak,8235,Bus,34.31,0.87,1,Red Light Violation,Snow,26.7,7.65,227.09,Daytime,Snow-covered,0,Yellow,Don't Walk,68,0,39,9,High,Child Running,1,Major
+2024-11-16 20:05:35,7887,1.35,131,2.38,Waiting,Elderly,Off-Peak,8773,Car,72.29,2.76,0,Failed to Yield,Rain,-1.4,2.19,309.16,Nighttime,Dry,1,Yellow,Walk,70,1,35,16,High,Emergency Vehicle,0,Major
+2024-09-04 16:37:55,8396,1.46,78,0.91,Waiting,Adult,Off-Peak,7896,Motorcycle,24.19,2.15,0,Red Light Violation,Snow,4.6,6.7,141.03,Low-light,Snow-covered,1,Yellow,Walk,62,1,15,16,High,Child Running,0,Minor
+2024-11-18 07:17:48,5173,1.41,335,1.25,Jaywalking,Elderly,Off-Peak,8835,Motorcycle,58.33,-1.6,0,Red Light Violation,Fog,22.9,1.89,86.07,Daytime,Snow-covered,0,Yellow,Walk,20,1,7,6,Medium,Normal,0,Fatal
+2024-05-02 19:10:03,7512,1.31,30,1.57,Jaywalking,Child,Peak,9536,Motorcycle,49.65,-0.89,0,Red Light Violation,Rain,18.4,6.65,387.24,Nighttime,Snow-covered,1,Yellow,Walk,32,0,50,14,Medium,Emergency Vehicle,0,Fatal
+2024-04-17 15:02:28,3854,1.77,358,1.18,Normal,Elderly,Off-Peak,9846,Motorcycle,71.03,-1.76,0,None,Fog,29.4,4.45,948.68,Low-light,Snow-covered,1,Green,Walk,44,0,46,10,Low,Emergency Vehicle,0,Fatal
+2024-05-26 19:07:52,1037,1.06,165,1.73,Waiting,Adult,Off-Peak,7613,Bus,63.26,0.87,1,Red Light Violation,Clear,22.6,6.0,852.46,Nighttime,Wet,0,Red,Walk,19,0,14,14,Low,Normal,0,Major
+2024-10-21 20:50:30,6612,1.83,70,0.3,Normal,Elderly,Off-Peak,7142,Motorcycle,15.27,1.57,0,None,Snow,9.8,3.95,263.97,Nighttime,Wet,1,Yellow,Walk,53,1,7,4,Medium,Emergency Vehicle,1,Minor
+2024-01-18 16:35:53,9549,1.5,153,1.05,Waiting,Elderly,Off-Peak,7976,Motorcycle,69.07,2.08,0,Red Light Violation,Snow,31.3,0.36,167.75,Daytime,Dry,1,Red,Don't Walk,77,1,8,12,High,Child Running,1,None
+2024-07-19 12:30:01,6641,1.11,154,1.53,Group Crossing,Adult,Off-Peak,9257,Truck,26.54,1.67,0,Failed to Yield,Snow,28.9,5.23,433.58,Low-light,Wet,1,Yellow,Don't Walk,30,0,41,19,Low,Normal,1,Fatal
+2024-08-08 17:56:53,7840,1.73,359,0.5,Jaywalking,Child,Off-Peak,8984,Bicycle,62.53,2.02,0,Red Light Violation,Rain,8.7,6.73,243.19,Daytime,Dry,0,Red,Don't Walk,12,0,41,9,High,Child Running,1,None
+2024-08-17 21:30:00,9827,0.98,356,2.46,Group Crossing,Adult,Peak,6998,Bus,78.15,0.87,1,Failed to Yield,Clear,29.0,8.81,668.12,Low-light,Dry,0,Yellow,Walk,26,1,16,9,Medium,Child Running,0,None
+2024-09-23 14:06:10,6164,1.47,153,0.69,Jaywalking,Child,Off-Peak,8480,Car,29.47,0.91,0,Failed to Yield,Clear,23.8,4.66,735.94,Low-light,Wet,0,Red,Don't Walk,61,1,38,18,Medium,Emergency Vehicle,1,Major
+2024-07-22 19:05:00,7176,1.39,164,2.45,Normal,Elderly,Peak,8639,Truck,70.76,1.95,0,Red Light Violation,Fog,3.4,2.41,160.28,Nighttime,Snow-covered,0,Red,Walk,67,1,46,20,High,Normal,1,Major
+2024-05-30 14:19:57,8915,0.51,269,1.08,Waiting,Child,Peak,6316,Truck,56.32,1.32,0,Failed to Yield,Rain,-1.1,4.46,217.99,Daytime,Snow-covered,1,Red,Walk,50,0,37,15,High,Child Running,1,Fatal
+2024-11-08 02:05:54,6164,0.8,169,0.2,Jaywalking,Child,Off-Peak,6183,Truck,41.25,-1.81,0,Red Light Violation,Rain,31.2,1.2,218.69,Daytime,Dry,0,Red,Don't Walk,22,0,35,2,Medium,Child Running,1,None
+2024-08-07 01:39:57,2312,0.83,8,0.9,Normal,Elderly,Off-Peak,7006,Car,29.41,2.22,0,Failed to Yield,Rain,19.3,6.74,343.16,Nighttime,Snow-covered,1,Yellow,Don't Walk,34,0,49,7,Low,Emergency Vehicle,0,Minor
+2024-05-14 08:16:40,4138,1.13,350,0.6,Normal,Adult,Peak,8606,Car,70.2,-1.09,1,Failed to Yield,Rain,-2.5,3.7,650.89,Daytime,Snow-covered,0,Yellow,Don't Walk,47,0,20,13,Medium,Child Running,0,Fatal
+2024-07-27 12:14:49,2539,1.24,126,2.26,Jaywalking,Child,Peak,7969,Bus,50.21,-0.63,0,None,Rain,2.6,6.41,704.02,Low-light,Dry,0,Green,Don't Walk,83,0,38,15,Low,Normal,1,None
+2024-11-28 14:58:38,7054,0.85,270,2.01,Waiting,Child,Peak,9388,Motorcycle,16.89,1.42,1,None,Rain,10.9,2.1,423.75,Nighttime,Dry,1,Green,Walk,49,0,40,20,High,Normal,1,Major
+2024-04-09 21:44:52,5279,0.89,50,1.1,Group Crossing,Adult,Off-Peak,7784,Car,78.98,-1.37,0,Red Light Violation,Clear,20.7,0.13,150.08,Low-light,Snow-covered,0,Red,Walk,30,1,27,18,Medium,Child Running,0,Major
+2024-01-25 19:43:33,1356,1.48,360,0.76,Jaywalking,Child,Peak,6157,Truck,34.84,2.05,0,Red Light Violation,Fog,-1.3,9.02,327.78,Nighttime,Snow-covered,0,Green,Walk,42,0,30,19,High,Child Running,1,Minor
+2024-01-05 11:45:12,7652,0.6,81,0.32,Jaywalking,Elderly,Peak,8391,Motorcycle,19.62,0.93,1,None,Rain,1.6,6.9,571.35,Daytime,Snow-covered,1,Red,Don't Walk,89,0,31,18,High,Child Running,1,Fatal
+2024-09-09 04:32:47,4136,1.68,222,1.33,Waiting,Elderly,Peak,6139,Bus,18.28,-0.98,0,Red Light Violation,Clear,29.6,3.16,386.36,Daytime,Wet,1,Green,Don't Walk,67,0,50,20,High,Child Running,1,Major
+2024-01-14 21:19:52,7103,1.14,209,0.14,Jaywalking,Adult,Off-Peak,7802,Car,13.35,2.5,1,Failed to Yield,Clear,16.0,2.54,834.85,Daytime,Wet,1,Yellow,Don't Walk,88,1,23,9,High,Normal,1,Minor
+2024-11-28 18:49:01,8722,1.75,6,2.26,Group Crossing,Child,Peak,8705,Bicycle,66.81,-1.85,0,None,Rain,24.3,0.2,668.25,Low-light,Wet,0,Red,Walk,79,0,48,10,Low,Emergency Vehicle,1,Fatal
+2024-07-24 11:04:45,2119,1.41,282,0.34,Normal,Elderly,Peak,7337,Truck,75.37,-0.83,0,Failed to Yield,Snow,4.0,2.44,530.9,Low-light,Snow-covered,0,Red,Walk,12,0,5,4,Low,Emergency Vehicle,0,Fatal
+2024-06-19 04:56:16,2851,0.52,49,0.65,Waiting,Elderly,Off-Peak,9445,Motorcycle,54.96,1.52,0,Red Light Violation,Rain,14.7,2.09,275.16,Low-light,Dry,0,Yellow,Walk,21,0,40,7,Medium,Child Running,0,None
+2024-07-01 14:57:23,5245,0.78,151,0.46,Jaywalking,Child,Peak,7331,Car,64.32,0.79,1,Failed to Yield,Clear,25.8,1.22,177.53,Low-light,Snow-covered,0,Yellow,Walk,67,0,48,15,Low,Child Running,1,Major
+2024-09-30 03:13:48,2985,0.83,260,0.81,Waiting,Adult,Peak,8588,Car,27.54,1.33,0,None,Rain,-0.8,6.69,490.11,Nighttime,Wet,1,Yellow,Walk,30,1,43,8,Medium,Normal,0,None
+2024-09-21 07:34:18,8062,0.76,153,0.24,Waiting,Elderly,Off-Peak,9622,Motorcycle,48.79,2.88,0,Red Light Violation,Snow,12.8,3.3,338.73,Low-light,Snow-covered,0,Yellow,Don't Walk,50,1,37,12,Low,Emergency Vehicle,1,Fatal
+2024-11-29 05:09:59,2600,1.42,254,1.2,Normal,Adult,Peak,7410,Bicycle,55.41,-1.81,0,Failed to Yield,Clear,29.8,9.43,922.17,Daytime,Dry,1,Yellow,Walk,23,1,36,10,Medium,Child Running,1,Major
+2024-09-30 16:00:15,3837,1.29,1,2.31,Jaywalking,Elderly,Peak,7018,Truck,49.2,2.09,1,Failed to Yield,Snow,-0.4,8.07,899.91,Nighttime,Wet,0,Yellow,Walk,87,1,11,20,Low,Normal,0,Fatal
+2024-11-12 19:28:19,1754,1.83,266,1.68,Jaywalking,Child,Peak,6862,Motorcycle,59.47,0.79,1,Failed to Yield,Snow,12.0,5.0,722.14,Nighttime,Snow-covered,0,Green,Don't Walk,11,0,27,18,Low,Child Running,0,Minor
+2024-10-27 22:51:38,2309,0.74,294,2.35,Waiting,Elderly,Off-Peak,9818,Bicycle,61.2,0.73,1,Red Light Violation,Fog,30.7,9.12,292.3,Nighttime,Snow-covered,0,Green,Walk,66,0,26,11,Low,Normal,0,Fatal
+2024-03-07 16:25:49,8333,1.17,287,1.29,Normal,Elderly,Peak,7705,Car,74.01,-1.02,1,None,Clear,15.0,3.08,598.32,Nighttime,Dry,0,Red,Don't Walk,53,1,41,19,High,Normal,0,Fatal
+2024-12-06 00:57:40,6332,0.5,172,1.79,Jaywalking,Elderly,Peak,7226,Bus,15.4,1.33,0,Failed to Yield,Clear,30.0,2.09,843.19,Low-light,Wet,1,Yellow,Don't Walk,24,0,22,12,Low,Normal,0,Major
+2024-03-20 10:47:41,1389,0.72,236,0.88,Jaywalking,Adult,Peak,5454,Car,69.9,-0.29,1,None,Clear,3.3,1.13,950.31,Low-light,Wet,1,Green,Don't Walk,83,0,28,12,Medium,Child Running,1,Fatal
+2024-06-09 15:23:35,1472,1.36,341,2.11,Normal,Elderly,Off-Peak,5052,Motorcycle,63.12,2.08,1,Failed to Yield,Rain,18.2,0.32,997.74,Daytime,Wet,0,Green,Don't Walk,60,0,19,4,Low,Normal,1,Minor
+2024-03-27 22:48:31,6906,0.57,97,2.31,Normal,Child,Off-Peak,9698,Bus,16.07,-1.63,0,None,Snow,21.0,3.33,949.12,Daytime,Snow-covered,1,Yellow,Walk,68,1,23,1,Low,Emergency Vehicle,0,None
+2024-05-04 20:53:33,3956,1.18,206,1.07,Normal,Child,Off-Peak,9430,Car,32.53,1.56,1,Failed to Yield,Rain,8.5,0.3,808.79,Daytime,Wet,0,Green,Walk,79,0,32,8,Low,Emergency Vehicle,1,Minor
+2024-11-11 21:24:05,3178,1.25,334,0.26,Group Crossing,Adult,Peak,9105,Car,19.21,1.0,0,Failed to Yield,Clear,24.5,9.02,137.5,Low-light,Wet,1,Yellow,Walk,18,1,22,13,Low,Normal,0,Major
+2024-05-08 14:40:56,3540,1.4,336,0.39,Jaywalking,Adult,Peak,8308,Car,53.79,-1.75,0,Red Light Violation,Snow,13.4,4.31,770.34,Low-light,Snow-covered,1,Yellow,Don't Walk,41,0,12,5,Medium,Normal,0,Minor
+2024-07-26 01:42:27,7571,0.86,28,0.15,Waiting,Adult,Peak,7389,Truck,68.33,0.95,0,Failed to Yield,Snow,35.0,9.9,56.15,Daytime,Wet,1,Green,Walk,20,1,14,6,Medium,Emergency Vehicle,0,Fatal
+2024-01-31 00:47:24,5554,1.47,144,0.62,Group Crossing,Child,Peak,5900,Bus,36.83,1.08,1,Red Light Violation,Snow,2.8,4.01,781.15,Nighttime,Wet,1,Green,Walk,62,1,11,5,Medium,Normal,1,Minor
+2024-08-15 17:47:34,2725,0.87,292,0.14,Normal,Adult,Off-Peak,8635,Motorcycle,26.61,2.96,1,Red Light Violation,Fog,15.2,4.47,339.33,Daytime,Wet,1,Yellow,Don't Walk,10,1,38,8,High,Child Running,1,Major
+2024-12-20 05:28:07,2450,1.39,272,0.39,Jaywalking,Child,Off-Peak,6031,Motorcycle,61.07,2.02,1,Red Light Violation,Snow,29.1,2.99,350.47,Daytime,Wet,1,Green,Don't Walk,28,0,14,20,Medium,Child Running,1,Major
+2024-07-10 12:32:54,5234,1.77,354,0.46,Normal,Elderly,Off-Peak,6895,Bicycle,21.32,2.9,0,Failed to Yield,Snow,-2.4,5.49,162.29,Low-light,Snow-covered,1,Yellow,Don't Walk,86,1,24,9,Medium,Emergency Vehicle,1,Minor
+2024-04-03 02:31:45,3012,0.8,290,0.68,Group Crossing,Elderly,Peak,5488,Bicycle,13.16,0.23,1,Failed to Yield,Snow,1.3,8.24,890.48,Low-light,Dry,0,Red,Don't Walk,77,0,45,13,Medium,Normal,1,Major
+2024-09-16 10:09:32,8156,0.55,281,0.81,Jaywalking,Child,Peak,6053,Car,15.17,0.64,1,Red Light Violation,Rain,29.4,4.25,117.59,Nighttime,Dry,1,Green,Walk,80,1,23,3,High,Normal,0,None
+2024-07-15 18:31:23,1829,1.07,87,1.49,Group Crossing,Adult,Peak,9509,Car,40.21,2.53,0,Red Light Violation,Clear,18.4,8.72,636.63,Low-light,Snow-covered,0,Yellow,Walk,24,0,42,2,Medium,Emergency Vehicle,0,Major
+2024-06-30 21:39:51,9022,1.39,239,1.57,Normal,Child,Peak,8330,Bus,13.06,-0.02,0,None,Clear,5.4,2.82,936.96,Daytime,Dry,0,Yellow,Walk,65,0,50,8,High,Normal,0,None
+2024-10-27 04:11:59,8970,0.52,333,1.73,Normal,Adult,Peak,5563,Car,16.43,-0.28,1,Red Light Violation,Snow,13.7,7.63,609.78,Nighttime,Dry,1,Yellow,Don't Walk,53,1,37,11,High,Normal,1,None
+2024-05-18 23:19:37,6267,0.65,279,2.21,Normal,Adult,Off-Peak,9365,Car,13.18,0.07,0,None,Rain,31.0,9.9,627.41,Nighttime,Wet,0,Red,Walk,65,1,48,9,Low,Child Running,1,Major
+2024-01-30 15:12:26,7487,1.68,177,2.16,Group Crossing,Child,Peak,5437,Car,59.72,0.45,0,Failed to Yield,Clear,21.5,5.57,411.38,Nighttime,Snow-covered,0,Green,Don't Walk,62,0,40,15,Medium,Emergency Vehicle,1,None
+2024-08-07 12:02:48,3043,1.27,32,1.99,Waiting,Child,Off-Peak,9734,Motorcycle,20.23,-1.31,0,None,Fog,4.2,7.89,444.68,Low-light,Wet,1,Green,Don't Walk,90,0,46,15,Low,Normal,1,None
+2024-06-07 10:59:56,3404,1.75,23,0.47,Group Crossing,Child,Peak,7144,Bicycle,74.06,2.35,0,Red Light Violation,Clear,3.4,1.68,796.22,Nighttime,Wet,0,Red,Don't Walk,16,1,39,11,High,Normal,1,Fatal
+2024-05-10 17:45:27,9188,1.94,247,1.63,Jaywalking,Child,Off-Peak,6131,Motorcycle,15.75,2.43,0,Red Light Violation,Fog,10.4,9.26,191.18,Low-light,Snow-covered,1,Yellow,Walk,32,1,31,5,Low,Emergency Vehicle,0,None
+2024-05-09 14:43:36,3125,0.51,101,0.22,Group Crossing,Child,Peak,6742,Motorcycle,24.63,2.14,1,Red Light Violation,Snow,13.9,4.53,486.12,Daytime,Wet,0,Green,Walk,40,0,31,17,High,Child Running,0,Minor
+2024-06-05 05:00:18,1567,1.41,206,0.25,Normal,Child,Peak,8934,Truck,63.21,-1.25,0,Red Light Violation,Clear,12.2,3.79,920.36,Nighttime,Wet,0,Red,Walk,51,0,25,6,High,Emergency Vehicle,0,Major
+2024-07-26 13:48:42,8400,1.54,315,0.74,Group Crossing,Child,Peak,8604,Truck,58.64,1.37,1,Red Light Violation,Snow,31.0,9.19,285.68,Nighttime,Wet,1,Yellow,Don't Walk,64,1,11,15,Low,Child Running,0,Major
+2024-12-24 05:31:42,6850,1.95,75,1.21,Group Crossing,Adult,Peak,8042,Truck,20.06,0.48,0,None,Clear,1.7,9.35,268.55,Nighttime,Snow-covered,0,Yellow,Walk,89,0,26,17,High,Emergency Vehicle,1,Minor
+2024-01-18 11:41:51,5563,1.25,97,0.52,Group Crossing,Child,Peak,6880,Truck,16.61,-0.21,0,None,Rain,8.5,9.11,594.78,Daytime,Dry,0,Yellow,Don't Walk,54,1,18,2,Low,Emergency Vehicle,1,None
+2024-12-18 03:21:27,1391,1.66,293,1.94,Group Crossing,Child,Off-Peak,7569,Bus,27.47,2.61,1,Failed to Yield,Fog,27.3,5.98,658.0,Low-light,Dry,0,Red,Walk,71,0,8,19,Medium,Normal,1,Fatal
+2024-12-06 22:34:42,9587,1.61,305,2.46,Group Crossing,Child,Off-Peak,5602,Bicycle,75.5,0.97,0,Red Light Violation,Fog,0.9,9.07,263.73,Low-light,Wet,0,Red,Walk,84,1,50,14,High,Child Running,1,Major
+2024-09-15 04:38:42,8204,1.41,181,0.73,Jaywalking,Child,Peak,8513,Truck,44.17,-0.01,1,Failed to Yield,Snow,28.5,5.45,870.62,Daytime,Dry,1,Yellow,Don't Walk,57,1,21,14,Medium,Normal,0,Minor
+2024-06-26 06:27:47,3917,1.03,45,1.12,Group Crossing,Child,Peak,5671,Bus,43.53,0.12,0,Failed to Yield,Rain,29.7,3.92,531.8,Daytime,Snow-covered,0,Green,Walk,58,1,10,5,Medium,Normal,0,Major
+2024-04-25 01:42:16,1277,1.39,215,1.98,Group Crossing,Child,Peak,8475,Truck,71.1,2.95,1,Failed to Yield,Fog,18.9,4.28,572.65,Low-light,Snow-covered,1,Green,Walk,35,1,48,12,Medium,Emergency Vehicle,1,Major
+2024-11-17 12:07:36,3171,1.98,204,1.27,Normal,Elderly,Peak,6822,Car,73.34,-0.06,0,Failed to Yield,Snow,20.4,8.06,370.78,Daytime,Snow-covered,1,Green,Don't Walk,18,1,21,19,Medium,Child Running,0,None
+2024-07-06 04:21:01,1444,1.38,2,2.09,Normal,Child,Off-Peak,7795,Car,68.64,0.74,1,Red Light Violation,Rain,25.0,0.84,596.43,Nighttime,Snow-covered,0,Yellow,Walk,75,0,19,19,Low,Child Running,1,Major
+2024-02-04 16:03:43,5463,1.46,302,0.96,Normal,Child,Off-Peak,5606,Bicycle,37.78,2.33,0,None,Rain,23.0,2.78,223.97,Low-light,Dry,0,Yellow,Don't Walk,59,0,14,9,Medium,Emergency Vehicle,1,Fatal
+2024-03-21 19:02:34,1775,0.92,246,0.47,Group Crossing,Child,Off-Peak,7799,Bus,19.88,0.05,1,None,Fog,25.9,3.79,831.85,Daytime,Dry,1,Green,Don't Walk,87,1,49,4,High,Child Running,0,None
+2024-12-26 10:29:56,9114,1.19,280,0.5,Normal,Elderly,Peak,6858,Truck,29.18,0.06,0,Red Light Violation,Fog,32.3,8.55,222.19,Daytime,Dry,1,Red,Walk,55,1,31,10,Medium,Child Running,1,Fatal
+2024-12-21 20:01:43,5474,1.76,103,1.42,Group Crossing,Elderly,Peak,9705,Truck,32.75,2.85,0,None,Fog,33.5,7.98,613.69,Low-light,Wet,1,Yellow,Don't Walk,90,0,47,14,Medium,Emergency Vehicle,1,Major
+2024-08-29 00:51:03,6287,1.61,113,2.36,Waiting,Adult,Off-Peak,5990,Bicycle,23.79,0.75,0,None,Clear,19.0,5.38,487.79,Daytime,Dry,0,Green,Don't Walk,15,0,10,20,Low,Child Running,0,Minor
+2024-05-18 03:26:44,1545,1.36,172,1.83,Jaywalking,Child,Peak,5651,Car,19.06,-0.86,0,None,Clear,18.1,3.88,666.28,Low-light,Wet,1,Red,Walk,47,1,26,2,High,Emergency Vehicle,1,Fatal
+2024-12-04 10:41:27,3751,0.51,128,0.42,Group Crossing,Adult,Peak,8762,Truck,70.82,0.43,0,Red Light Violation,Fog,23.8,3.81,530.02,Low-light,Snow-covered,0,Green,Walk,35,0,45,7,Low,Normal,0,Fatal
+2024-05-20 01:44:48,2152,1.89,68,1.74,Jaywalking,Child,Off-Peak,8629,Motorcycle,22.11,2.0,0,None,Snow,12.4,3.11,731.95,Nighttime,Dry,0,Green,Don't Walk,59,1,24,3,Low,Normal,1,None
+2024-01-22 07:34:40,8442,0.52,113,2.08,Waiting,Adult,Peak,8609,Bus,22.17,-1.28,1,Failed to Yield,Rain,14.9,5.7,745.31,Nighttime,Dry,1,Yellow,Walk,80,1,40,12,High,Child Running,1,Major
+2024-11-19 23:17:20,3313,1.38,102,1.49,Jaywalking,Adult,Peak,9460,Car,14.06,-0.33,0,Red Light Violation,Fog,-3.9,6.01,251.26,Low-light,Snow-covered,1,Red,Don't Walk,64,1,10,13,High,Emergency Vehicle,0,None
+2024-10-19 10:31:09,1493,1.81,294,1.86,Waiting,Child,Off-Peak,9533,Car,10.2,0.02,1,Red Light Violation,Clear,-4.2,5.92,617.82,Nighttime,Snow-covered,1,Green,Don't Walk,15,1,17,16,High,Child Running,1,Fatal
+2024-06-02 11:56:05,7311,1.62,340,2.41,Waiting,Elderly,Peak,9121,Car,25.07,0.79,1,Failed to Yield,Snow,18.3,9.59,627.55,Daytime,Wet,0,Red,Walk,87,0,25,6,Low,Emergency Vehicle,1,Major
+2024-05-18 06:13:58,7949,1.74,150,0.35,Normal,Elderly,Off-Peak,6357,Bicycle,22.57,2.93,0,Red Light Violation,Rain,8.6,2.17,892.3,Nighttime,Wet,0,Yellow,Don't Walk,62,0,40,14,High,Emergency Vehicle,1,Major
+2024-05-22 11:07:03,5163,1.68,354,0.25,Group Crossing,Child,Off-Peak,8042,Motorcycle,69.71,-1.13,1,Failed to Yield,Fog,3.0,6.59,951.05,Nighttime,Wet,1,Red,Don't Walk,67,0,37,14,Medium,Child Running,1,None
+2024-08-18 11:36:37,9653,1.86,230,0.44,Normal,Adult,Off-Peak,7144,Motorcycle,51.34,-1.02,0,None,Fog,-4.1,6.69,802.03,Nighttime,Wet,1,Red,Don't Walk,41,0,6,11,High,Normal,0,Fatal
+2024-02-29 05:28:39,6823,1.86,237,1.67,Jaywalking,Elderly,Peak,9490,Bicycle,63.53,-0.79,0,Red Light Violation,Clear,11.2,4.88,230.87,Nighttime,Wet,0,Red,Don't Walk,21,0,23,10,Low,Normal,1,Fatal
+2024-01-24 17:19:53,7383,1.87,96,2.33,Normal,Elderly,Off-Peak,9313,Truck,50.31,-0.13,0,None,Rain,7.7,5.18,918.99,Low-light,Snow-covered,1,Green,Walk,23,1,48,9,High,Emergency Vehicle,1,Fatal
+2024-05-14 23:39:58,4761,1.31,145,0.36,Group Crossing,Adult,Peak,9324,Bus,38.21,2.92,1,None,Snow,5.8,7.32,990.09,Daytime,Snow-covered,1,Yellow,Don't Walk,77,0,41,8,High,Normal,0,Fatal
+2024-10-19 22:19:26,5689,1.15,302,0.78,Jaywalking,Elderly,Off-Peak,9678,Motorcycle,54.35,1.58,1,Red Light Violation,Snow,19.5,8.98,823.0,Low-light,Snow-covered,1,Red,Don't Walk,20,1,26,18,Medium,Normal,0,Major
+2024-08-25 17:52:42,8902,1.22,208,1.06,Waiting,Child,Off-Peak,9393,Bus,17.58,1.29,1,Red Light Violation,Rain,0.7,7.44,344.47,Low-light,Wet,0,Yellow,Don't Walk,18,1,14,5,Low,Normal,0,Minor
+2024-07-25 10:49:50,8351,0.83,65,0.4,Normal,Child,Peak,9026,Motorcycle,33.09,0.59,1,Red Light Violation,Snow,6.5,9.17,916.07,Low-light,Snow-covered,0,Green,Don't Walk,32,0,27,8,Low,Emergency Vehicle,1,None
+2024-01-28 04:53:39,5124,0.95,105,0.74,Normal,Child,Peak,7137,Truck,16.46,1.66,1,Failed to Yield,Fog,13.6,0.88,426.25,Nighttime,Wet,0,Red,Don't Walk,14,1,36,19,High,Emergency Vehicle,1,None
+2024-11-04 20:02:28,5757,1.92,86,0.43,Group Crossing,Child,Off-Peak,8541,Bicycle,30.41,-0.73,0,None,Clear,20.2,7.43,964.3,Low-light,Dry,0,Yellow,Walk,59,0,28,17,High,Normal,1,Major
+2024-08-03 13:20:04,1903,1.66,221,1.68,Waiting,Adult,Peak,5878,Motorcycle,76.04,-0.74,1,Failed to Yield,Fog,12.9,8.97,146.65,Low-light,Snow-covered,1,Yellow,Don't Walk,44,0,36,17,High,Normal,1,Minor
+2024-12-17 06:44:18,4183,1.44,284,1.09,Waiting,Child,Off-Peak,6416,Motorcycle,43.45,-1.9,1,Red Light Violation,Snow,10.9,8.04,248.32,Nighttime,Dry,1,Yellow,Don't Walk,88,0,8,7,High,Child Running,0,Minor
+2024-08-21 20:52:31,2345,1.12,170,2.19,Waiting,Child,Off-Peak,6603,Bicycle,36.77,1.54,0,Failed to Yield,Clear,12.7,4.24,297.18,Low-light,Dry,0,Yellow,Walk,68,0,28,3,Low,Child Running,0,Minor
+2024-12-16 14:37:29,6742,1.69,355,1.55,Jaywalking,Elderly,Peak,6056,Truck,31.74,-0.27,0,None,Clear,31.7,1.15,580.24,Low-light,Dry,0,Green,Don't Walk,38,1,28,19,High,Child Running,0,Fatal
+2024-06-08 17:52:34,4859,1.58,56,1.94,Normal,Elderly,Peak,5477,Bus,60.6,1.54,1,None,Snow,27.4,8.04,52.12,Low-light,Wet,1,Yellow,Walk,75,0,38,7,Medium,Emergency Vehicle,1,None
+2024-08-26 20:15:56,1847,0.56,1,0.47,Normal,Child,Peak,6204,Bus,13.88,1.67,0,Failed to Yield,Fog,16.9,1.7,320.43,Nighttime,Dry,1,Yellow,Don't Walk,75,1,48,10,Medium,Emergency Vehicle,1,Minor
+2024-02-02 01:40:01,8946,0.78,31,2.09,Jaywalking,Adult,Off-Peak,5798,Truck,57.52,1.68,0,None,Clear,17.6,4.43,582.63,Low-light,Wet,1,Yellow,Don't Walk,77,1,33,19,Low,Emergency Vehicle,1,Major
+2024-04-14 17:10:59,4063,1.47,203,0.19,Group Crossing,Adult,Off-Peak,9752,Truck,37.44,1.21,0,None,Rain,33.8,4.75,739.99,Low-light,Snow-covered,0,Green,Don't Walk,84,1,16,19,High,Normal,0,None
+2024-06-15 04:12:53,5652,0.94,49,2.18,Jaywalking,Child,Off-Peak,8029,Car,11.44,2.65,0,Failed to Yield,Snow,15.5,2.53,373.78,Daytime,Wet,1,Green,Don't Walk,35,1,12,1,Medium,Normal,1,Fatal
+2024-07-16 19:14:22,4048,0.89,207,1.73,Waiting,Adult,Off-Peak,8889,Motorcycle,12.06,-0.73,0,None,Clear,6.6,1.67,151.09,Nighttime,Snow-covered,1,Red,Don't Walk,56,0,47,10,Medium,Child Running,0,Fatal
+2024-03-04 18:05:45,1787,0.64,232,1.97,Jaywalking,Child,Off-Peak,6694,Bus,27.56,1.07,1,Red Light Violation,Fog,5.6,3.22,957.93,Nighttime,Snow-covered,1,Yellow,Walk,64,1,9,1,Low,Child Running,1,Fatal
+2024-05-14 09:07:03,3025,1.93,246,0.52,Waiting,Child,Off-Peak,5394,Car,54.47,0.2,0,Red Light Violation,Clear,22.6,2.88,969.48,Daytime,Snow-covered,1,Red,Walk,72,1,42,9,Low,Emergency Vehicle,0,Minor
+2024-01-09 04:21:33,7921,1.46,217,1.43,Waiting,Elderly,Off-Peak,9289,Motorcycle,58.36,-1.7,1,None,Clear,28.0,1.08,93.3,Nighttime,Wet,0,Yellow,Walk,26,0,35,15,Low,Child Running,0,Fatal
+2024-08-08 07:11:30,6809,1.25,212,1.25,Normal,Elderly,Peak,5350,Bicycle,13.02,-1.81,1,None,Fog,28.2,8.34,580.71,Nighttime,Wet,0,Green,Don't Walk,10,0,6,7,High,Emergency Vehicle,0,Minor
+2024-04-14 06:31:54,7570,1.05,284,1.84,Group Crossing,Child,Off-Peak,8249,Car,21.59,0.81,0,Red Light Violation,Fog,21.6,2.09,797.05,Low-light,Wet,1,Yellow,Don't Walk,43,0,20,6,Medium,Normal,1,None
+2024-08-23 17:37:50,7156,1.37,64,0.11,Jaywalking,Adult,Peak,5042,Truck,12.06,0.13,0,Red Light Violation,Snow,19.7,8.91,270.24,Daytime,Dry,0,Green,Walk,77,1,6,4,Medium,Child Running,1,Fatal
+2024-11-18 02:13:08,3989,1.28,351,2.07,Group Crossing,Elderly,Off-Peak,9724,Truck,44.23,-0.23,1,None,Snow,21.4,0.0,123.92,Nighttime,Wet,0,Yellow,Don't Walk,25,1,16,12,High,Normal,1,Major
+2024-04-21 20:12:55,7382,1.42,221,1.67,Normal,Adult,Off-Peak,7361,Bus,55.38,2.08,1,Failed to Yield,Rain,26.1,1.34,342.45,Low-light,Snow-covered,0,Green,Walk,35,1,49,16,Low,Child Running,0,Fatal
+2024-02-25 10:02:10,3907,1.87,293,1.47,Jaywalking,Child,Off-Peak,6005,Bicycle,42.05,1.73,1,Red Light Violation,Rain,21.1,8.89,986.16,Nighttime,Dry,1,Red,Don't Walk,46,0,7,7,Medium,Emergency Vehicle,0,Fatal
+2024-10-24 19:11:23,9098,1.77,40,1.85,Normal,Elderly,Off-Peak,9503,Motorcycle,52.99,0.84,0,None,Clear,0.2,2.73,690.01,Nighttime,Wet,1,Red,Don't Walk,53,1,22,17,Low,Normal,1,Minor
+2024-05-19 16:46:14,6294,1.15,326,1.15,Normal,Elderly,Off-Peak,6607,Bus,71.47,0.3,1,Failed to Yield,Snow,-0.5,0.07,140.25,Daytime,Wet,0,Green,Don't Walk,20,0,38,13,Medium,Normal,0,None
+2024-01-18 10:58:31,7454,1.27,278,0.56,Waiting,Adult,Off-Peak,8261,Bicycle,25.37,-0.96,0,Red Light Violation,Fog,20.5,8.1,128.79,Low-light,Snow-covered,1,Yellow,Don't Walk,30,0,30,14,High,Child Running,0,Minor
+2024-04-08 05:14:00,1425,1.94,194,1.17,Group Crossing,Child,Off-Peak,5067,Bicycle,24.8,-1.58,0,Red Light Violation,Snow,10.1,8.43,353.13,Daytime,Dry,1,Green,Don't Walk,57,1,45,5,High,Child Running,0,Fatal
+2024-04-19 02:45:32,7856,0.71,28,1.69,Normal,Child,Peak,6108,Bicycle,69.4,-0.72,0,Red Light Violation,Snow,33.7,3.63,306.94,Daytime,Snow-covered,1,Yellow,Walk,90,1,17,14,High,Child Running,0,Major
+2024-08-16 09:00:20,5770,1.55,327,1.99,Normal,Elderly,Peak,8686,Truck,68.26,1.52,0,Red Light Violation,Fog,13.7,7.79,264.83,Daytime,Dry,0,Yellow,Don't Walk,58,0,7,13,Medium,Child Running,0,None
+2024-07-28 03:35:29,4510,1.53,69,1.42,Waiting,Child,Peak,5721,Motorcycle,23.72,-1.57,0,None,Rain,33.4,3.86,802.26,Daytime,Wet,1,Red,Don't Walk,52,0,7,15,Low,Emergency Vehicle,1,Fatal
+2024-02-21 11:17:08,1908,0.99,270,1.49,Normal,Adult,Off-Peak,8585,Bus,70.53,-0.06,0,Red Light Violation,Fog,29.3,4.31,891.44,Nighttime,Wet,1,Yellow,Don't Walk,31,1,12,7,Low,Emergency Vehicle,0,Minor
+2024-03-22 06:45:31,3984,1.42,229,1.22,Normal,Elderly,Peak,5713,Motorcycle,64.52,-0.25,1,Failed to Yield,Clear,-3.9,7.38,810.92,Daytime,Dry,0,Yellow,Don't Walk,19,1,23,2,High,Emergency Vehicle,1,Major
+2024-02-23 05:07:47,8724,1.02,70,1.03,Jaywalking,Adult,Off-Peak,8201,Bicycle,25.99,0.58,1,None,Rain,1.2,0.79,96.43,Daytime,Snow-covered,0,Yellow,Don't Walk,80,1,25,18,Low,Child Running,1,None
+2024-04-25 03:00:03,9029,0.83,286,2.39,Normal,Adult,Off-Peak,6519,Bicycle,75.79,-1.71,0,Failed to Yield,Clear,15.6,4.42,908.33,Nighttime,Snow-covered,1,Green,Don't Walk,80,0,30,2,Medium,Child Running,0,Minor
+2024-09-02 11:51:42,7714,0.86,348,2.14,Normal,Child,Peak,9254,Motorcycle,78.63,1.87,0,Failed to Yield,Snow,30.3,1.74,322.9,Nighttime,Snow-covered,0,Green,Walk,33,1,10,15,Low,Normal,0,None
+2024-07-11 22:37:22,1031,1.87,149,0.88,Group Crossing,Elderly,Peak,5156,Bus,40.14,-0.26,0,Failed to Yield,Clear,-2.0,3.81,829.62,Daytime,Snow-covered,1,Yellow,Don't Walk,60,1,23,8,Medium,Normal,0,Minor
+2024-01-24 12:51:21,3143,1.16,103,0.6,Waiting,Child,Off-Peak,7629,Bus,35.85,1.72,0,None,Fog,19.4,6.73,548.71,Low-light,Wet,0,Yellow,Walk,90,1,19,12,High,Normal,0,Minor
+2024-10-02 01:12:44,9075,1.73,267,1.48,Waiting,Child,Off-Peak,5853,Motorcycle,23.71,-0.28,1,Failed to Yield,Fog,33.1,0.82,668.39,Nighttime,Dry,1,Green,Walk,63,0,25,3,Low,Normal,1,Fatal
+2024-12-28 06:38:13,7549,1.62,45,1.1,Group Crossing,Child,Peak,7173,Car,41.19,-0.27,0,Red Light Violation,Fog,7.0,1.6,448.38,Daytime,Wet,1,Yellow,Walk,54,0,47,10,Low,Emergency Vehicle,1,Major
+2024-07-31 23:16:29,7044,1.83,223,1.27,Group Crossing,Elderly,Off-Peak,9605,Bus,64.61,-0.46,0,None,Rain,14.0,7.28,122.24,Daytime,Wet,0,Red,Walk,56,0,38,6,Medium,Emergency Vehicle,0,Major
+2024-05-27 17:08:19,5955,0.57,314,2.08,Waiting,Adult,Off-Peak,5132,Bus,10.13,-0.01,0,None,Rain,24.7,6.9,768.36,Daytime,Wet,1,Red,Walk,71,1,40,9,Medium,Child Running,1,Minor
+2024-11-02 08:26:30,9020,1.55,8,1.77,Jaywalking,Adult,Peak,7219,Car,51.1,0.24,1,Red Light Violation,Snow,-1.2,9.5,896.82,Daytime,Snow-covered,1,Yellow,Walk,79,1,38,3,Medium,Emergency Vehicle,0,Fatal
+2024-03-29 22:00:04,5872,0.77,303,1.14,Waiting,Child,Off-Peak,5532,Motorcycle,14.89,-1.13,1,Red Light Violation,Snow,18.2,2.57,634.7,Nighttime,Dry,0,Red,Walk,70,0,29,7,High,Child Running,0,Fatal
+2024-09-24 07:22:12,3422,1.87,112,0.71,Normal,Child,Peak,7117,Bicycle,67.09,1.75,0,Red Light Violation,Fog,29.9,0.5,704.73,Low-light,Snow-covered,1,Red,Walk,28,1,43,15,Low,Child Running,0,Minor
+2024-03-29 18:55:45,9938,0.77,289,0.99,Normal,Elderly,Peak,5660,Truck,57.14,0.01,0,None,Snow,-3.3,0.93,602.5,Daytime,Wet,1,Green,Walk,81,1,38,14,Medium,Child Running,0,Fatal
+2024-12-21 06:03:16,4435,1.01,0,1.66,Waiting,Elderly,Peak,9459,Bus,23.23,1.36,0,Failed to Yield,Clear,29.3,1.48,474.09,Nighttime,Wet,0,Yellow,Walk,87,0,13,18,Low,Normal,1,Fatal
+2024-08-25 19:35:22,7948,1.65,145,2.44,Normal,Elderly,Off-Peak,7217,Bus,14.86,0.17,1,None,Fog,30.6,7.84,354.24,Low-light,Dry,0,Green,Walk,18,0,32,12,Low,Child Running,1,Minor
+2024-04-05 07:57:15,3802,1.12,178,1.5,Waiting,Adult,Peak,5586,Bicycle,11.97,1.16,0,Red Light Violation,Rain,23.9,4.3,210.69,Low-light,Wet,0,Yellow,Don't Walk,58,1,46,8,Medium,Emergency Vehicle,1,None
+2024-02-19 04:37:25,9750,0.68,205,1.39,Jaywalking,Adult,Peak,5057,Bicycle,60.62,2.48,0,None,Clear,-0.8,4.77,980.76,Daytime,Wet,1,Green,Don't Walk,76,1,50,9,Medium,Normal,1,None
+2024-02-11 07:30:48,3368,0.56,317,1.66,Group Crossing,Adult,Peak,8054,Bus,27.94,0.86,0,None,Clear,18.5,8.58,612.02,Nighttime,Wet,1,Yellow,Don't Walk,52,1,31,10,Low,Emergency Vehicle,1,Fatal
+2024-04-11 19:21:55,9967,1.43,101,1.67,Group Crossing,Elderly,Peak,7645,Bicycle,10.46,-0.32,1,Red Light Violation,Clear,22.1,2.59,796.42,Daytime,Dry,1,Red,Don't Walk,72,0,45,10,Low,Emergency Vehicle,1,Major
+2024-05-05 04:56:09,4372,1.32,42,1.82,Waiting,Adult,Off-Peak,8918,Car,75.37,-0.26,0,Failed to Yield,Clear,18.1,9.04,756.38,Nighttime,Snow-covered,1,Green,Walk,50,0,13,2,High,Child Running,1,Minor
+2024-04-08 03:07:47,3579,1.9,95,0.51,Group Crossing,Child,Off-Peak,7025,Bus,58.5,-1.46,0,None,Fog,11.7,7.29,187.76,Low-light,Dry,1,Green,Walk,88,1,42,4,Medium,Emergency Vehicle,1,None
+2024-08-17 11:24:25,5371,1.06,319,1.02,Waiting,Child,Peak,7195,Motorcycle,22.41,2.3,0,Red Light Violation,Snow,32.4,0.18,410.11,Nighttime,Snow-covered,1,Green,Don't Walk,24,1,10,13,Medium,Emergency Vehicle,0,None
+2024-04-12 01:37:57,1848,0.77,81,0.5,Normal,Elderly,Off-Peak,8853,Truck,41.25,1.7,0,Failed to Yield,Snow,8.4,3.21,669.48,Low-light,Wet,0,Green,Walk,51,1,9,12,Medium,Child Running,1,Fatal
+2024-02-28 16:59:12,8788,1.97,115,2.14,Normal,Elderly,Off-Peak,8049,Bus,21.52,0.93,0,Red Light Violation,Rain,13.7,8.27,130.36,Nighttime,Wet,0,Red,Walk,45,1,49,2,High,Normal,0,Fatal
+2024-04-07 07:36:15,8015,1.02,193,2.14,Waiting,Elderly,Peak,9178,Car,65.09,-0.88,1,Failed to Yield,Clear,20.6,5.2,381.01,Nighttime,Dry,1,Green,Walk,28,1,23,10,Low,Emergency Vehicle,1,None
+2024-06-15 01:20:05,8307,1.17,270,1.09,Group Crossing,Elderly,Peak,5601,Bicycle,75.0,-0.9,1,Failed to Yield,Snow,3.6,5.28,393.82,Nighttime,Dry,1,Green,Walk,83,1,19,4,Medium,Child Running,0,Fatal
+2024-10-19 00:11:10,3428,1.37,138,2.24,Normal,Adult,Peak,7592,Car,17.44,1.01,0,Failed to Yield,Rain,11.0,9.33,907.92,Daytime,Dry,0,Green,Don't Walk,59,1,44,6,Low,Emergency Vehicle,1,Fatal
+2024-06-20 15:02:41,8399,0.64,286,2.28,Normal,Child,Peak,8513,Motorcycle,79.6,-0.52,0,Failed to Yield,Snow,-2.4,7.44,76.06,Nighttime,Dry,1,Yellow,Don't Walk,50,1,47,2,Low,Normal,0,None
+2024-02-08 08:25:17,3819,1.48,180,1.84,Normal,Adult,Peak,5366,Bus,60.69,-1.69,0,Failed to Yield,Fog,31.1,5.27,904.28,Daytime,Snow-covered,0,Green,Walk,84,1,40,2,High,Child Running,0,Fatal
+2024-10-01 10:57:46,4193,1.5,149,2.46,Group Crossing,Child,Peak,5735,Car,79.24,-0.39,0,None,Fog,8.9,7.15,696.23,Nighttime,Wet,0,Yellow,Walk,40,1,8,20,Medium,Emergency Vehicle,1,None
+2024-09-23 19:45:44,7764,1.82,64,0.8,Jaywalking,Child,Off-Peak,9156,Truck,34.1,-1.26,0,Failed to Yield,Clear,-1.3,4.17,419.61,Low-light,Dry,0,Green,Walk,19,0,40,11,Medium,Child Running,0,Minor
+2024-04-20 17:02:23,5271,1.73,242,1.01,Normal,Elderly,Off-Peak,9596,Bicycle,21.32,2.05,0,Red Light Violation,Snow,22.3,0.13,285.52,Nighttime,Wet,1,Green,Don't Walk,32,0,16,3,Low,Normal,1,Fatal
+2024-01-09 18:05:52,5984,1.32,189,1.33,Group Crossing,Child,Off-Peak,6264,Bicycle,74.49,2.22,1,None,Snow,19.0,0.75,67.02,Nighttime,Snow-covered,1,Yellow,Walk,62,1,50,4,High,Normal,0,Major
+2024-01-14 19:19:46,4572,1.7,37,0.56,Jaywalking,Elderly,Off-Peak,7443,Motorcycle,33.29,1.77,1,Failed to Yield,Clear,7.8,2.88,943.44,Low-light,Snow-covered,0,Red,Walk,75,0,13,9,Medium,Emergency Vehicle,1,Major
+2024-02-12 16:02:18,9600,1.52,153,2.15,Jaywalking,Child,Off-Peak,8728,Bicycle,33.79,-1.21,1,Red Light Violation,Snow,12.2,0.34,439.76,Daytime,Wet,0,Red,Walk,61,1,36,8,High,Normal,1,Major
+2024-12-11 02:32:09,1224,1.58,282,2.25,Waiting,Elderly,Peak,6740,Bus,41.27,2.58,1,None,Rain,13.1,9.54,773.82,Daytime,Wet,1,Red,Don't Walk,25,1,33,19,Medium,Normal,0,None
+2024-12-10 05:18:01,6788,1.04,128,0.6,Group Crossing,Child,Off-Peak,6188,Motorcycle,58.0,1.97,1,Failed to Yield,Fog,-1.4,1.6,457.34,Nighttime,Snow-covered,1,Red,Don't Walk,80,1,21,6,High,Normal,0,Fatal
+2024-02-17 16:55:40,9295,0.53,356,2.5,Jaywalking,Adult,Off-Peak,5551,Bus,73.59,-0.76,0,Red Light Violation,Snow,32.7,7.84,153.71,Nighttime,Wet,1,Yellow,Don't Walk,33,0,40,15,Medium,Emergency Vehicle,1,Major
+2024-11-18 00:12:49,1252,1.25,221,1.09,Waiting,Adult,Peak,6538,Car,26.6,1.25,0,None,Clear,23.0,6.35,770.49,Daytime,Dry,0,Yellow,Don't Walk,89,1,39,16,Low,Normal,1,Minor
+2024-07-10 02:57:13,2554,1.29,300,1.95,Waiting,Adult,Off-Peak,5353,Motorcycle,74.53,0.55,1,Red Light Violation,Clear,-2.4,6.81,478.45,Low-light,Snow-covered,1,Yellow,Walk,12,0,9,8,Low,Child Running,0,None
+2024-05-22 07:45:09,7272,1.22,244,1.46,Waiting,Child,Off-Peak,9940,Bicycle,32.91,1.27,1,None,Rain,32.8,6.89,932.98,Nighttime,Snow-covered,1,Green,Don't Walk,28,1,17,7,High,Normal,1,None
+2024-10-16 05:24:03,5391,1.03,202,1.58,Normal,Elderly,Peak,5071,Bus,66.1,-0.02,1,None,Rain,31.5,7.15,594.81,Daytime,Snow-covered,1,Yellow,Walk,63,1,37,15,Low,Normal,0,Minor
+2024-04-10 12:38:16,1361,0.55,278,1.81,Group Crossing,Child,Peak,6425,Truck,30.98,1.59,0,None,Clear,27.1,7.41,971.83,Daytime,Dry,1,Green,Walk,54,0,27,6,Medium,Emergency Vehicle,0,Major
+2024-09-20 09:34:00,6620,0.71,282,2.35,Jaywalking,Elderly,Off-Peak,8240,Motorcycle,64.08,1.2,0,None,Snow,24.4,0.1,272.05,Daytime,Wet,1,Red,Don't Walk,87,0,47,15,Medium,Child Running,1,Minor
+2024-12-12 14:48:10,5611,1.33,193,0.5,Waiting,Elderly,Off-Peak,6026,Bus,27.4,-0.85,1,Failed to Yield,Snow,22.3,9.11,210.74,Daytime,Wet,0,Yellow,Don't Walk,13,0,24,12,Medium,Child Running,0,None
+2024-02-26 05:15:57,9108,0.61,112,0.93,Waiting,Elderly,Peak,6170,Motorcycle,31.62,1.47,0,Red Light Violation,Rain,8.4,7.86,738.79,Daytime,Wet,0,Green,Don't Walk,36,1,19,4,Low,Normal,1,None
+2024-08-24 17:08:22,5754,1.81,119,1.4,Group Crossing,Elderly,Peak,8354,Bus,63.58,1.81,1,None,Fog,11.4,9.24,906.63,Daytime,Dry,0,Red,Don't Walk,39,1,18,13,Medium,Emergency Vehicle,0,Major
+2024-03-16 19:16:21,7206,1.1,84,2.27,Group Crossing,Elderly,Off-Peak,5279,Bicycle,58.63,-1.38,1,None,Rain,29.0,7.49,569.0,Low-light,Dry,0,Red,Don't Walk,69,0,17,10,Medium,Normal,0,Major
+2024-07-09 16:35:14,3187,1.34,278,1.12,Jaywalking,Child,Off-Peak,9224,Bicycle,17.24,-1.68,1,Failed to Yield,Snow,16.2,4.57,598.38,Daytime,Wet,1,Red,Don't Walk,44,0,9,16,Medium,Child Running,0,Fatal
+2024-08-22 13:55:42,1719,1.82,41,0.13,Jaywalking,Child,Peak,9701,Car,37.88,-0.49,1,Failed to Yield,Fog,21.7,8.62,65.61,Daytime,Dry,1,Red,Don't Walk,25,1,10,17,Low,Child Running,1,Major
+2024-04-10 16:18:58,7906,0.51,213,0.19,Group Crossing,Child,Off-Peak,9806,Truck,77.75,1.8,1,Failed to Yield,Snow,27.8,3.1,287.24,Low-light,Snow-covered,1,Yellow,Don't Walk,85,0,42,16,Low,Normal,1,None
+2024-11-27 05:49:39,1036,1.4,110,1.0,Normal,Adult,Off-Peak,8971,Bus,38.71,2.65,0,None,Rain,22.6,0.16,332.52,Daytime,Wet,0,Green,Don't Walk,49,1,33,15,Low,Emergency Vehicle,0,Major
+2024-01-15 18:35:35,3245,0.95,149,2.35,Waiting,Child,Peak,8252,Bicycle,12.63,2.39,1,Red Light Violation,Rain,8.9,4.83,809.61,Daytime,Snow-covered,0,Red,Walk,59,0,32,2,High,Normal,0,Fatal
+2024-02-13 10:01:44,2077,0.61,158,0.84,Waiting,Elderly,Peak,7777,Truck,37.27,1.03,0,Failed to Yield,Snow,14.3,2.21,311.08,Low-light,Dry,0,Green,Walk,64,0,25,3,Low,Normal,1,Major
+2024-05-06 03:26:55,9808,0.57,165,1.66,Waiting,Elderly,Off-Peak,5414,Car,20.72,2.6,1,Red Light Violation,Fog,23.8,8.7,199.75,Low-light,Wet,0,Yellow,Don't Walk,39,1,34,15,High,Emergency Vehicle,0,Fatal
+2024-08-01 11:02:49,5329,0.83,5,1.21,Waiting,Adult,Peak,9578,Motorcycle,41.77,0.25,0,Red Light Violation,Fog,26.6,3.72,949.16,Nighttime,Wet,1,Green,Don't Walk,52,1,41,16,Low,Emergency Vehicle,1,Minor
+2024-03-25 09:50:21,9164,0.73,86,1.64,Group Crossing,Elderly,Peak,5299,Bus,75.59,-0.56,1,None,Fog,33.8,9.39,861.76,Low-light,Wet,0,Yellow,Don't Walk,75,0,47,5,High,Child Running,1,None
+2024-08-26 19:54:56,5817,1.74,218,1.89,Jaywalking,Child,Peak,6985,Truck,35.62,1.99,1,Failed to Yield,Rain,21.6,5.72,57.61,Low-light,Dry,1,Yellow,Don't Walk,86,0,42,8,High,Normal,0,Fatal
+2024-12-16 14:27:43,7824,1.34,125,1.27,Normal,Elderly,Peak,6684,Truck,77.14,2.78,0,None,Fog,-1.3,4.29,382.31,Nighttime,Wet,0,Red,Walk,35,0,17,15,Low,Child Running,0,Fatal
+2024-07-21 20:14:43,6245,1.01,320,1.58,Waiting,Adult,Peak,5668,Bus,69.21,2.03,0,None,Snow,28.7,1.86,82.77,Nighttime,Dry,1,Red,Don't Walk,48,0,18,17,High,Emergency Vehicle,1,Fatal
+2024-04-28 11:15:05,3739,0.79,149,1.71,Jaywalking,Adult,Peak,7778,Bicycle,19.26,2.42,1,Failed to Yield,Fog,12.9,4.14,996.21,Nighttime,Dry,0,Yellow,Walk,39,1,33,9,Low,Emergency Vehicle,1,Major
+2024-06-06 17:06:39,5769,1.17,233,2.14,Normal,Adult,Peak,8729,Motorcycle,36.55,-0.49,1,None,Clear,30.9,8.67,508.19,Nighttime,Dry,0,Red,Walk,60,1,15,9,Medium,Emergency Vehicle,1,Minor
+2024-09-08 10:40:09,7459,0.71,277,0.86,Normal,Adult,Peak,7092,Car,34.86,0.04,1,Failed to Yield,Fog,-4.9,6.65,481.58,Daytime,Dry,1,Yellow,Don't Walk,42,1,43,6,High,Normal,0,Fatal
+2024-01-14 05:48:50,8039,1.57,60,1.34,Jaywalking,Elderly,Peak,7939,Motorcycle,33.3,-0.7,1,None,Rain,2.2,1.62,878.79,Daytime,Dry,1,Green,Walk,67,0,11,10,High,Child Running,0,Major
+2024-10-01 09:43:44,9296,1.09,50,2.32,Jaywalking,Adult,Off-Peak,5037,Bus,67.85,-0.99,0,None,Rain,8.1,5.83,751.73,Nighttime,Dry,1,Red,Don't Walk,48,1,38,8,High,Normal,0,Fatal
+2024-08-28 09:33:14,9333,1.56,123,1.86,Group Crossing,Child,Off-Peak,8234,Car,55.55,1.46,1,Failed to Yield,Fog,15.0,3.99,211.55,Low-light,Wet,1,Red,Walk,36,0,21,10,High,Emergency Vehicle,1,Fatal
+2024-08-04 21:06:02,2678,1.97,94,0.12,Waiting,Adult,Off-Peak,9090,Car,77.5,1.1,1,Red Light Violation,Rain,23.7,0.28,331.66,Nighttime,Snow-covered,0,Green,Walk,12,1,38,12,High,Emergency Vehicle,1,None
+2024-06-16 04:25:54,2649,1.37,118,0.51,Normal,Child,Off-Peak,9869,Car,10.11,2.02,0,None,Rain,7.8,7.54,561.61,Daytime,Snow-covered,0,Red,Walk,83,1,50,10,High,Child Running,1,Major
+2024-09-20 19:28:20,6919,1.46,199,2.37,Jaywalking,Child,Peak,6374,Bicycle,15.27,1.6,0,None,Rain,-2.0,1.56,873.03,Low-light,Dry,0,Green,Walk,51,0,20,3,High,Child Running,1,None
+2024-03-16 16:22:04,8770,1.96,337,2.01,Normal,Child,Off-Peak,8572,Bus,36.13,2.24,1,None,Fog,-2.5,5.73,884.37,Low-light,Dry,0,Red,Walk,61,1,33,1,Low,Emergency Vehicle,0,Major
+2024-10-17 04:26:49,4211,0.97,352,0.85,Jaywalking,Child,Off-Peak,7272,Bus,52.45,0.41,1,None,Clear,29.1,2.27,936.84,Nighttime,Snow-covered,1,Yellow,Don't Walk,57,1,11,15,Low,Child Running,0,None
+2024-11-28 09:28:10,6149,0.51,131,0.61,Waiting,Child,Off-Peak,7497,Car,11.88,0.4,0,Failed to Yield,Rain,30.1,7.74,730.55,Nighttime,Wet,0,Red,Don't Walk,73,1,15,2,High,Normal,1,None
+2024-07-30 12:22:51,3424,0.64,232,1.8,Jaywalking,Child,Off-Peak,5320,Motorcycle,31.09,2.81,1,Failed to Yield,Snow,5.3,5.4,472.63,Low-light,Snow-covered,1,Green,Walk,60,0,43,6,Medium,Normal,1,Major
+2024-01-04 04:48:41,4687,1.1,82,2.43,Group Crossing,Child,Peak,6765,Bicycle,10.26,1.56,1,None,Rain,-0.1,6.35,763.12,Nighttime,Snow-covered,1,Green,Walk,53,0,29,15,Low,Normal,1,None
+2024-08-03 19:31:56,1327,1.08,151,0.21,Jaywalking,Elderly,Peak,6214,Bicycle,38.35,1.46,0,None,Fog,14.4,1.39,614.07,Nighttime,Wet,1,Yellow,Don't Walk,12,0,12,4,Low,Emergency Vehicle,0,Minor
+2024-12-10 09:59:14,1837,1.58,14,0.49,Normal,Adult,Peak,5569,Motorcycle,19.27,2.68,1,Red Light Violation,Rain,30.9,3.29,279.33,Low-light,Dry,0,Yellow,Walk,19,1,34,18,High,Normal,0,None
+2024-12-11 06:05:54,3303,1.85,303,0.28,Waiting,Elderly,Off-Peak,8845,Bicycle,22.32,0.47,0,Red Light Violation,Fog,6.5,6.45,575.62,Daytime,Dry,1,Yellow,Walk,52,1,13,20,High,Emergency Vehicle,0,Major
+2024-11-15 11:09:06,9964,1.08,256,1.15,Normal,Child,Off-Peak,8276,Truck,16.51,2.76,1,Red Light Violation,Snow,13.5,9.87,810.23,Low-light,Dry,0,Green,Don't Walk,43,0,13,11,Medium,Normal,0,None
+2024-08-10 20:32:44,8126,1.07,49,0.15,Group Crossing,Child,Off-Peak,5152,Motorcycle,72.19,1.11,0,None,Snow,32.5,3.32,204.68,Daytime,Wet,0,Red,Don't Walk,51,0,19,14,High,Normal,1,Fatal
+2024-05-14 04:03:05,1024,1.21,143,2.04,Normal,Child,Off-Peak,7384,Truck,19.31,-0.79,0,Red Light Violation,Fog,-1.1,4.88,129.92,Low-light,Dry,0,Green,Walk,45,0,43,10,High,Normal,1,Fatal
+2024-07-15 10:07:34,5371,0.82,128,1.79,Jaywalking,Child,Peak,7774,Motorcycle,62.0,-0.83,0,None,Rain,0.5,1.13,977.55,Low-light,Dry,0,Green,Walk,18,0,16,12,High,Normal,1,Minor
+2024-07-31 17:13:29,7215,0.5,153,1.56,Group Crossing,Child,Peak,5765,Car,32.97,2.15,1,Red Light Violation,Fog,26.4,1.83,230.55,Low-light,Wet,0,Green,Walk,73,0,49,18,Low,Normal,1,None
+2024-02-25 06:46:13,1591,1.71,349,2.22,Normal,Adult,Peak,9390,Car,12.53,-0.12,0,Red Light Violation,Rain,18.0,9.94,134.45,Nighttime,Snow-covered,1,Red,Don't Walk,88,1,35,4,Medium,Normal,1,Major
+2024-06-11 23:58:28,3819,1.28,37,2.32,Group Crossing,Child,Peak,9178,Truck,64.49,-1.21,0,Failed to Yield,Fog,10.0,9.5,755.25,Nighttime,Dry,1,Red,Walk,73,1,32,2,Low,Emergency Vehicle,0,Fatal
+2024-01-17 23:04:53,1897,1.74,62,1.51,Normal,Elderly,Off-Peak,9149,Motorcycle,61.33,-2.0,1,None,Rain,20.5,0.41,614.24,Daytime,Wet,1,Green,Don't Walk,40,1,14,15,Medium,Normal,1,Major
+2024-01-30 20:18:59,7425,1.41,170,0.47,Jaywalking,Adult,Peak,6028,Truck,13.73,-1.37,0,None,Rain,18.1,1.96,831.99,Daytime,Wet,1,Red,Don't Walk,58,0,11,5,Low,Child Running,0,Minor
+2024-02-01 21:29:19,6041,1.0,301,1.58,Group Crossing,Adult,Peak,9973,Truck,70.95,0.39,0,Failed to Yield,Fog,-4.1,8.97,60.87,Low-light,Snow-covered,0,Green,Walk,72,1,23,2,Low,Normal,0,Minor
+2024-12-08 14:55:03,2803,0.88,314,0.58,Normal,Child,Peak,7854,Bus,22.96,-0.52,0,Failed to Yield,Clear,33.4,8.2,576.89,Nighttime,Wet,1,Red,Walk,21,0,8,19,Medium,Child Running,1,Fatal
+2024-04-06 15:17:24,4053,1.12,253,2.44,Waiting,Child,Peak,6953,Truck,60.71,2.48,0,None,Snow,9.5,5.85,272.28,Daytime,Dry,0,Green,Walk,70,1,35,14,Medium,Emergency Vehicle,1,Major
+2024-06-04 23:46:37,1659,0.98,215,2.14,Group Crossing,Child,Off-Peak,7714,Bus,48.98,1.85,1,None,Rain,18.2,5.01,556.99,Daytime,Snow-covered,1,Red,Walk,28,1,8,12,High,Normal,0,Minor
+2024-03-22 22:50:17,4219,0.76,281,0.57,Normal,Child,Peak,8910,Bus,78.39,-1.19,1,None,Fog,21.6,2.51,315.91,Daytime,Snow-covered,0,Red,Don't Walk,56,1,46,18,Low,Child Running,1,None
+2024-09-28 00:15:52,8859,0.77,157,0.25,Group Crossing,Child,Peak,8043,Car,33.5,-0.46,1,Failed to Yield,Clear,1.3,3.33,254.04,Low-light,Dry,0,Yellow,Walk,38,1,15,5,Low,Child Running,1,None
+2024-08-27 11:57:51,5614,1.22,271,0.91,Normal,Adult,Peak,5298,Car,51.39,0.95,0,Failed to Yield,Fog,11.3,5.09,821.36,Nighttime,Dry,1,Green,Walk,53,0,23,16,Medium,Normal,0,Major
+2024-01-05 22:50:35,3380,1.02,297,0.41,Jaywalking,Child,Peak,6689,Bus,38.34,1.44,0,Failed to Yield,Fog,32.2,0.91,483.09,Nighttime,Snow-covered,1,Green,Walk,76,0,22,3,High,Emergency Vehicle,1,None
+2024-03-02 23:51:43,9150,1.21,22,0.61,Normal,Elderly,Peak,5373,Car,33.19,0.21,0,Failed to Yield,Fog,25.6,5.27,360.32,Daytime,Dry,0,Red,Walk,37,0,6,4,Low,Normal,0,None
+2024-02-17 22:14:52,5047,0.86,320,2.37,Jaywalking,Adult,Off-Peak,9952,Car,18.19,1.55,1,None,Clear,17.3,0.86,437.46,Daytime,Dry,1,Yellow,Walk,87,1,23,4,Low,Emergency Vehicle,0,Fatal
+2024-03-23 20:21:53,3255,1.58,231,0.7,Waiting,Child,Peak,9658,Motorcycle,54.15,2.23,1,None,Rain,-2.4,3.23,321.74,Daytime,Wet,1,Yellow,Walk,17,0,39,2,High,Normal,1,Major
+2024-03-30 07:40:31,7628,0.74,257,2.2,Group Crossing,Adult,Off-Peak,8649,Truck,50.34,-1.76,0,Red Light Violation,Snow,9.9,4.35,775.84,Nighttime,Snow-covered,0,Yellow,Don't Walk,22,0,38,3,High,Emergency Vehicle,1,Fatal
+2024-12-15 19:38:18,3803,1.38,287,1.63,Waiting,Child,Peak,5049,Bus,38.34,0.29,1,Red Light Violation,Snow,27.7,0.7,239.89,Daytime,Snow-covered,0,Red,Don't Walk,35,0,21,9,Low,Normal,0,Major
+2024-12-09 16:31:14,9087,1.57,325,0.5,Jaywalking,Elderly,Peak,8011,Motorcycle,48.52,-0.54,1,Failed to Yield,Clear,-0.6,6.38,649.06,Low-light,Wet,0,Yellow,Walk,12,1,32,9,Medium,Child Running,1,None
+2024-06-01 23:54:34,7461,1.05,106,0.39,Waiting,Elderly,Peak,9988,Truck,72.13,1.86,1,Failed to Yield,Fog,8.3,3.17,936.45,Nighttime,Wet,0,Green,Don't Walk,18,1,5,12,Low,Emergency Vehicle,0,Fatal
+2024-08-20 01:30:27,2099,1.96,296,0.66,Normal,Child,Peak,6861,Bus,57.56,0.05,0,Failed to Yield,Clear,29.0,4.39,714.69,Low-light,Snow-covered,0,Yellow,Don't Walk,63,1,47,4,Medium,Child Running,1,None
+2024-11-25 20:34:14,8973,1.12,245,0.72,Jaywalking,Child,Peak,8329,Bus,54.84,0.45,1,Failed to Yield,Snow,0.8,3.73,989.57,Daytime,Snow-covered,1,Green,Walk,38,0,17,3,Low,Normal,0,Major
+2024-08-03 23:29:55,8096,1.8,121,1.99,Jaywalking,Elderly,Peak,5485,Bicycle,57.68,-1.99,0,None,Fog,20.1,0.72,151.4,Low-light,Snow-covered,0,Green,Don't Walk,29,0,43,19,Medium,Normal,1,Fatal
+2024-10-02 23:44:26,9756,0.75,151,1.2,Group Crossing,Adult,Off-Peak,5219,Truck,71.38,1.8,0,Failed to Yield,Clear,23.8,4.59,980.13,Low-light,Snow-covered,0,Green,Walk,16,0,24,5,Medium,Emergency Vehicle,1,Major
+2024-06-26 14:54:04,4241,0.8,123,2.03,Group Crossing,Adult,Off-Peak,7376,Bicycle,55.19,-0.7,1,Red Light Violation,Clear,-2.8,5.66,413.26,Nighttime,Snow-covered,1,Red,Walk,72,0,33,17,High,Child Running,1,Major
+2024-04-16 17:43:50,3942,0.93,268,0.8,Group Crossing,Adult,Off-Peak,7191,Bus,61.84,1.11,0,None,Fog,-2.8,8.97,835.08,Daytime,Snow-covered,1,Red,Walk,57,0,16,11,Medium,Emergency Vehicle,1,Minor
+2024-11-02 18:40:24,4710,1.52,123,0.7,Waiting,Child,Off-Peak,6969,Motorcycle,68.27,0.84,0,None,Fog,21.3,0.08,467.21,Nighttime,Dry,0,Green,Don't Walk,79,1,46,20,Low,Normal,1,Minor
+2024-05-20 19:06:30,4740,1.97,279,1.9,Waiting,Child,Off-Peak,9833,Motorcycle,75.52,-0.21,1,None,Fog,-3.3,5.73,487.44,Daytime,Dry,1,Red,Walk,43,1,18,11,High,Emergency Vehicle,0,None
+2024-09-28 18:35:54,6455,1.3,278,0.17,Waiting,Elderly,Off-Peak,7545,Truck,32.74,1.48,0,Red Light Violation,Snow,4.7,3.27,377.54,Nighttime,Wet,1,Red,Don't Walk,41,0,42,3,High,Emergency Vehicle,0,Fatal
+2024-03-20 03:29:07,7060,1.18,150,2.42,Group Crossing,Child,Off-Peak,7052,Bus,67.47,2.56,0,Failed to Yield,Clear,23.2,2.23,66.56,Daytime,Snow-covered,0,Red,Walk,33,0,16,8,High,Emergency Vehicle,0,None
+2024-05-09 11:23:37,6365,0.54,132,0.69,Jaywalking,Elderly,Off-Peak,6859,Motorcycle,55.24,1.75,1,Red Light Violation,Fog,8.4,3.28,963.32,Nighttime,Wet,0,Red,Walk,69,0,44,10,High,Child Running,0,Minor
+2024-11-02 07:05:08,8020,1.23,124,0.45,Group Crossing,Child,Off-Peak,8482,Bus,37.5,-0.15,0,None,Rain,3.6,2.5,356.56,Low-light,Wet,0,Green,Don't Walk,39,1,33,10,Medium,Child Running,1,Major
+2024-02-07 12:43:45,8550,0.95,258,0.16,Group Crossing,Child,Peak,7060,Motorcycle,69.84,0.58,1,Red Light Violation,Fog,7.2,7.99,841.63,Nighttime,Snow-covered,0,Green,Walk,81,1,9,18,High,Emergency Vehicle,1,Minor
+2024-09-30 06:04:28,9493,0.79,319,0.1,Waiting,Child,Off-Peak,7354,Car,56.57,0.87,1,None,Rain,35.0,8.59,186.78,Nighttime,Snow-covered,1,Green,Don't Walk,59,0,12,15,Low,Emergency Vehicle,1,Major
+2024-03-28 20:45:18,9089,0.97,238,0.44,Waiting,Child,Peak,5834,Truck,19.66,2.55,0,Red Light Violation,Clear,15.8,1.14,380.71,Daytime,Wet,0,Green,Walk,69,0,35,11,Low,Child Running,1,Minor
+2024-09-29 11:26:11,6661,0.99,20,0.14,Normal,Elderly,Off-Peak,8889,Truck,12.0,-0.5,0,None,Rain,-0.6,8.12,885.19,Low-light,Dry,1,Red,Don't Walk,17,0,24,10,High,Child Running,0,Fatal
+2024-11-21 20:13:59,9848,1.72,284,1.02,Normal,Adult,Peak,5819,Truck,62.0,-1.88,0,None,Snow,30.2,3.93,814.4,Daytime,Dry,1,Green,Don't Walk,49,0,22,3,High,Emergency Vehicle,0,None
+2024-08-13 16:09:38,7332,1.16,88,2.2,Jaywalking,Child,Peak,7157,Bus,20.55,2.51,1,None,Rain,7.3,5.9,206.04,Nighttime,Dry,1,Red,Walk,86,0,11,18,Medium,Normal,0,Minor
+2024-12-31 03:26:34,5737,1.0,197,2.11,Normal,Adult,Off-Peak,6805,Motorcycle,79.24,0.65,0,Failed to Yield,Rain,16.6,5.85,722.94,Nighttime,Wet,1,Yellow,Don't Walk,56,0,44,19,Medium,Child Running,0,None
+2024-02-04 18:10:23,3491,1.3,143,2.35,Jaywalking,Child,Peak,5524,Car,79.84,-0.82,1,None,Rain,-3.1,8.03,60.0,Nighttime,Wet,1,Yellow,Don't Walk,66,0,11,10,Low,Normal,0,None
+2024-10-15 20:26:31,3357,1.97,341,1.04,Group Crossing,Child,Off-Peak,6984,Truck,12.85,1.75,0,Red Light Violation,Rain,27.0,4.74,320.23,Low-light,Wet,0,Red,Don't Walk,51,0,6,12,High,Child Running,1,Fatal
+2024-06-30 19:22:00,3894,0.6,216,1.17,Waiting,Adult,Peak,5696,Car,50.15,1.13,0,Failed to Yield,Clear,21.2,7.57,663.02,Low-light,Wet,0,Yellow,Walk,47,0,37,15,High,Emergency Vehicle,0,Fatal
+2024-07-10 14:17:43,8786,1.89,298,0.48,Normal,Child,Off-Peak,7253,Bicycle,11.38,-1.87,1,Failed to Yield,Clear,9.1,0.16,539.54,Low-light,Dry,1,Red,Walk,71,0,35,15,Low,Emergency Vehicle,1,None
+2024-05-06 19:07:12,7191,0.78,144,0.46,Normal,Adult,Off-Peak,5219,Truck,67.82,-1.28,1,Failed to Yield,Fog,34.6,7.16,495.13,Daytime,Snow-covered,0,Yellow,Walk,14,0,28,14,High,Emergency Vehicle,0,Major
+2024-02-15 14:24:30,6699,1.26,104,0.88,Waiting,Elderly,Off-Peak,8084,Car,62.52,-0.2,0,Red Light Violation,Fog,17.7,2.77,306.85,Daytime,Wet,1,Yellow,Walk,68,0,7,9,Medium,Normal,0,Minor
+2024-08-29 19:18:38,1744,1.58,229,1.05,Jaywalking,Child,Peak,8457,Motorcycle,57.57,-1.5,1,Red Light Violation,Snow,13.0,5.36,570.04,Daytime,Dry,0,Yellow,Don't Walk,32,1,16,9,Low,Child Running,1,Minor
+2024-12-18 19:59:27,5397,1.05,183,1.55,Waiting,Adult,Peak,7953,Motorcycle,65.6,0.31,1,Red Light Violation,Snow,29.5,1.98,815.17,Low-light,Snow-covered,1,Green,Don't Walk,11,1,36,12,Medium,Normal,1,Major
+2024-03-07 11:44:24,9747,1.14,279,2.18,Jaywalking,Child,Peak,5220,Bicycle,59.51,-0.67,0,Red Light Violation,Fog,33.7,7.03,234.17,Low-light,Wet,1,Yellow,Don't Walk,38,1,5,4,High,Normal,1,Fatal
+2024-10-31 09:02:10,6825,0.9,165,0.48,Waiting,Adult,Off-Peak,9503,Truck,62.34,1.38,0,None,Rain,5.2,2.53,317.01,Low-light,Snow-covered,1,Yellow,Don't Walk,90,1,20,10,Low,Normal,0,Major
+2024-07-04 21:39:04,8055,0.55,239,1.92,Normal,Elderly,Peak,8540,Truck,53.33,2.29,1,Failed to Yield,Rain,12.0,8.0,997.56,Nighttime,Dry,1,Green,Walk,65,1,44,6,Low,Child Running,1,Minor
+2024-10-19 19:38:34,5780,1.74,295,2.28,Normal,Adult,Peak,9607,Motorcycle,25.36,2.98,1,None,Clear,24.6,5.95,151.93,Low-light,Wet,1,Green,Don't Walk,41,0,32,18,Medium,Emergency Vehicle,0,Major
+2024-12-16 05:01:31,9898,1.11,275,0.72,Jaywalking,Adult,Peak,9783,Motorcycle,76.09,0.99,0,Failed to Yield,Rain,9.3,0.86,381.94,Nighttime,Snow-covered,1,Yellow,Walk,41,0,24,6,High,Normal,1,Major
+2024-08-08 04:29:52,1489,1.73,150,0.85,Normal,Adult,Peak,7835,Truck,13.87,1.27,1,Failed to Yield,Rain,6.2,0.26,960.7,Daytime,Wet,1,Red,Don't Walk,75,1,31,12,High,Emergency Vehicle,1,Major
+2024-03-23 00:09:32,5074,1.61,107,1.8,Jaywalking,Elderly,Peak,5795,Bicycle,15.84,1.36,1,Red Light Violation,Clear,9.6,5.26,250.69,Daytime,Dry,1,Green,Don't Walk,83,1,15,13,Medium,Normal,1,Major
+2024-06-30 16:45:12,9675,0.84,44,1.04,Group Crossing,Child,Peak,7117,Car,53.85,0.92,0,None,Fog,30.7,7.49,391.63,Nighttime,Snow-covered,0,Red,Don't Walk,20,0,43,1,Low,Emergency Vehicle,1,Minor
+2024-03-10 19:47:55,7827,0.96,232,0.2,Group Crossing,Child,Off-Peak,5382,Motorcycle,46.59,2.78,1,Failed to Yield,Fog,27.8,9.08,630.21,Daytime,Dry,1,Green,Don't Walk,64,1,40,3,High,Child Running,0,Fatal
+2024-12-12 02:59:51,6175,0.87,6,0.75,Jaywalking,Adult,Off-Peak,8540,Motorcycle,72.9,-1.51,0,Red Light Violation,Fog,23.5,6.69,705.79,Daytime,Dry,1,Green,Walk,61,0,8,8,High,Emergency Vehicle,1,Fatal
+2024-12-28 23:57:52,3288,1.79,205,1.17,Normal,Child,Off-Peak,8120,Car,34.51,-1.48,0,Failed to Yield,Rain,2.7,9.58,270.75,Daytime,Wet,1,Red,Walk,71,0,32,14,Medium,Emergency Vehicle,1,Major
+2024-08-15 03:46:16,1843,0.88,277,1.94,Normal,Adult,Off-Peak,7194,Bicycle,16.46,2.07,0,None,Fog,14.2,4.91,77.51,Low-light,Snow-covered,0,Green,Don't Walk,62,0,41,18,Medium,Normal,1,None
+2024-10-15 01:19:31,9733,1.6,210,0.67,Group Crossing,Child,Peak,8875,Truck,67.35,-1.04,0,None,Clear,28.0,5.69,848.26,Nighttime,Wet,0,Red,Don't Walk,29,1,6,14,Low,Child Running,1,Minor
+2024-07-28 19:27:03,3687,0.87,256,0.76,Group Crossing,Child,Peak,9936,Bicycle,62.21,2.02,1,Red Light Violation,Rain,-2.5,7.91,602.19,Daytime,Dry,1,Green,Walk,12,0,17,20,Low,Emergency Vehicle,1,Major
+2024-02-22 17:11:15,9561,0.85,156,1.14,Jaywalking,Elderly,Off-Peak,8668,Truck,61.13,-1.44,0,Red Light Violation,Fog,2.9,8.42,687.74,Nighttime,Snow-covered,1,Yellow,Walk,69,1,50,3,Low,Emergency Vehicle,0,Fatal
+2024-04-17 06:21:15,5199,1.3,93,1.47,Waiting,Elderly,Peak,7156,Car,19.05,1.14,0,Failed to Yield,Clear,25.1,5.21,152.72,Daytime,Dry,1,Red,Walk,68,1,10,8,Low,Emergency Vehicle,1,Major
+2024-08-09 22:16:41,3219,1.51,114,1.24,Normal,Adult,Off-Peak,6726,Car,14.82,-0.56,0,Red Light Violation,Rain,32.3,2.77,443.06,Daytime,Snow-covered,0,Yellow,Walk,47,0,22,18,Low,Emergency Vehicle,0,None
+2024-06-18 21:31:08,4116,0.67,70,1.24,Waiting,Elderly,Peak,7002,Car,22.43,-1.59,1,Red Light Violation,Fog,25.0,5.72,131.5,Daytime,Snow-covered,0,Green,Walk,43,0,31,18,Low,Child Running,1,Major
+2024-12-15 10:33:09,4099,0.88,315,1.06,Jaywalking,Elderly,Peak,8132,Bicycle,43.93,-1.16,1,Failed to Yield,Fog,10.1,7.34,693.77,Low-light,Dry,1,Green,Don't Walk,78,0,29,19,High,Child Running,0,Major
+2024-07-09 18:47:06,4196,0.7,328,2.5,Normal,Adult,Peak,5915,Car,11.09,1.41,0,Failed to Yield,Fog,34.1,5.21,116.0,Low-light,Wet,1,Red,Don't Walk,35,0,13,6,High,Normal,0,Fatal
+2024-10-01 12:24:49,4838,1.67,234,0.29,Jaywalking,Elderly,Off-Peak,5816,Truck,65.59,2.39,1,Red Light Violation,Fog,27.8,8.6,591.15,Low-light,Dry,1,Red,Don't Walk,69,0,24,12,Low,Normal,0,Major
+2024-03-23 08:38:45,6999,1.15,330,1.23,Jaywalking,Adult,Off-Peak,5241,Truck,44.49,2.07,0,Red Light Violation,Fog,8.4,2.09,899.38,Nighttime,Dry,1,Yellow,Don't Walk,71,1,25,9,Low,Normal,1,None
+2024-09-24 07:46:01,7914,1.0,6,1.75,Waiting,Elderly,Off-Peak,7096,Car,22.75,-1.22,0,Failed to Yield,Clear,7.3,2.22,491.55,Daytime,Wet,1,Red,Don't Walk,84,1,24,7,Low,Child Running,1,Major
+2024-05-10 21:36:21,2727,0.86,192,1.21,Waiting,Elderly,Off-Peak,6335,Bus,72.52,-1.45,0,None,Rain,2.6,7.96,249.63,Nighttime,Dry,0,Red,Don't Walk,32,1,14,15,Medium,Child Running,0,None
+2024-07-16 22:32:15,5123,1.59,51,2.04,Jaywalking,Child,Off-Peak,8363,Truck,79.64,2.73,0,Red Light Violation,Snow,33.9,7.86,147.15,Nighttime,Dry,0,Green,Don't Walk,85,1,32,12,Low,Emergency Vehicle,0,Fatal
+2024-02-18 18:30:01,9607,0.6,45,2.21,Waiting,Elderly,Peak,8421,Motorcycle,34.19,1.55,0,Red Light Violation,Snow,30.7,3.72,247.08,Low-light,Wet,1,Yellow,Don't Walk,48,1,41,11,Medium,Child Running,0,Minor
+2024-02-19 15:41:41,5714,1.76,265,1.77,Normal,Child,Off-Peak,7877,Bus,29.05,-0.07,0,Failed to Yield,Clear,13.4,2.94,287.39,Low-light,Wet,0,Red,Walk,37,0,11,12,Medium,Emergency Vehicle,1,Minor
+2024-12-28 07:49:37,4327,1.27,23,2.2,Normal,Adult,Off-Peak,9777,Truck,44.58,-1.26,0,Failed to Yield,Clear,-4.2,3.34,682.83,Nighttime,Snow-covered,0,Green,Walk,61,0,19,14,Low,Normal,1,Major
+2024-11-09 11:53:34,7446,1.52,293,0.31,Jaywalking,Child,Peak,8221,Truck,21.77,0.9,0,Failed to Yield,Fog,16.8,3.27,992.92,Low-light,Dry,1,Red,Don't Walk,16,0,44,1,Low,Emergency Vehicle,1,Minor
+2024-10-03 23:25:51,8148,0.86,157,0.2,Group Crossing,Child,Off-Peak,9305,Car,79.98,0.16,0,Red Light Violation,Fog,19.1,9.68,253.06,Nighttime,Dry,0,Yellow,Don't Walk,46,1,30,8,Medium,Normal,0,None
+2024-12-02 05:04:47,9034,0.94,169,1.54,Waiting,Adult,Off-Peak,7229,Bicycle,29.15,-0.37,1,Failed to Yield,Snow,33.0,5.89,134.26,Low-light,Dry,0,Red,Don't Walk,72,0,17,18,Medium,Normal,0,Major
+2024-06-28 04:31:27,7364,1.22,27,2.12,Group Crossing,Child,Off-Peak,9023,Truck,12.1,2.1,1,Failed to Yield,Fog,26.5,7.34,308.81,Daytime,Dry,1,Green,Don't Walk,45,0,15,4,Low,Normal,0,Fatal
+2024-12-04 18:57:06,8989,1.33,158,1.62,Jaywalking,Elderly,Peak,9318,Motorcycle,66.91,2.54,0,Red Light Violation,Clear,26.1,2.19,195.93,Low-light,Dry,1,Yellow,Don't Walk,51,1,36,20,High,Emergency Vehicle,0,Minor
+2024-05-02 15:26:05,5037,1.0,174,1.97,Normal,Adult,Off-Peak,8380,Bus,51.41,0.19,1,Red Light Violation,Clear,7.0,8.09,738.75,Nighttime,Snow-covered,0,Green,Don't Walk,90,1,27,7,High,Child Running,1,None
+2024-05-21 06:16:18,3548,1.98,150,0.37,Group Crossing,Child,Peak,7659,Motorcycle,42.91,0.73,0,None,Clear,0.9,5.65,666.03,Nighttime,Snow-covered,1,Yellow,Walk,46,1,27,3,Low,Normal,0,None
+2024-09-18 00:09:27,2130,0.86,344,0.87,Jaywalking,Adult,Peak,6268,Bus,54.84,2.93,1,Failed to Yield,Clear,5.1,3.63,727.51,Low-light,Dry,1,Yellow,Walk,32,1,27,7,Low,Normal,1,Minor
+2024-09-09 08:45:35,6996,0.92,20,1.16,Normal,Child,Peak,5192,Truck,52.36,-1.92,1,Red Light Violation,Rain,0.9,4.16,235.68,Low-light,Dry,1,Green,Don't Walk,22,0,41,20,Medium,Child Running,0,Major
+2024-12-12 03:06:39,2593,1.71,168,1.08,Normal,Elderly,Off-Peak,7832,Bicycle,32.61,0.86,1,None,Snow,20.2,3.88,842.47,Nighttime,Wet,1,Yellow,Walk,14,1,21,7,Medium,Emergency Vehicle,1,Fatal
+2024-06-02 13:01:10,1217,0.56,195,0.55,Waiting,Child,Peak,6791,Motorcycle,42.18,-0.18,1,None,Fog,-4.4,5.05,57.49,Low-light,Wet,1,Green,Walk,36,1,6,6,High,Child Running,0,None
+2024-05-04 08:30:08,6273,1.57,35,1.96,Normal,Child,Off-Peak,6452,Car,44.89,-0.56,1,Red Light Violation,Fog,14.8,9.69,703.62,Daytime,Wet,1,Red,Don't Walk,26,0,36,5,High,Emergency Vehicle,0,Major
+2024-02-02 06:33:24,4352,0.79,100,0.61,Group Crossing,Elderly,Off-Peak,7179,Motorcycle,33.44,0.03,0,None,Fog,2.2,9.31,348.06,Nighttime,Dry,1,Red,Walk,64,1,28,12,High,Child Running,1,None
+2024-09-20 12:50:21,7733,0.93,297,0.28,Normal,Child,Off-Peak,8144,Truck,23.5,1.97,0,Red Light Violation,Snow,18.8,6.85,279.0,Daytime,Dry,1,Yellow,Walk,51,1,41,18,Low,Child Running,0,None
+2024-03-13 14:57:19,2740,1.17,100,1.79,Jaywalking,Elderly,Peak,7005,Car,72.67,-1.07,0,Failed to Yield,Fog,5.9,6.53,372.71,Nighttime,Snow-covered,1,Yellow,Walk,34,0,46,16,High,Child Running,0,Fatal
+2024-11-28 08:47:11,3867,1.46,210,0.91,Waiting,Elderly,Peak,5559,Motorcycle,72.15,-0.8,1,None,Fog,11.1,2.72,478.69,Daytime,Snow-covered,1,Red,Walk,54,1,5,1,High,Emergency Vehicle,1,Minor
+2024-06-15 13:49:21,7582,1.76,173,2.41,Waiting,Elderly,Off-Peak,6271,Car,76.84,-0.04,0,Red Light Violation,Rain,19.0,3.29,496.94,Nighttime,Snow-covered,1,Green,Walk,57,0,46,5,High,Child Running,1,Major
+2024-11-22 08:54:18,1006,1.13,325,0.35,Normal,Elderly,Peak,6203,Motorcycle,63.05,1.7,0,None,Clear,-0.3,1.49,284.33,Daytime,Wet,1,Red,Don't Walk,77,1,37,19,Low,Emergency Vehicle,0,Major
+2024-08-18 07:07:48,8793,1.53,256,0.37,Waiting,Elderly,Peak,6379,Bus,50.84,-1.46,0,Red Light Violation,Fog,26.6,8.35,472.59,Nighttime,Wet,1,Red,Don't Walk,74,0,39,7,High,Normal,1,None
+2024-12-03 17:26:12,6004,0.52,74,1.65,Jaywalking,Adult,Off-Peak,7045,Motorcycle,76.86,0.02,0,Red Light Violation,Rain,19.7,6.49,654.94,Daytime,Dry,1,Red,Don't Walk,64,1,40,12,Low,Emergency Vehicle,1,Fatal
+2024-04-17 04:34:05,4611,1.39,221,0.32,Group Crossing,Adult,Peak,5933,Car,35.35,2.63,1,Failed to Yield,Clear,16.9,7.32,149.57,Daytime,Wet,0,Yellow,Don't Walk,90,1,21,13,High,Emergency Vehicle,0,Fatal
+2024-04-27 13:13:55,5212,1.24,34,1.7,Normal,Child,Peak,5590,Bus,48.61,1.16,0,None,Clear,28.1,2.56,992.26,Low-light,Snow-covered,1,Yellow,Walk,46,0,35,11,High,Child Running,1,None
+2024-07-08 08:21:53,5522,1.03,34,0.83,Group Crossing,Adult,Off-Peak,6570,Motorcycle,48.69,1.84,1,Red Light Violation,Clear,18.5,8.64,849.65,Low-light,Snow-covered,0,Red,Walk,66,1,19,10,Medium,Normal,1,None
+2024-10-30 14:36:31,6300,1.03,120,1.21,Jaywalking,Elderly,Off-Peak,5864,Car,14.72,1.49,0,Red Light Violation,Clear,30.1,8.52,934.33,Nighttime,Wet,1,Red,Walk,73,1,27,19,Low,Emergency Vehicle,0,None
+2024-10-30 03:05:11,3113,0.62,9,1.52,Waiting,Child,Peak,8812,Truck,20.59,2.56,0,Failed to Yield,Snow,19.1,7.74,327.68,Low-light,Wet,1,Yellow,Don't Walk,81,1,17,11,High,Emergency Vehicle,0,Minor
+2024-11-20 07:45:46,4962,1.05,151,1.7,Normal,Child,Peak,5693,Car,52.96,2.38,0,Failed to Yield,Fog,-3.4,9.2,605.05,Daytime,Wet,1,Red,Walk,48,1,5,18,Low,Emergency Vehicle,1,None
+2024-01-02 21:25:45,9079,0.51,92,0.32,Group Crossing,Adult,Off-Peak,9127,Motorcycle,77.88,1.72,0,Failed to Yield,Rain,1.8,5.36,63.77,Daytime,Wet,0,Green,Walk,25,1,12,2,Low,Normal,0,None
+2024-03-19 04:35:11,1323,0.77,360,0.4,Normal,Child,Peak,5176,Truck,61.09,-0.7,1,None,Rain,20.5,4.69,167.25,Daytime,Dry,1,Red,Don't Walk,20,1,14,6,Medium,Normal,0,Major
+2024-09-20 19:49:59,6707,1.99,42,1.49,Jaywalking,Elderly,Off-Peak,5455,Car,44.81,1.42,0,Red Light Violation,Clear,7.2,7.89,900.08,Low-light,Snow-covered,1,Green,Don't Walk,52,0,26,7,Low,Emergency Vehicle,0,Fatal
+2024-07-21 08:31:53,2415,1.56,5,0.75,Group Crossing,Elderly,Off-Peak,7039,Motorcycle,25.28,1.61,1,Red Light Violation,Rain,7.9,5.09,384.27,Nighttime,Wet,1,Red,Walk,75,0,21,11,High,Child Running,0,Major
+2024-08-23 18:58:31,8975,1.3,283,1.44,Jaywalking,Adult,Peak,9005,Truck,69.19,0.61,0,None,Fog,0.7,4.49,994.82,Nighttime,Wet,0,Green,Don't Walk,32,1,21,11,Medium,Child Running,0,Major
+2024-03-04 03:15:03,3730,1.23,182,0.67,Jaywalking,Child,Peak,7539,Car,68.73,0.19,1,None,Clear,31.3,4.98,238.7,Low-light,Dry,0,Yellow,Don't Walk,37,1,28,3,Low,Child Running,1,None
+2024-10-01 18:12:57,7606,1.48,78,2.48,Jaywalking,Child,Off-Peak,5478,Truck,22.81,-0.88,1,Failed to Yield,Clear,15.1,3.05,119.41,Nighttime,Dry,1,Green,Don't Walk,66,1,20,14,Low,Normal,0,Fatal
+2024-11-27 08:32:59,5348,1.95,160,2.21,Waiting,Adult,Off-Peak,8144,Bicycle,47.37,1.22,0,None,Clear,5.4,1.33,140.87,Daytime,Dry,0,Red,Walk,81,0,29,17,High,Emergency Vehicle,0,Fatal
+2024-11-11 19:14:56,9782,0.93,151,0.3,Group Crossing,Child,Off-Peak,6453,Truck,27.34,-0.99,0,None,Rain,11.7,1.7,950.23,Low-light,Wet,0,Red,Walk,76,1,31,20,High,Child Running,0,Fatal
+2024-06-04 01:58:27,3613,1.73,87,2.33,Waiting,Child,Peak,8099,Bicycle,44.45,-1.99,0,Failed to Yield,Rain,11.5,3.69,218.92,Daytime,Snow-covered,0,Red,Don't Walk,37,1,5,4,Low,Emergency Vehicle,0,Minor
+2024-05-21 08:16:55,5300,1.74,335,0.76,Group Crossing,Elderly,Off-Peak,6218,Bicycle,49.47,0.96,0,Red Light Violation,Snow,2.5,8.74,138.58,Low-light,Wet,1,Green,Walk,45,0,49,5,High,Child Running,0,Major
+2024-10-11 07:55:26,7474,1.87,352,0.51,Waiting,Elderly,Off-Peak,7106,Car,54.69,-1.37,0,None,Snow,30.3,7.74,971.09,Low-light,Wet,0,Green,Walk,87,1,5,9,High,Normal,1,Major
+2024-03-26 16:14:09,1895,1.12,204,2.07,Waiting,Child,Peak,6888,Bus,35.87,0.75,0,None,Snow,3.8,3.94,982.49,Nighttime,Wet,0,Yellow,Walk,54,1,15,17,Medium,Emergency Vehicle,1,Major
+2024-11-06 23:03:58,7958,0.81,54,1.61,Normal,Elderly,Off-Peak,6723,Bicycle,64.01,0.02,0,Red Light Violation,Clear,8.3,1.66,656.91,Nighttime,Dry,0,Green,Don't Walk,74,1,34,18,Medium,Normal,0,Fatal
+2024-09-23 15:05:25,3223,1.05,316,1.44,Waiting,Child,Peak,8271,Truck,24.92,-1.71,1,None,Rain,-2.6,7.35,177.55,Nighttime,Wet,1,Red,Don't Walk,56,1,16,11,High,Normal,0,Major
+2024-04-03 08:04:17,6745,1.13,153,2.42,Group Crossing,Child,Peak,9522,Car,40.26,0.58,1,Failed to Yield,Clear,1.0,0.17,661.03,Daytime,Dry,0,Green,Walk,39,1,42,15,Low,Emergency Vehicle,0,Minor
+2024-12-05 05:21:41,3785,0.71,222,1.36,Jaywalking,Child,Peak,7170,Car,74.61,0.27,0,Red Light Violation,Clear,3.3,0.07,110.26,Low-light,Snow-covered,0,Red,Walk,63,1,5,10,Low,Emergency Vehicle,0,None
+2024-05-08 00:17:18,2172,1.76,77,0.27,Group Crossing,Elderly,Peak,7982,Truck,37.81,1.89,0,Red Light Violation,Clear,11.2,5.45,560.27,Daytime,Wet,0,Red,Don't Walk,71,1,20,16,Medium,Child Running,1,Fatal
+2024-11-06 01:46:08,2288,0.92,292,1.64,Normal,Adult,Off-Peak,6661,Bicycle,10.64,1.87,0,None,Rain,34.8,8.32,388.16,Daytime,Snow-covered,1,Green,Don't Walk,28,0,9,5,Low,Child Running,1,None
+2024-01-11 20:26:22,9543,0.77,311,1.19,Normal,Adult,Off-Peak,9959,Truck,75.95,-0.24,1,Red Light Violation,Fog,11.5,0.7,596.12,Low-light,Dry,0,Red,Walk,62,0,40,8,High,Child Running,0,None
+2024-03-21 23:05:36,3459,0.94,356,2.38,Jaywalking,Adult,Off-Peak,8861,Bicycle,67.78,-1.94,1,Red Light Violation,Fog,28.5,2.14,373.86,Low-light,Dry,0,Red,Walk,14,0,32,18,Medium,Emergency Vehicle,1,Major
+2024-06-08 11:25:33,3780,1.36,290,2.12,Waiting,Child,Peak,8908,Bus,77.24,0.85,1,Failed to Yield,Snow,9.1,6.97,807.94,Nighttime,Dry,1,Yellow,Walk,18,1,47,2,Low,Emergency Vehicle,0,Fatal
+2024-05-18 21:45:15,1781,1.61,132,0.7,Jaywalking,Adult,Peak,5907,Bus,69.0,-0.86,1,Failed to Yield,Fog,34.4,0.81,496.15,Low-light,Wet,1,Green,Don't Walk,59,1,47,20,Medium,Child Running,1,Major
+2024-01-18 05:10:15,8485,0.84,286,0.14,Group Crossing,Elderly,Peak,6581,Bus,78.99,0.99,1,None,Clear,-1.3,8.46,916.3,Nighttime,Dry,1,Yellow,Walk,48,1,10,10,Medium,Child Running,1,Major
+2024-08-28 18:09:49,5127,1.38,14,0.79,Waiting,Adult,Off-Peak,6908,Bicycle,14.07,-0.08,0,Failed to Yield,Snow,29.7,2.01,749.42,Nighttime,Dry,0,Green,Walk,40,0,23,19,Medium,Child Running,0,None
+2024-12-25 16:14:40,9245,1.18,123,2.29,Group Crossing,Elderly,Off-Peak,8494,Truck,64.84,2.4,0,Red Light Violation,Snow,-4.3,2.91,922.38,Daytime,Wet,0,Yellow,Don't Walk,81,0,49,4,Medium,Emergency Vehicle,1,Minor
+2024-12-27 20:35:11,3412,1.92,265,0.33,Waiting,Child,Peak,5362,Car,13.2,-1.0,0,None,Snow,32.4,0.27,265.13,Low-light,Dry,0,Green,Walk,29,1,18,5,High,Emergency Vehicle,1,None
+2024-11-29 11:34:52,7028,0.76,337,2.24,Group Crossing,Child,Peak,9536,Bicycle,72.86,0.45,1,Failed to Yield,Fog,-0.1,3.62,654.03,Daytime,Dry,0,Red,Walk,39,1,39,19,High,Child Running,1,Major
+2024-08-05 01:41:08,2855,1.67,165,1.84,Jaywalking,Adult,Off-Peak,7218,Bicycle,50.56,-0.3,0,Failed to Yield,Snow,25.8,3.9,922.53,Daytime,Wet,1,Green,Don't Walk,29,0,48,4,Medium,Child Running,1,None
+2024-10-02 06:29:50,9137,1.16,345,1.08,Waiting,Elderly,Off-Peak,6938,Motorcycle,76.82,0.94,1,None,Snow,-1.9,4.39,608.19,Nighttime,Dry,0,Yellow,Don't Walk,80,0,10,19,Low,Emergency Vehicle,1,Major
+2024-11-08 22:22:19,5313,1.98,77,1.19,Waiting,Adult,Peak,6568,Truck,42.3,1.81,1,None,Rain,17.6,0.82,199.03,Nighttime,Wet,0,Yellow,Don't Walk,63,1,40,2,High,Normal,1,Minor
+2024-09-15 23:29:10,2571,1.83,55,0.78,Normal,Adult,Off-Peak,9435,Bicycle,33.82,2.85,0,Red Light Violation,Fog,4.4,0.66,100.33,Nighttime,Snow-covered,0,Green,Don't Walk,53,1,18,5,High,Child Running,1,Major
+2024-04-21 06:33:36,1363,0.84,118,0.36,Jaywalking,Child,Peak,7276,Bus,11.23,-1.1,0,Failed to Yield,Rain,14.3,9.31,494.17,Nighttime,Dry,0,Yellow,Don't Walk,73,1,9,5,Medium,Child Running,0,Fatal
+2024-01-18 19:50:41,5660,1.49,19,0.76,Waiting,Adult,Peak,7158,Motorcycle,15.71,2.94,1,Red Light Violation,Clear,30.4,0.4,117.45,Nighttime,Dry,0,Red,Don't Walk,63,1,9,3,Medium,Emergency Vehicle,0,Major
+2024-08-22 10:13:33,2570,1.85,176,0.74,Group Crossing,Child,Peak,9610,Motorcycle,61.67,-0.75,0,Red Light Violation,Snow,28.3,4.54,762.04,Nighttime,Wet,1,Yellow,Walk,10,0,23,15,High,Child Running,0,None
+2024-10-29 21:23:10,3287,0.51,299,0.12,Waiting,Adult,Peak,5436,Truck,32.85,-0.9,1,Red Light Violation,Snow,13.9,1.73,709.93,Low-light,Snow-covered,0,Yellow,Walk,34,0,48,10,Low,Emergency Vehicle,0,Minor
+2024-03-10 05:03:10,7193,1.56,41,1.31,Waiting,Adult,Off-Peak,5740,Motorcycle,24.97,-0.81,1,None,Rain,15.7,7.13,106.67,Daytime,Snow-covered,0,Yellow,Don't Walk,43,1,41,17,Medium,Emergency Vehicle,0,Minor
+2024-10-27 08:12:42,9921,1.43,228,1.3,Waiting,Child,Off-Peak,7950,Truck,58.04,0.18,0,Red Light Violation,Snow,10.4,6.31,554.16,Low-light,Snow-covered,1,Yellow,Don't Walk,52,1,10,5,High,Emergency Vehicle,1,None
+2024-09-22 21:33:13,1222,1.95,12,2.22,Jaywalking,Elderly,Off-Peak,8819,Motorcycle,50.61,-0.84,0,Red Light Violation,Fog,20.3,6.98,825.4,Nighttime,Wet,0,Red,Walk,66,0,7,13,Medium,Emergency Vehicle,1,None
+2024-12-29 20:58:02,4284,0.84,133,0.45,Group Crossing,Child,Off-Peak,9402,Car,40.57,1.74,0,Red Light Violation,Clear,12.7,5.83,161.35,Nighttime,Dry,1,Red,Walk,73,1,25,14,High,Normal,1,Major
+2024-09-23 18:27:35,7374,1.94,229,0.31,Jaywalking,Child,Off-Peak,5218,Truck,54.06,0.64,1,Red Light Violation,Snow,-1.5,9.26,988.96,Low-light,Snow-covered,0,Yellow,Don't Walk,88,1,35,4,Low,Child Running,1,Major
+2024-12-29 03:25:07,8869,0.54,38,0.22,Group Crossing,Elderly,Off-Peak,5930,Truck,30.77,2.64,1,Failed to Yield,Snow,-4.2,9.1,247.04,Nighttime,Snow-covered,1,Red,Walk,52,0,23,3,High,Emergency Vehicle,0,Major
+2024-06-08 06:29:25,3757,0.52,52,2.29,Normal,Child,Peak,6543,Motorcycle,77.92,1.13,0,Failed to Yield,Clear,23.4,9.64,608.32,Daytime,Snow-covered,1,Green,Don't Walk,41,1,47,10,Low,Normal,1,Major
+2024-01-26 20:51:50,6918,1.83,144,1.54,Waiting,Adult,Peak,5026,Bicycle,65.5,2.64,1,None,Fog,4.1,8.5,716.8,Daytime,Snow-covered,1,Green,Walk,33,0,49,15,High,Normal,0,Major
+2024-10-23 06:16:39,1613,1.66,331,1.9,Waiting,Adult,Off-Peak,5052,Bicycle,13.15,1.49,1,None,Snow,15.4,0.01,547.73,Nighttime,Snow-covered,1,Red,Walk,83,0,17,3,Medium,Emergency Vehicle,0,None
+2024-01-15 01:49:37,7508,0.52,26,1.44,Waiting,Child,Peak,7746,Motorcycle,17.56,-0.74,0,Failed to Yield,Snow,0.2,6.38,850.6,Nighttime,Snow-covered,0,Yellow,Walk,70,0,45,12,High,Normal,1,None
+2024-12-14 13:50:08,8560,1.16,88,1.75,Waiting,Elderly,Off-Peak,9716,Truck,44.71,2.39,1,None,Clear,22.7,2.34,743.77,Low-light,Snow-covered,0,Yellow,Don't Walk,85,0,24,14,High,Normal,0,None
+2024-09-29 15:34:48,1465,0.58,86,0.42,Waiting,Elderly,Peak,9711,Car,61.62,0.34,1,None,Rain,9.0,4.22,493.85,Low-light,Dry,0,Yellow,Don't Walk,83,0,5,20,Medium,Emergency Vehicle,1,Major
+2024-08-26 02:50:10,4475,0.87,51,0.25,Normal,Elderly,Peak,9314,Motorcycle,71.01,2.1,1,Red Light Violation,Snow,13.8,5.18,84.25,Nighttime,Dry,1,Green,Walk,45,0,8,3,Medium,Child Running,1,Major
+2024-02-23 06:09:32,4978,1.77,282,1.09,Jaywalking,Child,Off-Peak,7823,Car,46.09,1.4,0,Red Light Violation,Snow,28.1,2.62,659.87,Nighttime,Wet,1,Green,Walk,45,0,18,4,High,Normal,0,None
+2024-08-06 13:11:22,4610,1.85,241,2.17,Jaywalking,Child,Peak,5544,Bus,78.42,-0.23,0,None,Snow,26.0,6.52,702.03,Daytime,Snow-covered,0,Yellow,Walk,80,1,39,10,High,Normal,1,None
+2024-06-12 20:18:21,4119,0.8,123,0.66,Normal,Adult,Off-Peak,9137,Car,27.48,2.42,1,Red Light Violation,Clear,-0.6,4.51,280.9,Low-light,Dry,0,Red,Walk,23,1,41,14,High,Child Running,0,Fatal
+2024-07-25 04:59:59,8380,1.61,15,0.8,Normal,Elderly,Peak,7246,Bus,54.79,-1.73,1,None,Fog,21.6,9.8,182.77,Low-light,Dry,1,Green,Walk,40,1,26,13,Medium,Emergency Vehicle,1,Minor
+2024-07-12 10:46:12,7589,1.74,97,0.56,Jaywalking,Adult,Off-Peak,6930,Bicycle,22.15,-1.16,0,Red Light Violation,Snow,3.8,9.66,370.32,Daytime,Snow-covered,1,Green,Don't Walk,49,0,47,9,Medium,Child Running,1,Minor
+2024-07-01 09:47:29,5149,0.67,187,1.85,Waiting,Adult,Peak,5183,Truck,14.24,2.57,0,Red Light Violation,Clear,4.6,2.02,445.93,Low-light,Snow-covered,0,Yellow,Don't Walk,20,1,46,20,Medium,Emergency Vehicle,1,Minor
+2024-01-13 06:13:30,4327,0.68,116,1.48,Group Crossing,Elderly,Off-Peak,8440,Bus,38.58,1.59,0,None,Rain,14.3,8.73,713.56,Nighttime,Wet,0,Green,Don't Walk,66,1,35,11,Low,Emergency Vehicle,0,Major
+2024-09-27 12:43:49,3959,0.67,218,0.72,Normal,Child,Off-Peak,6759,Bus,16.62,2.01,1,Failed to Yield,Fog,25.6,7.78,892.26,Nighttime,Snow-covered,0,Red,Don't Walk,32,0,49,3,Low,Normal,1,Major
+2024-10-02 07:41:18,3398,0.83,255,1.82,Normal,Elderly,Peak,5632,Motorcycle,14.26,-1.54,1,Failed to Yield,Fog,32.9,3.18,863.78,Daytime,Dry,0,Yellow,Walk,50,0,32,17,High,Normal,1,Major
+2024-09-27 13:40:03,2484,1.3,259,1.73,Group Crossing,Adult,Off-Peak,6749,Bus,41.23,1.56,1,Failed to Yield,Fog,13.3,9.43,724.79,Low-light,Snow-covered,0,Red,Walk,52,0,10,5,High,Normal,0,Major
+2024-05-15 11:32:16,7620,1.66,288,0.13,Normal,Adult,Off-Peak,6486,Motorcycle,12.42,-1.75,0,Red Light Violation,Snow,27.3,3.32,258.26,Nighttime,Wet,0,Yellow,Walk,66,1,17,11,High,Emergency Vehicle,1,Fatal
+2024-05-31 08:38:31,8753,0.96,316,0.22,Normal,Child,Off-Peak,8128,Bus,68.67,-1.55,0,Red Light Violation,Snow,32.5,5.06,59.86,Low-light,Wet,1,Yellow,Walk,12,1,23,8,High,Normal,0,None
+2024-01-11 15:15:22,8046,1.17,77,0.58,Normal,Elderly,Peak,5723,Motorcycle,58.21,-1.9,0,Red Light Violation,Rain,24.0,6.86,749.98,Nighttime,Snow-covered,0,Green,Don't Walk,79,0,35,2,High,Emergency Vehicle,1,Fatal
+2024-10-18 01:48:08,1256,0.84,297,1.66,Group Crossing,Child,Off-Peak,7977,Bicycle,25.22,1.91,1,Red Light Violation,Rain,1.4,8.92,235.92,Daytime,Dry,0,Green,Walk,57,0,40,11,Low,Normal,1,Fatal
+2024-02-27 19:34:33,7978,1.26,43,2.4,Group Crossing,Elderly,Peak,7441,Bus,31.42,-1.76,0,Red Light Violation,Fog,12.7,8.53,367.36,Low-light,Wet,1,Red,Walk,48,0,16,14,Low,Child Running,1,Minor
+2024-07-02 07:02:02,3135,1.43,320,1.09,Group Crossing,Adult,Peak,8313,Car,14.7,-1.47,1,Red Light Violation,Fog,28.0,0.99,628.65,Nighttime,Wet,1,Red,Don't Walk,41,1,40,20,Medium,Normal,0,Fatal
+2024-12-24 16:12:26,4334,1.49,145,0.15,Group Crossing,Elderly,Off-Peak,8676,Motorcycle,13.33,1.22,0,Failed to Yield,Clear,10.6,4.15,836.1,Low-light,Snow-covered,0,Red,Walk,10,1,35,2,High,Normal,1,None
+2024-08-12 00:25:17,4567,0.79,255,0.71,Jaywalking,Elderly,Peak,5158,Bus,65.4,2.79,1,Failed to Yield,Clear,1.0,1.74,178.36,Nighttime,Dry,1,Green,Walk,46,0,48,10,High,Child Running,1,Minor
+2024-10-31 15:04:34,7624,1.57,242,0.23,Group Crossing,Elderly,Peak,8886,Bicycle,26.26,0.19,0,Failed to Yield,Fog,24.7,2.21,291.09,Nighttime,Dry,0,Red,Don't Walk,45,0,10,5,Low,Normal,0,Fatal
+2024-05-25 02:39:33,1920,0.53,49,0.39,Normal,Child,Peak,9065,Motorcycle,31.41,-0.6,0,Failed to Yield,Fog,-2.0,4.46,386.75,Daytime,Dry,1,Red,Walk,36,1,11,2,Medium,Emergency Vehicle,0,None
+2024-06-01 14:20:08,6705,1.71,354,1.52,Normal,Child,Off-Peak,6333,Bus,21.52,2.86,0,Red Light Violation,Fog,5.2,2.08,173.97,Nighttime,Snow-covered,0,Green,Don't Walk,17,1,6,3,Medium,Child Running,0,Fatal
+2024-10-06 01:56:10,6058,0.61,74,1.68,Jaywalking,Elderly,Off-Peak,5149,Bus,28.98,2.51,1,Red Light Violation,Clear,27.8,7.79,459.27,Low-light,Snow-covered,0,Yellow,Don't Walk,81,0,20,13,High,Child Running,1,None
+2024-10-15 18:30:38,6984,1.97,99,0.3,Normal,Elderly,Peak,5764,Bus,73.8,-0.53,1,None,Fog,16.6,2.63,731.51,Nighttime,Dry,0,Green,Walk,46,0,7,7,High,Child Running,1,Fatal
+2024-04-13 09:50:02,5167,0.57,317,2.44,Waiting,Child,Off-Peak,9860,Bicycle,28.06,-0.58,0,None,Snow,15.0,3.3,599.93,Low-light,Wet,1,Red,Walk,32,0,12,19,High,Normal,1,None
+2024-05-09 07:50:44,8013,0.97,271,1.09,Jaywalking,Elderly,Off-Peak,9477,Car,37.93,1.41,0,None,Clear,30.5,1.49,167.29,Nighttime,Wet,0,Green,Don't Walk,37,1,45,9,High,Normal,0,Minor
+2024-02-04 02:49:52,2611,1.63,294,1.88,Waiting,Child,Off-Peak,6511,Car,76.66,2.98,1,None,Fog,1.5,7.15,128.38,Nighttime,Dry,0,Yellow,Walk,47,1,17,7,Medium,Normal,0,Minor
+2024-03-18 04:51:53,6882,1.27,255,1.13,Normal,Adult,Peak,6009,Truck,21.48,0.82,1,None,Rain,33.6,5.57,102.34,Low-light,Snow-covered,0,Red,Don't Walk,67,0,13,9,High,Child Running,1,None
+2024-01-01 03:10:11,3996,1.25,61,2.17,Jaywalking,Elderly,Off-Peak,6168,Bicycle,34.97,1.25,0,Red Light Violation,Snow,12.2,0.44,94.37,Nighttime,Dry,0,Green,Don't Walk,31,1,14,9,Medium,Child Running,1,Major
+2024-06-01 10:01:18,6181,1.64,341,1.62,Waiting,Elderly,Peak,9173,Truck,18.38,-1.79,0,Red Light Violation,Rain,28.8,6.52,439.61,Nighttime,Snow-covered,1,Red,Don't Walk,87,0,27,6,High,Child Running,0,Minor
+2024-03-28 20:59:03,7306,1.25,119,1.63,Jaywalking,Adult,Peak,6140,Bus,17.56,0.47,0,None,Rain,2.5,6.87,669.78,Low-light,Wet,0,Red,Walk,51,1,47,7,High,Child Running,1,Major
+2024-09-10 19:08:54,5788,1.74,46,1.91,Normal,Child,Peak,7140,Truck,73.56,-1.01,0,None,Snow,26.2,6.59,895.81,Nighttime,Wet,1,Yellow,Don't Walk,63,1,25,7,Medium,Normal,1,Major
+2024-03-08 22:02:01,4616,1.2,310,1.64,Jaywalking,Elderly,Off-Peak,9741,Truck,74.85,1.06,0,Red Light Violation,Rain,27.8,3.88,735.58,Nighttime,Dry,0,Yellow,Don't Walk,35,0,5,20,Medium,Child Running,1,Minor
+2024-12-04 16:23:10,3536,1.89,292,1.84,Group Crossing,Adult,Peak,8269,Truck,68.1,-1.34,1,None,Clear,26.6,9.21,730.51,Nighttime,Wet,0,Yellow,Don't Walk,59,1,12,14,Medium,Emergency Vehicle,1,None
+2024-12-17 09:07:21,4892,1.92,171,0.67,Waiting,Adult,Off-Peak,9245,Truck,44.9,0.33,0,Red Light Violation,Rain,6.8,2.02,606.3,Low-light,Wet,0,Green,Don't Walk,72,0,8,9,Medium,Normal,0,None
+2024-06-11 17:21:32,7991,1.96,165,0.86,Jaywalking,Adult,Peak,5812,Bicycle,20.02,-1.7,0,None,Rain,19.4,9.14,708.93,Daytime,Snow-covered,0,Green,Walk,70,0,17,19,Low,Emergency Vehicle,0,Minor
+2024-06-30 05:21:43,9672,0.95,332,2.27,Jaywalking,Child,Off-Peak,9974,Car,73.57,2.85,1,None,Fog,20.0,7.21,60.17,Low-light,Wet,0,Green,Walk,10,1,21,6,Medium,Child Running,0,None
+2024-11-16 23:52:24,3847,0.59,260,2.44,Group Crossing,Elderly,Off-Peak,7035,Motorcycle,47.74,1.78,0,None,Snow,3.0,8.49,595.93,Daytime,Dry,1,Red,Walk,58,0,9,15,Low,Emergency Vehicle,1,Fatal
+2024-11-17 06:57:30,1331,0.71,122,0.45,Normal,Elderly,Off-Peak,6777,Motorcycle,17.16,1.74,1,Red Light Violation,Snow,27.6,8.88,345.27,Low-light,Wet,1,Yellow,Don't Walk,52,1,26,18,Low,Emergency Vehicle,0,Fatal
+2024-10-26 20:29:32,3866,0.75,263,1.7,Waiting,Child,Peak,8394,Bicycle,37.48,-0.02,1,None,Snow,25.9,0.02,215.93,Nighttime,Dry,1,Green,Walk,23,1,12,13,High,Normal,0,None
+2024-10-03 21:38:06,7939,1.74,201,0.41,Normal,Child,Off-Peak,5076,Car,25.0,-1.87,1,Failed to Yield,Clear,31.9,8.99,819.95,Nighttime,Snow-covered,0,Green,Walk,40,0,27,2,Medium,Emergency Vehicle,1,Minor
+2024-08-23 19:44:39,7443,1.21,268,0.79,Normal,Adult,Off-Peak,5201,Bus,61.8,-1.19,1,None,Fog,2.2,7.33,512.57,Low-light,Dry,0,Yellow,Don't Walk,47,1,31,15,Medium,Child Running,1,Minor
+2024-11-06 21:00:10,8981,0.96,169,1.12,Normal,Adult,Off-Peak,6573,Car,30.27,-1.33,1,Red Light Violation,Fog,7.3,6.31,629.86,Nighttime,Wet,0,Red,Walk,52,1,46,5,High,Child Running,1,Minor
+2024-05-07 12:02:38,5713,0.78,182,0.12,Jaywalking,Elderly,Off-Peak,5940,Bicycle,28.32,1.5,1,Red Light Violation,Fog,22.5,6.41,131.81,Nighttime,Wet,0,Yellow,Walk,42,0,16,19,Medium,Emergency Vehicle,1,Major
+2024-02-05 03:24:38,3234,1.53,321,0.73,Group Crossing,Elderly,Off-Peak,6036,Truck,27.23,-0.51,1,None,Clear,8.2,5.73,350.43,Nighttime,Snow-covered,0,Green,Don't Walk,56,0,10,10,Low,Child Running,1,Minor
+2024-11-21 20:34:50,1774,1.04,226,1.95,Normal,Elderly,Peak,6044,Truck,65.43,2.65,1,None,Fog,31.2,7.43,539.18,Daytime,Dry,1,Red,Walk,71,1,49,8,Medium,Child Running,0,Minor
+2024-12-25 09:06:54,2566,1.6,193,1.08,Group Crossing,Elderly,Off-Peak,8186,Truck,17.64,2.67,1,Failed to Yield,Rain,11.7,3.95,87.26,Low-light,Snow-covered,0,Green,Walk,87,0,15,20,Low,Emergency Vehicle,1,Minor
+2024-06-16 06:49:40,1171,1.85,163,0.13,Normal,Elderly,Peak,5542,Truck,59.31,-0.8,0,Red Light Violation,Clear,11.8,7.3,764.02,Daytime,Wet,0,Yellow,Don't Walk,18,0,50,6,High,Emergency Vehicle,1,Major
+2024-09-26 15:52:33,6460,1.07,120,1.43,Normal,Adult,Off-Peak,6721,Bus,67.89,1.84,0,Red Light Violation,Clear,12.1,2.46,366.97,Daytime,Wet,1,Green,Don't Walk,21,0,19,17,High,Child Running,0,Minor
+2024-11-28 04:55:53,9955,1.07,32,0.43,Group Crossing,Elderly,Peak,8242,Car,19.45,0.71,1,None,Snow,-2.7,1.74,518.75,Low-light,Wet,1,Red,Don't Walk,80,0,14,1,Medium,Normal,0,Fatal
+2024-11-16 01:25:14,3196,0.85,85,1.8,Jaywalking,Adult,Peak,7427,Truck,66.0,1.75,1,None,Fog,9.9,6.65,397.17,Nighttime,Snow-covered,1,Red,Walk,74,1,50,19,Medium,Emergency Vehicle,1,Fatal
+2024-12-11 18:45:36,7562,0.57,185,0.95,Jaywalking,Adult,Off-Peak,6968,Bus,46.42,-1.05,0,Red Light Violation,Snow,24.3,5.39,541.73,Nighttime,Snow-covered,1,Red,Walk,31,1,37,13,High,Child Running,0,None
+2024-12-05 11:20:57,4756,0.7,210,0.53,Normal,Child,Off-Peak,9160,Bicycle,22.35,1.15,1,Failed to Yield,Fog,15.7,6.19,130.45,Low-light,Dry,0,Green,Don't Walk,10,1,13,5,High,Child Running,1,None
+2024-06-02 06:49:30,4679,1.03,321,2.22,Jaywalking,Elderly,Peak,9608,Bicycle,11.68,1.11,0,Red Light Violation,Snow,5.1,9.64,169.67,Nighttime,Wet,1,Red,Don't Walk,17,0,28,1,Medium,Child Running,0,Minor
+2024-01-18 22:46:58,1892,0.56,170,1.69,Normal,Child,Off-Peak,5242,Car,12.71,2.88,1,None,Clear,9.9,4.6,171.18,Low-light,Dry,1,Green,Don't Walk,63,0,37,9,Medium,Emergency Vehicle,0,Fatal
+2024-07-02 16:54:58,9555,1.59,61,1.02,Jaywalking,Adult,Peak,9290,Motorcycle,46.51,-0.61,0,Failed to Yield,Rain,10.0,3.27,630.33,Low-light,Wet,0,Red,Don't Walk,82,1,50,16,High,Child Running,0,Major
+2024-01-07 03:26:34,3837,0.61,284,0.9,Group Crossing,Adult,Off-Peak,6699,Bus,50.88,1.76,0,None,Snow,4.9,5.73,983.68,Nighttime,Dry,1,Green,Walk,62,0,22,13,High,Child Running,1,Fatal
+2024-05-14 22:25:26,6342,1.38,217,1.64,Waiting,Adult,Peak,7531,Motorcycle,63.85,-0.1,0,Failed to Yield,Snow,-1.8,3.54,724.68,Low-light,Wet,0,Red,Don't Walk,46,0,10,3,High,Normal,1,Major
+2024-08-22 02:37:34,6045,1.42,262,1.83,Normal,Elderly,Peak,6075,Truck,23.48,-1.98,0,Failed to Yield,Fog,9.9,1.59,621.55,Low-light,Dry,1,Red,Walk,28,0,29,8,Low,Normal,1,Minor
+2024-09-30 19:41:07,8560,0.59,175,0.26,Normal,Child,Off-Peak,6612,Bicycle,50.7,1.96,0,None,Rain,4.1,5.75,381.22,Nighttime,Dry,0,Yellow,Don't Walk,88,1,12,17,Low,Child Running,1,None
+2024-06-05 12:09:05,1681,1.59,40,0.57,Normal,Elderly,Off-Peak,7824,Car,37.8,-1.17,1,Failed to Yield,Fog,16.9,1.67,293.17,Daytime,Wet,0,Yellow,Don't Walk,68,0,37,20,Medium,Normal,0,Fatal
+2024-10-15 13:24:39,7388,1.11,188,1.48,Normal,Child,Peak,7301,Car,77.02,-0.99,1,None,Rain,16.3,6.36,61.55,Daytime,Snow-covered,0,Red,Walk,78,1,31,18,Medium,Normal,1,Fatal
+2024-08-30 05:50:55,9865,0.92,317,0.42,Jaywalking,Adult,Off-Peak,9168,Bicycle,54.41,2.6,1,None,Snow,8.1,9.42,260.59,Nighttime,Wet,0,Yellow,Walk,59,0,26,11,Low,Child Running,1,Fatal
+2024-09-01 06:39:54,9253,1.53,218,1.09,Waiting,Adult,Peak,7283,Motorcycle,58.83,2.11,0,Failed to Yield,Snow,-4.1,0.88,219.0,Nighttime,Wet,1,Yellow,Walk,56,0,16,1,High,Normal,0,None
+2024-06-28 18:53:51,3320,1.51,55,1.01,Jaywalking,Adult,Off-Peak,6851,Bicycle,63.7,1.07,0,None,Clear,-3.1,0.44,625.21,Low-light,Dry,0,Green,Walk,61,1,34,7,Medium,Normal,0,Fatal
+2024-05-04 05:19:05,4683,1.44,17,1.32,Normal,Elderly,Off-Peak,8450,Car,46.51,0.21,0,None,Rain,7.9,5.12,933.59,Nighttime,Wet,1,Green,Don't Walk,44,1,28,3,High,Normal,0,Fatal
+2024-05-20 07:36:59,8692,1.29,247,2.36,Group Crossing,Child,Off-Peak,8889,Truck,30.91,-0.3,1,Failed to Yield,Rain,2.6,1.54,990.19,Low-light,Wet,0,Green,Walk,37,1,46,19,High,Emergency Vehicle,0,Major
+2024-09-29 05:36:26,1458,0.71,139,2.5,Jaywalking,Adult,Peak,7104,Car,36.07,-1.45,0,None,Clear,14.9,3.77,942.58,Nighttime,Wet,1,Red,Walk,21,0,20,11,Medium,Normal,1,Minor
+2024-10-08 10:55:29,8816,1.89,81,0.29,Jaywalking,Elderly,Peak,9255,Car,50.93,1.46,0,Red Light Violation,Snow,31.5,2.45,345.83,Nighttime,Wet,1,Red,Walk,55,1,40,4,Low,Emergency Vehicle,0,Fatal
+2024-08-26 02:55:42,4238,1.21,193,1.41,Group Crossing,Child,Off-Peak,8691,Bicycle,47.31,-0.29,1,Red Light Violation,Clear,26.2,5.94,430.25,Daytime,Wet,1,Yellow,Walk,69,0,31,11,Low,Emergency Vehicle,0,Fatal
+2024-06-23 01:11:00,1909,0.8,58,0.48,Jaywalking,Child,Peak,9770,Truck,42.54,-0.97,1,None,Clear,16.3,1.46,742.65,Daytime,Wet,1,Green,Walk,49,0,37,15,High,Emergency Vehicle,0,Minor
+2024-10-25 02:06:48,1676,1.62,26,1.02,Waiting,Adult,Peak,5650,Truck,28.34,0.36,1,Red Light Violation,Rain,32.3,8.28,159.55,Low-light,Snow-covered,0,Red,Walk,17,1,19,6,Medium,Normal,0,Fatal
+2024-06-24 03:19:34,7713,0.6,23,0.44,Normal,Child,Off-Peak,5157,Bus,67.01,2.99,1,None,Snow,1.3,4.67,718.43,Daytime,Snow-covered,1,Yellow,Don't Walk,77,1,8,8,Medium,Normal,0,Fatal
+2024-08-24 10:21:25,7678,1.63,137,1.77,Group Crossing,Child,Peak,9431,Motorcycle,46.0,1.18,0,None,Rain,15.8,8.58,645.55,Daytime,Snow-covered,0,Yellow,Don't Walk,59,1,22,5,Low,Child Running,1,None
+2024-08-18 06:55:47,1509,0.77,98,1.26,Jaywalking,Adult,Off-Peak,9648,Bus,18.21,1.68,0,Failed to Yield,Snow,4.0,1.09,749.65,Low-light,Dry,0,Green,Don't Walk,27,0,18,8,High,Emergency Vehicle,1,Fatal
+2024-08-17 05:44:01,2107,1.09,187,2.1,Jaywalking,Child,Peak,5884,Motorcycle,75.37,1.23,1,Red Light Violation,Fog,7.9,0.31,974.64,Nighttime,Snow-covered,0,Red,Don't Walk,27,1,36,10,High,Child Running,1,Minor
+2024-08-09 16:39:32,5954,0.66,326,1.93,Normal,Child,Off-Peak,9109,Bicycle,64.98,-1.74,0,Red Light Violation,Rain,-3.5,1.02,587.51,Nighttime,Dry,1,Red,Walk,51,0,33,9,Low,Child Running,0,Fatal
+2024-09-27 15:04:38,3718,1.88,46,1.3,Waiting,Elderly,Peak,9976,Car,59.46,-0.81,0,Red Light Violation,Clear,7.0,7.94,497.64,Low-light,Snow-covered,0,Red,Don't Walk,56,1,38,6,Medium,Child Running,1,None
+2024-01-31 06:50:28,8182,0.63,170,2.26,Jaywalking,Elderly,Off-Peak,7998,Motorcycle,16.56,1.5,0,None,Rain,8.3,5.05,845.29,Daytime,Wet,1,Green,Walk,41,1,26,1,High,Child Running,0,Major
+2024-05-26 07:16:16,5041,1.69,181,1.17,Group Crossing,Child,Off-Peak,7634,Car,57.05,-1.21,1,None,Rain,8.1,1.01,832.74,Daytime,Wet,1,Green,Don't Walk,67,0,47,19,High,Normal,1,Major
+2024-02-22 13:18:37,5995,0.93,154,1.19,Waiting,Elderly,Peak,6562,Bicycle,24.37,-1.06,0,Failed to Yield,Clear,-2.3,4.87,910.28,Nighttime,Snow-covered,1,Yellow,Walk,75,0,10,17,Medium,Emergency Vehicle,1,Major
+2024-04-03 11:20:46,3863,1.91,269,0.31,Group Crossing,Elderly,Peak,9760,Truck,66.88,-1.69,0,Failed to Yield,Snow,-1.2,3.07,545.27,Daytime,Wet,1,Red,Walk,84,0,26,1,Low,Child Running,1,None
+2024-08-13 22:29:26,2072,0.69,135,1.52,Waiting,Child,Off-Peak,8186,Truck,64.81,-0.62,1,Failed to Yield,Clear,13.5,5.82,807.32,Low-light,Dry,1,Green,Walk,62,0,33,20,Medium,Emergency Vehicle,0,Fatal
+2024-05-26 13:36:33,8863,1.5,220,2.47,Group Crossing,Adult,Off-Peak,7356,Truck,52.9,-0.58,1,None,Fog,32.4,5.59,627.68,Nighttime,Dry,1,Yellow,Walk,37,1,41,5,Medium,Child Running,1,Fatal
+2024-12-12 19:59:10,8403,0.7,141,0.52,Jaywalking,Adult,Peak,6332,Bicycle,67.86,0.93,0,Red Light Violation,Fog,-4.3,1.97,681.66,Low-light,Wet,0,Yellow,Walk,15,1,46,3,Medium,Child Running,1,Minor
+2024-05-26 02:50:49,8052,1.35,199,2.17,Jaywalking,Elderly,Off-Peak,6236,Bicycle,60.32,0.46,0,Red Light Violation,Fog,28.3,3.02,246.9,Low-light,Dry,0,Yellow,Walk,25,1,44,1,Low,Emergency Vehicle,1,Major
+2024-03-30 01:55:27,5250,1.21,237,0.8,Group Crossing,Child,Off-Peak,5673,Bus,63.54,-0.18,0,Red Light Violation,Clear,0.2,5.39,229.42,Low-light,Wet,0,Green,Don't Walk,87,1,45,18,Medium,Child Running,0,None
+2024-08-19 07:13:42,3384,0.54,284,0.9,Jaywalking,Adult,Off-Peak,8890,Car,41.1,-0.54,0,Failed to Yield,Clear,17.1,2.84,870.79,Nighttime,Snow-covered,1,Red,Don't Walk,15,1,27,6,Medium,Child Running,1,None
+2024-07-31 02:01:56,3122,0.67,72,1.63,Waiting,Elderly,Off-Peak,9693,Bicycle,52.07,2.53,0,None,Fog,1.8,2.89,468.28,Nighttime,Snow-covered,1,Red,Don't Walk,11,1,7,15,High,Emergency Vehicle,0,Major
+2024-06-30 08:36:33,8198,0.59,161,2.32,Waiting,Child,Peak,8720,Motorcycle,69.86,2.18,0,Failed to Yield,Fog,18.7,2.34,364.65,Daytime,Dry,1,Yellow,Walk,39,0,8,3,Low,Normal,1,Minor
+2024-07-18 21:00:46,1156,0.91,155,2.1,Waiting,Child,Off-Peak,8177,Motorcycle,34.78,0.98,1,Red Light Violation,Clear,31.0,9.14,596.88,Nighttime,Dry,1,Green,Walk,87,0,47,9,High,Normal,1,None
+2024-12-20 02:29:21,9596,1.21,100,1.67,Group Crossing,Adult,Peak,7367,Bus,69.83,1.72,1,Red Light Violation,Rain,10.7,0.21,986.07,Daytime,Snow-covered,1,Red,Walk,11,0,17,1,High,Normal,1,Major
+2024-12-08 16:51:00,9958,1.99,111,0.75,Group Crossing,Elderly,Peak,7494,Bicycle,16.65,2.22,0,None,Rain,-2.9,2.84,664.73,Nighttime,Dry,0,Yellow,Walk,46,0,12,2,High,Emergency Vehicle,1,Fatal
+2024-08-20 17:42:47,1524,1.79,177,0.95,Normal,Elderly,Off-Peak,8222,Motorcycle,74.15,2.42,1,Failed to Yield,Clear,28.5,3.7,294.5,Nighttime,Snow-covered,0,Green,Don't Walk,56,1,32,19,Low,Emergency Vehicle,0,Major
+2024-09-20 22:15:40,2832,1.88,217,0.77,Waiting,Adult,Off-Peak,6218,Truck,62.36,1.34,0,Red Light Violation,Snow,7.5,7.5,775.77,Low-light,Wet,1,Red,Don't Walk,90,0,36,20,Low,Normal,1,Major
+2024-12-25 20:51:33,7423,1.57,133,0.2,Group Crossing,Adult,Peak,9427,Bus,19.43,2.45,1,Red Light Violation,Fog,12.0,1.71,759.83,Nighttime,Snow-covered,0,Red,Don't Walk,41,1,6,13,Medium,Normal,1,Major
+2024-07-16 20:22:07,9338,0.58,107,2.47,Group Crossing,Adult,Peak,7789,Bicycle,46.61,0.08,0,Failed to Yield,Rain,1.8,2.52,417.33,Daytime,Snow-covered,1,Green,Walk,31,1,19,14,Low,Child Running,1,Major
+2024-05-04 04:18:45,3920,1.02,3,2.22,Normal,Child,Off-Peak,7043,Truck,41.4,-0.69,1,Failed to Yield,Fog,9.5,0.91,431.25,Daytime,Dry,0,Yellow,Don't Walk,22,1,40,20,High,Emergency Vehicle,0,Major
+2024-07-31 20:34:11,7174,1.77,30,0.79,Waiting,Child,Peak,8384,Car,35.42,-1.09,0,None,Clear,-0.8,7.88,735.98,Low-light,Wet,0,Yellow,Walk,71,1,19,2,Medium,Emergency Vehicle,0,Major
+2024-01-22 00:31:38,6722,1.31,210,1.72,Waiting,Elderly,Peak,6652,Bicycle,60.95,1.7,1,Failed to Yield,Fog,10.1,7.76,472.5,Daytime,Wet,1,Green,Walk,57,1,36,9,High,Child Running,1,None
+2024-12-18 12:54:14,1831,1.75,157,1.71,Waiting,Child,Off-Peak,5727,Truck,75.73,-0.24,1,None,Snow,6.8,0.57,988.35,Daytime,Snow-covered,1,Red,Walk,44,0,43,9,High,Emergency Vehicle,0,Major
+2024-05-23 13:40:19,4495,0.96,311,0.55,Waiting,Child,Off-Peak,9637,Bus,61.94,1.53,0,Red Light Violation,Rain,5.7,7.42,302.13,Daytime,Dry,0,Red,Don't Walk,18,1,18,10,Medium,Normal,0,None
+2024-08-23 13:25:55,2113,0.84,198,1.04,Normal,Child,Peak,6918,Car,72.03,0.44,0,Failed to Yield,Clear,-2.3,8.77,79.35,Daytime,Snow-covered,0,Yellow,Don't Walk,16,0,15,6,High,Emergency Vehicle,1,Fatal
+2024-08-14 23:52:08,9379,1.66,198,1.49,Waiting,Child,Peak,9964,Motorcycle,21.71,-1.96,0,Red Light Violation,Snow,12.6,7.2,370.97,Low-light,Dry,0,Red,Walk,66,1,49,14,Medium,Child Running,1,Minor
+2024-01-23 12:47:17,9567,1.06,104,0.8,Group Crossing,Child,Off-Peak,9324,Motorcycle,62.37,0.26,1,Failed to Yield,Rain,18.8,5.07,834.3,Low-light,Snow-covered,0,Green,Walk,90,0,5,15,Low,Child Running,1,None
+2024-02-09 11:23:47,9848,0.64,180,1.36,Waiting,Elderly,Peak,6786,Truck,58.04,-1.33,1,Red Light Violation,Fog,2.6,1.81,675.26,Nighttime,Snow-covered,1,Yellow,Walk,66,1,46,9,High,Emergency Vehicle,1,Major
+2024-06-12 13:59:56,2280,1.46,178,1.19,Normal,Adult,Off-Peak,7752,Car,67.29,2.61,0,None,Clear,17.2,3.75,453.95,Nighttime,Snow-covered,1,Red,Walk,53,0,37,18,Medium,Child Running,1,Minor
+2024-07-22 05:28:10,7706,0.65,218,1.65,Group Crossing,Elderly,Off-Peak,8318,Truck,42.81,0.52,1,Failed to Yield,Clear,26.2,2.17,966.65,Daytime,Wet,0,Red,Walk,73,0,40,2,High,Child Running,1,Major
+2024-12-12 05:37:45,5612,1.9,164,1.63,Group Crossing,Child,Off-Peak,6945,Bicycle,28.03,2.51,1,None,Fog,23.7,5.12,201.42,Low-light,Dry,1,Green,Don't Walk,86,1,48,6,Low,Normal,1,None
+2024-02-01 20:44:31,1434,1.26,309,0.93,Group Crossing,Adult,Off-Peak,8502,Car,57.15,2.3,1,None,Fog,17.4,0.01,447.73,Nighttime,Snow-covered,1,Yellow,Walk,54,1,50,8,Low,Child Running,1,None
+2024-07-30 02:31:36,3617,1.25,318,2.23,Normal,Elderly,Off-Peak,8956,Car,56.07,0.94,0,Failed to Yield,Snow,11.2,7.24,561.62,Low-light,Dry,0,Red,Don't Walk,37,1,49,11,High,Child Running,0,None
+2024-04-17 02:01:49,1467,1.6,84,0.82,Waiting,Elderly,Peak,7163,Bus,34.29,2.96,1,None,Snow,27.1,2.39,592.68,Daytime,Snow-covered,1,Yellow,Walk,87,1,15,12,Medium,Child Running,0,Minor
+2024-02-18 14:32:31,5345,1.08,81,0.23,Group Crossing,Adult,Peak,8214,Bus,19.01,2.34,0,Red Light Violation,Clear,27.3,4.72,168.4,Low-light,Snow-covered,0,Yellow,Walk,15,1,44,6,Low,Emergency Vehicle,1,None
+2024-06-28 05:35:02,2202,1.28,122,0.85,Group Crossing,Adult,Off-Peak,8975,Bicycle,29.19,-1.97,1,Red Light Violation,Rain,9.4,3.95,599.77,Nighttime,Wet,1,Yellow,Don't Walk,66,1,36,14,Medium,Child Running,1,Minor
+2024-07-27 06:01:34,7742,0.77,198,2.1,Waiting,Elderly,Off-Peak,8115,Car,13.89,0.44,0,Failed to Yield,Clear,-1.2,7.22,394.07,Nighttime,Snow-covered,0,Red,Walk,19,1,24,17,Medium,Emergency Vehicle,1,Minor
+2024-03-18 22:51:14,7564,0.91,353,0.16,Normal,Adult,Off-Peak,7067,Bus,51.25,1.85,0,Failed to Yield,Rain,17.2,4.76,916.02,Nighttime,Wet,1,Yellow,Don't Walk,46,1,24,15,Medium,Normal,0,Major
+2024-07-22 01:37:50,7123,1.4,287,1.56,Normal,Child,Off-Peak,8345,Bus,46.74,2.99,0,Red Light Violation,Rain,27.7,8.23,148.84,Nighttime,Dry,1,Yellow,Don't Walk,75,0,33,13,High,Child Running,0,Minor
+2024-03-04 15:35:10,8847,1.1,4,1.47,Normal,Elderly,Peak,5364,Truck,53.54,2.87,0,None,Clear,16.5,0.26,854.36,Daytime,Snow-covered,0,Red,Don't Walk,15,0,45,11,Low,Child Running,0,Minor
+2024-07-27 20:40:41,9005,1.03,219,1.34,Group Crossing,Elderly,Peak,6826,Car,51.36,2.74,0,Failed to Yield,Rain,23.4,6.8,773.27,Low-light,Snow-covered,1,Yellow,Don't Walk,78,0,16,2,High,Child Running,1,None
+2024-03-03 15:47:20,5086,1.46,32,2.39,Jaywalking,Elderly,Peak,7474,Bus,15.0,0.62,0,Red Light Violation,Snow,34.2,6.87,810.13,Nighttime,Dry,1,Yellow,Don't Walk,47,0,15,19,High,Normal,1,Fatal
+2024-09-28 13:04:40,1410,0.61,32,1.39,Waiting,Elderly,Off-Peak,6292,Bicycle,13.7,2.02,0,None,Rain,31.9,4.98,435.64,Low-light,Dry,1,Yellow,Don't Walk,79,1,15,5,Medium,Normal,0,None
+2024-01-30 13:51:02,2082,1.26,283,0.61,Group Crossing,Child,Peak,8559,Car,13.15,0.66,1,None,Clear,29.3,4.84,566.87,Low-light,Dry,1,Green,Don't Walk,60,0,30,1,Medium,Emergency Vehicle,0,Minor
+2024-09-06 01:16:22,3374,1.48,43,0.94,Waiting,Elderly,Peak,8672,Car,47.89,0.76,0,Failed to Yield,Fog,0.2,3.76,59.31,Nighttime,Dry,0,Yellow,Walk,55,1,14,12,Medium,Child Running,0,Major
+2024-11-14 00:48:39,8711,1.44,179,1.99,Jaywalking,Child,Off-Peak,6990,Car,65.82,0.41,0,Failed to Yield,Snow,-1.3,8.34,643.69,Low-light,Dry,0,Red,Walk,39,0,47,2,Medium,Emergency Vehicle,0,Minor
+2024-08-24 06:18:47,6956,1.9,83,0.54,Jaywalking,Adult,Peak,9148,Bus,35.15,-0.82,0,Red Light Violation,Snow,3.7,0.13,498.56,Daytime,Snow-covered,0,Yellow,Walk,65,1,48,19,Medium,Emergency Vehicle,1,None
+2024-02-20 20:04:42,3175,1.07,58,1.09,Group Crossing,Child,Peak,5468,Car,39.41,0.29,1,Failed to Yield,Rain,0.4,2.83,410.73,Low-light,Dry,0,Green,Walk,14,1,44,1,High,Normal,1,Minor
+2024-10-30 02:50:20,7052,0.52,10,1.7,Normal,Elderly,Peak,7848,Motorcycle,35.93,2.2,0,Failed to Yield,Clear,22.0,5.12,800.81,Nighttime,Dry,1,Yellow,Don't Walk,32,1,13,8,Low,Normal,0,Minor
+2024-11-11 09:35:28,9111,1.69,136,0.74,Normal,Elderly,Off-Peak,8517,Motorcycle,32.24,-0.33,0,None,Fog,1.2,7.54,152.56,Daytime,Wet,1,Yellow,Walk,66,0,21,8,Medium,Child Running,1,Major
+2024-06-18 09:49:47,3829,1.46,292,1.71,Group Crossing,Elderly,Off-Peak,6884,Bicycle,40.41,-0.67,1,Failed to Yield,Clear,20.6,9.78,739.21,Daytime,Snow-covered,0,Green,Don't Walk,45,0,15,9,High,Child Running,0,Minor
+2024-10-12 17:10:52,5083,1.51,15,0.62,Waiting,Adult,Peak,7044,Car,31.94,-0.09,1,Red Light Violation,Rain,6.3,6.25,932.27,Low-light,Snow-covered,1,Yellow,Don't Walk,61,1,29,12,High,Emergency Vehicle,0,Fatal
+2024-08-12 09:33:17,5920,1.12,213,1.82,Waiting,Adult,Peak,6096,Motorcycle,78.72,1.29,0,Failed to Yield,Rain,2.6,6.01,553.11,Daytime,Snow-covered,0,Red,Walk,86,0,18,6,High,Emergency Vehicle,1,None
+2024-05-23 04:45:10,6621,1.86,269,0.22,Waiting,Elderly,Off-Peak,5321,Bus,43.98,0.6,1,Failed to Yield,Snow,3.4,9.67,666.13,Nighttime,Snow-covered,1,Green,Don't Walk,59,1,22,16,High,Normal,0,Major
+2024-09-20 15:38:10,8049,1.45,25,1.13,Group Crossing,Adult,Peak,6700,Bus,38.95,0.52,0,Red Light Violation,Clear,-4.9,4.4,555.96,Low-light,Dry,1,Red,Walk,50,1,10,13,High,Child Running,0,Fatal
+2024-08-26 09:21:06,6791,0.64,107,0.95,Normal,Elderly,Peak,7894,Car,72.44,0.2,1,Failed to Yield,Fog,12.1,6.69,430.19,Nighttime,Dry,1,Yellow,Don't Walk,78,0,39,6,Medium,Child Running,0,Major
+2024-12-20 12:52:41,3021,0.58,348,0.84,Waiting,Child,Off-Peak,9040,Motorcycle,41.31,1.41,0,Red Light Violation,Fog,24.9,4.38,560.88,Nighttime,Snow-covered,0,Red,Walk,86,1,16,2,High,Emergency Vehicle,1,Minor
+2024-12-27 16:33:14,5751,1.72,75,1.85,Waiting,Child,Peak,8078,Car,54.45,1.98,1,Failed to Yield,Snow,24.8,2.32,266.57,Nighttime,Wet,1,Green,Walk,24,1,41,14,Low,Child Running,1,Minor
+2024-09-23 11:47:22,3046,1.74,159,2.18,Normal,Child,Off-Peak,9577,Motorcycle,72.17,-0.4,0,None,Rain,9.6,0.81,882.48,Daytime,Dry,1,Red,Walk,13,1,32,1,Medium,Child Running,1,None
+2024-03-11 18:01:06,4225,0.97,293,2.01,Normal,Elderly,Off-Peak,7486,Bicycle,66.61,-0.14,1,None,Snow,2.0,4.44,409.69,Low-light,Snow-covered,1,Green,Don't Walk,90,0,27,9,High,Emergency Vehicle,0,None
+2024-05-29 01:18:33,4784,1.97,30,1.21,Group Crossing,Elderly,Peak,5920,Car,79.71,1.74,0,None,Rain,18.2,7.66,756.88,Nighttime,Dry,0,Yellow,Don't Walk,23,0,37,5,Medium,Emergency Vehicle,0,Fatal
+2024-02-01 14:57:53,7760,1.18,255,0.75,Normal,Adult,Off-Peak,8224,Motorcycle,70.25,2.08,1,None,Snow,28.2,8.72,830.05,Daytime,Snow-covered,1,Yellow,Don't Walk,27,0,38,18,Medium,Normal,1,None
+2024-04-09 02:44:34,7835,0.59,263,0.7,Jaywalking,Child,Peak,9865,Truck,15.55,0.81,1,Red Light Violation,Rain,19.1,4.64,63.78,Daytime,Dry,0,Yellow,Walk,47,0,22,15,Low,Normal,1,Minor
+2024-10-03 03:36:39,4361,1.7,154,1.24,Group Crossing,Adult,Off-Peak,7568,Car,13.81,-0.19,0,Red Light Violation,Clear,26.8,1.67,415.89,Daytime,Wet,0,Red,Don't Walk,21,0,9,9,Low,Emergency Vehicle,0,Fatal
+2024-06-30 03:54:41,5508,0.97,308,0.69,Waiting,Child,Peak,6122,Motorcycle,37.8,-1.16,1,Red Light Violation,Snow,29.9,4.28,97.49,Daytime,Snow-covered,0,Yellow,Don't Walk,42,1,50,17,Medium,Emergency Vehicle,0,None
+2024-12-14 09:21:42,4829,0.77,145,0.15,Jaywalking,Adult,Off-Peak,5635,Bus,25.14,-0.16,0,None,Fog,5.6,7.9,554.13,Low-light,Wet,0,Yellow,Don't Walk,85,0,45,16,Medium,Child Running,0,Minor
+2024-06-21 22:46:09,4834,0.62,306,2.46,Normal,Child,Off-Peak,8491,Bus,54.03,-0.91,1,None,Snow,-2.2,5.76,865.1,Daytime,Dry,0,Yellow,Walk,26,0,5,3,High,Emergency Vehicle,1,Minor
+2024-03-05 02:54:44,9472,0.67,249,1.23,Waiting,Adult,Peak,7930,Car,54.64,0.69,0,Failed to Yield,Snow,18.7,7.58,836.48,Low-light,Wet,1,Yellow,Don't Walk,23,0,25,10,High,Emergency Vehicle,1,Minor
+2024-04-06 11:41:03,2324,1.99,195,1.33,Normal,Adult,Peak,9358,Truck,64.02,-0.16,0,Red Light Violation,Rain,21.4,8.56,633.22,Daytime,Snow-covered,0,Red,Don't Walk,45,1,40,13,Medium,Emergency Vehicle,1,Major
+2024-11-06 04:24:56,6159,1.35,92,0.39,Jaywalking,Adult,Peak,6194,Car,43.24,-1.43,1,Red Light Violation,Rain,-2.7,9.9,939.62,Low-light,Snow-covered,1,Yellow,Don't Walk,77,1,6,17,Medium,Normal,0,Minor
+2024-02-08 04:58:15,9296,1.37,193,1.25,Group Crossing,Child,Peak,8172,Bicycle,44.77,-1.75,1,None,Rain,32.6,5.25,613.82,Daytime,Snow-covered,0,Red,Don't Walk,36,1,11,18,High,Normal,0,Minor
+2024-03-15 12:41:31,2308,1.59,246,1.38,Waiting,Child,Off-Peak,5963,Bus,73.46,1.79,1,None,Snow,15.1,1.3,973.31,Nighttime,Snow-covered,1,Green,Walk,44,0,6,17,High,Child Running,1,None
+2024-05-24 05:41:39,5389,1.07,238,2.43,Jaywalking,Child,Off-Peak,5711,Bus,30.79,1.39,1,None,Rain,-0.1,3.42,63.22,Daytime,Dry,0,Yellow,Walk,43,0,48,8,Medium,Emergency Vehicle,1,Fatal
+2024-06-23 01:22:12,3993,1.81,81,0.45,Normal,Child,Peak,7508,Bus,13.82,1.9,1,Red Light Violation,Snow,15.1,8.66,301.23,Daytime,Wet,1,Green,Walk,48,1,18,3,High,Child Running,1,None
+2024-02-26 16:47:09,7128,0.58,250,2.33,Normal,Elderly,Off-Peak,5304,Motorcycle,14.82,2.17,0,None,Rain,5.3,6.81,771.22,Nighttime,Dry,1,Yellow,Don't Walk,38,0,8,20,Medium,Normal,0,Minor
+2024-06-01 16:42:11,9026,1.3,257,0.76,Group Crossing,Child,Peak,8817,Bicycle,43.59,0.85,1,None,Rain,14.2,5.6,658.46,Daytime,Snow-covered,1,Red,Don't Walk,84,0,9,6,Low,Normal,0,None
+2024-06-15 15:43:03,4534,1.51,344,1.66,Jaywalking,Child,Off-Peak,8839,Car,12.35,1.06,1,Red Light Violation,Snow,28.4,6.91,650.53,Low-light,Dry,1,Yellow,Walk,27,1,49,20,Medium,Normal,0,Minor
+2024-04-20 13:58:46,3069,1.51,275,1.76,Group Crossing,Adult,Peak,9400,Bus,39.08,0.44,1,Red Light Violation,Snow,26.2,2.04,835.99,Daytime,Dry,0,Red,Don't Walk,48,1,28,11,Low,Emergency Vehicle,1,Major
+2024-07-22 21:55:32,6845,1.36,65,0.71,Jaywalking,Child,Off-Peak,6906,Truck,59.16,-0.55,1,Red Light Violation,Rain,-1.7,0.51,259.34,Low-light,Wet,1,Yellow,Don't Walk,24,0,9,3,Medium,Normal,1,Minor
+2024-01-05 21:11:58,2606,1.48,32,2.26,Normal,Elderly,Peak,7117,Car,45.16,-1.57,1,Red Light Violation,Clear,34.7,6.19,785.31,Nighttime,Snow-covered,0,Yellow,Walk,25,0,14,14,High,Child Running,0,Major
+2024-11-03 13:35:49,9686,0.71,126,1.84,Group Crossing,Elderly,Peak,5679,Bicycle,60.44,-0.38,0,None,Fog,34.1,9.87,221.5,Low-light,Snow-covered,1,Red,Don't Walk,38,0,15,2,Low,Normal,1,Minor
+2024-04-25 09:04:16,6656,1.26,106,1.46,Normal,Child,Peak,5216,Bus,56.66,2.2,1,None,Rain,2.6,9.88,958.19,Low-light,Dry,0,Green,Don't Walk,58,0,9,2,Low,Normal,1,Major
+2024-07-20 19:41:12,5126,0.97,56,0.29,Normal,Adult,Peak,6409,Motorcycle,66.56,-1.29,0,None,Clear,33.3,9.15,347.12,Low-light,Snow-covered,0,Yellow,Walk,40,0,33,1,Low,Normal,0,None
+2024-01-20 09:01:24,8573,0.66,239,0.74,Jaywalking,Adult,Peak,9109,Bicycle,69.56,1.79,1,Red Light Violation,Fog,-3.1,7.5,167.8,Low-light,Dry,0,Red,Walk,40,0,48,2,High,Normal,0,Fatal
+2024-11-30 07:30:09,6783,0.63,341,1.58,Jaywalking,Elderly,Off-Peak,9489,Car,54.57,2.79,0,None,Clear,9.4,6.91,539.72,Nighttime,Wet,1,Green,Don't Walk,50,1,15,19,Medium,Emergency Vehicle,1,Minor
+2024-12-21 17:13:22,6928,1.39,164,1.11,Waiting,Elderly,Off-Peak,9380,Car,70.12,-1.92,0,Failed to Yield,Rain,25.3,8.82,570.88,Low-light,Dry,1,Yellow,Don't Walk,57,1,21,9,Medium,Child Running,1,Minor
+2024-10-08 10:11:08,3599,1.06,231,1.98,Normal,Elderly,Off-Peak,5333,Car,15.63,-1.37,1,Failed to Yield,Clear,3.3,4.76,781.5,Low-light,Wet,1,Green,Don't Walk,74,0,22,7,Low,Child Running,0,Major
+2024-06-13 11:14:30,3864,1.41,231,0.3,Jaywalking,Child,Off-Peak,9577,Car,15.66,0.9,0,Red Light Violation,Snow,30.7,7.92,501.76,Nighttime,Dry,1,Red,Don't Walk,14,0,17,15,Low,Normal,1,Fatal
+2024-05-18 04:50:44,8835,0.59,49,0.79,Normal,Child,Peak,7198,Motorcycle,51.82,0.64,1,Failed to Yield,Snow,30.8,3.23,647.86,Daytime,Dry,1,Yellow,Don't Walk,50,0,22,9,High,Emergency Vehicle,0,Fatal
+2024-03-13 19:46:15,6473,1.19,102,0.98,Group Crossing,Child,Off-Peak,7787,Bus,77.61,1.2,1,None,Clear,20.1,2.21,532.58,Nighttime,Dry,1,Yellow,Don't Walk,83,1,28,8,Medium,Emergency Vehicle,1,None
+2024-10-20 15:51:56,5253,1.32,179,1.77,Group Crossing,Elderly,Off-Peak,5701,Truck,37.5,-1.84,1,Failed to Yield,Snow,12.7,1.51,321.32,Nighttime,Snow-covered,0,Green,Don't Walk,83,1,5,10,High,Normal,1,Major
+2024-12-03 18:36:12,8679,1.7,156,2.23,Group Crossing,Adult,Off-Peak,8471,Bicycle,17.58,-0.7,0,Failed to Yield,Clear,25.7,9.31,369.82,Daytime,Snow-covered,1,Green,Don't Walk,26,1,35,8,Medium,Emergency Vehicle,0,Minor
+2024-06-10 03:44:37,8383,1.32,195,1.97,Normal,Child,Off-Peak,7792,Motorcycle,63.58,1.94,0,Red Light Violation,Snow,20.1,2.17,359.58,Low-light,Snow-covered,1,Yellow,Don't Walk,75,1,15,11,Medium,Child Running,0,Major
+2024-08-20 22:47:21,3887,1.12,80,0.9,Normal,Child,Peak,8936,Bicycle,62.6,0.3,1,Red Light Violation,Snow,27.7,2.02,184.28,Daytime,Wet,1,Green,Don't Walk,63,0,46,8,High,Child Running,1,None
+2024-05-09 07:59:05,6023,0.7,131,1.02,Jaywalking,Child,Peak,6114,Bus,33.22,1.19,0,None,Fog,7.0,7.24,902.87,Daytime,Snow-covered,1,Red,Don't Walk,86,0,32,4,High,Normal,0,None
+2024-09-26 10:51:07,3951,1.53,115,0.44,Normal,Child,Off-Peak,8849,Car,24.05,-0.42,0,Red Light Violation,Snow,9.4,8.33,568.16,Nighttime,Wet,1,Red,Don't Walk,79,0,12,5,Low,Child Running,1,Fatal
+2024-01-17 20:12:13,1840,0.59,73,0.72,Normal,Child,Off-Peak,5644,Bicycle,37.93,2.36,1,None,Rain,26.4,3.44,159.85,Nighttime,Dry,1,Yellow,Don't Walk,52,0,50,2,Medium,Child Running,0,None
+2024-02-17 10:51:56,3324,1.06,45,1.64,Normal,Adult,Off-Peak,6215,Car,24.66,-1.12,0,None,Fog,34.1,2.59,337.78,Daytime,Wet,0,Yellow,Walk,56,0,31,12,High,Emergency Vehicle,1,Minor
+2024-01-18 14:15:34,9413,0.85,267,1.67,Jaywalking,Elderly,Off-Peak,9797,Bicycle,56.83,-1.28,0,Failed to Yield,Rain,28.4,2.71,458.39,Nighttime,Snow-covered,0,Green,Walk,14,1,39,5,Medium,Child Running,0,Minor
+2024-04-06 22:35:57,8926,1.92,318,2.15,Normal,Elderly,Peak,7632,Truck,61.16,1.29,0,Red Light Violation,Rain,30.2,8.33,158.35,Nighttime,Wet,0,Red,Walk,77,1,34,12,Low,Emergency Vehicle,0,Minor
+2024-01-18 11:44:29,6065,0.9,59,0.38,Normal,Child,Peak,9094,Motorcycle,24.96,2.36,0,Failed to Yield,Snow,27.3,8.26,882.15,Low-light,Dry,0,Red,Walk,32,1,20,19,High,Child Running,1,Fatal
+2024-11-29 00:19:42,6743,1.68,260,2.16,Jaywalking,Child,Off-Peak,6527,Bicycle,68.95,2.18,0,None,Fog,-4.1,3.91,860.63,Daytime,Wet,1,Yellow,Walk,84,1,50,7,Medium,Normal,0,Fatal
+2024-05-06 11:15:25,2576,1.38,111,1.33,Waiting,Elderly,Off-Peak,6971,Motorcycle,58.46,2.13,0,Red Light Violation,Fog,33.3,4.61,417.71,Daytime,Snow-covered,1,Yellow,Don't Walk,13,1,32,17,High,Emergency Vehicle,1,Fatal
+2024-09-03 07:45:26,3524,0.91,244,0.4,Group Crossing,Adult,Peak,6564,Bus,32.89,2.09,0,Red Light Violation,Clear,33.0,1.14,548.41,Low-light,Wet,0,Green,Don't Walk,54,0,11,7,High,Normal,0,None
+2024-07-14 03:34:32,7105,1.17,70,0.94,Group Crossing,Elderly,Peak,8515,Motorcycle,19.06,1.48,1,Failed to Yield,Rain,16.0,7.55,801.1,Nighttime,Dry,0,Red,Walk,12,1,37,14,High,Emergency Vehicle,1,Fatal
+2024-09-29 04:14:24,9300,1.95,171,1.35,Waiting,Adult,Off-Peak,5031,Truck,36.18,0.49,0,None,Snow,14.5,6.93,237.86,Daytime,Snow-covered,0,Green,Walk,11,0,21,14,Low,Child Running,0,Minor
+2024-10-15 01:42:46,7885,1.19,122,1.66,Group Crossing,Child,Off-Peak,8509,Car,29.87,-1.94,0,Failed to Yield,Snow,25.2,2.77,541.88,Nighttime,Dry,1,Green,Walk,74,1,45,4,High,Emergency Vehicle,0,Minor
+2024-06-04 09:41:29,4573,0.84,344,2.04,Waiting,Child,Off-Peak,7160,Truck,78.01,-0.64,0,Red Light Violation,Rain,13.2,1.71,470.25,Nighttime,Wet,1,Green,Walk,86,1,34,11,Medium,Normal,1,Minor
+2024-05-30 15:18:31,6408,1.42,288,2.48,Normal,Elderly,Peak,6675,Motorcycle,23.61,2.41,0,Red Light Violation,Clear,7.6,7.37,188.7,Daytime,Snow-covered,0,Red,Walk,18,1,47,13,Medium,Child Running,0,Fatal
+2024-07-07 23:50:23,9514,0.89,152,1.95,Jaywalking,Child,Off-Peak,5564,Bicycle,18.94,-1.95,0,Red Light Violation,Rain,22.5,6.91,470.19,Low-light,Snow-covered,1,Red,Walk,35,0,43,14,Low,Child Running,0,Minor
+2024-10-06 10:14:27,2867,1.85,338,0.82,Jaywalking,Child,Peak,7489,Bicycle,62.07,-1.46,0,Red Light Violation,Snow,17.7,3.18,560.47,Daytime,Snow-covered,1,Green,Walk,50,0,29,5,High,Child Running,1,Fatal
+2024-08-27 10:20:34,8342,0.63,88,1.38,Waiting,Child,Peak,6564,Bus,21.33,-0.07,1,Red Light Violation,Rain,1.2,9.01,637.31,Nighttime,Snow-covered,1,Green,Don't Walk,31,0,27,13,High,Emergency Vehicle,0,None
+2024-12-23 08:53:24,1731,1.89,20,0.32,Waiting,Elderly,Off-Peak,8760,Bicycle,35.49,-0.64,0,Red Light Violation,Clear,27.5,0.15,660.53,Low-light,Snow-covered,1,Green,Don't Walk,40,0,46,5,Medium,Emergency Vehicle,0,Minor
+2024-10-31 17:29:27,4119,0.68,8,0.22,Normal,Child,Off-Peak,8694,Motorcycle,11.12,2.43,0,None,Fog,2.4,3.78,878.88,Low-light,Dry,1,Red,Don't Walk,80,0,14,10,Medium,Emergency Vehicle,1,Fatal
+2024-06-09 02:45:32,4614,0.76,228,0.46,Normal,Adult,Off-Peak,5066,Car,15.84,-0.36,1,None,Rain,5.3,8.86,461.53,Daytime,Snow-covered,0,Red,Don't Walk,58,0,19,9,High,Emergency Vehicle,1,Major
+2024-04-09 03:59:35,4696,0.53,205,1.99,Group Crossing,Adult,Off-Peak,7082,Car,72.83,-1.18,0,None,Clear,28.7,9.51,633.99,Low-light,Wet,1,Red,Don't Walk,82,1,16,17,High,Emergency Vehicle,0,Fatal
+2024-06-30 18:10:12,8548,0.89,248,2.25,Jaywalking,Elderly,Peak,5672,Motorcycle,78.61,-1.62,0,None,Clear,10.1,0.54,716.05,Low-light,Wet,0,Red,Don't Walk,16,1,18,10,Low,Child Running,0,None
+2024-07-21 07:32:23,1734,1.52,172,1.67,Jaywalking,Elderly,Off-Peak,9160,Motorcycle,61.96,1.18,1,None,Fog,28.3,2.86,929.2,Nighttime,Wet,0,Yellow,Don't Walk,40,1,8,8,Low,Child Running,0,Minor
+2024-02-23 07:05:42,6166,1.97,161,0.37,Normal,Child,Off-Peak,8855,Bus,66.39,-1.42,1,Red Light Violation,Fog,17.0,9.94,848.8,Daytime,Dry,0,Red,Don't Walk,32,0,45,11,Low,Normal,0,Major
+2024-05-04 12:02:18,4834,0.97,6,0.64,Waiting,Adult,Peak,8145,Motorcycle,48.33,1.09,0,None,Rain,9.9,1.82,974.61,Nighttime,Wet,1,Red,Walk,14,0,41,11,Low,Child Running,1,Fatal
+2024-11-03 14:20:07,1200,0.77,120,2.41,Waiting,Elderly,Off-Peak,6586,Bicycle,44.71,0.45,0,Red Light Violation,Rain,8.7,2.82,86.72,Low-light,Wet,1,Red,Walk,41,1,23,19,High,Emergency Vehicle,0,Major
+2024-08-08 03:04:54,9505,0.73,275,2.26,Normal,Elderly,Off-Peak,5351,Bus,41.6,2.26,0,Failed to Yield,Clear,29.6,2.38,499.46,Daytime,Dry,1,Green,Don't Walk,79,1,46,1,Low,Emergency Vehicle,1,Minor
+2024-12-13 20:10:30,1693,1.94,286,0.57,Jaywalking,Adult,Off-Peak,7395,Bus,20.22,1.9,0,Red Light Violation,Fog,7.3,5.28,155.53,Low-light,Snow-covered,1,Red,Walk,33,1,36,6,Low,Normal,0,None
+2024-02-18 14:45:09,1410,1.94,63,0.82,Normal,Adult,Off-Peak,7036,Bicycle,22.57,2.77,0,None,Snow,13.8,0.32,454.37,Low-light,Snow-covered,1,Yellow,Don't Walk,84,0,36,13,Low,Normal,1,None
+2024-02-09 17:37:33,9678,0.64,350,0.36,Normal,Child,Peak,7330,Car,71.2,-0.8,0,Red Light Violation,Clear,20.6,4.57,754.69,Nighttime,Dry,1,Yellow,Walk,59,0,24,4,High,Emergency Vehicle,1,None
+2024-08-15 12:05:30,8033,1.39,232,1.43,Group Crossing,Child,Off-Peak,8666,Bicycle,28.71,1.1,0,Failed to Yield,Snow,29.8,5.56,57.57,Daytime,Dry,1,Green,Walk,78,0,43,10,Low,Child Running,1,Major
+2024-08-28 18:23:22,4187,0.91,222,1.47,Waiting,Adult,Off-Peak,6280,Bus,25.3,2.42,0,Red Light Violation,Snow,25.3,8.7,998.5,Low-light,Dry,0,Yellow,Walk,45,1,29,12,High,Emergency Vehicle,0,Minor
+2024-09-19 21:15:13,8145,1.73,262,0.91,Normal,Child,Peak,8099,Truck,11.02,-1.34,0,Red Light Violation,Snow,18.7,4.54,452.02,Daytime,Dry,0,Red,Walk,61,1,50,10,Low,Emergency Vehicle,1,Major
+2024-05-02 08:04:49,9795,1.42,276,1.45,Group Crossing,Adult,Off-Peak,9227,Motorcycle,56.48,-0.17,0,Red Light Violation,Rain,19.7,7.95,978.82,Nighttime,Dry,1,Green,Walk,11,1,28,8,High,Child Running,0,None
+2024-11-17 20:48:12,5474,0.84,215,1.53,Group Crossing,Elderly,Peak,7127,Car,70.33,-0.37,0,None,Rain,20.4,2.98,387.37,Nighttime,Dry,0,Green,Don't Walk,18,0,13,7,Medium,Normal,1,Major
+2024-09-12 13:27:03,9926,0.83,61,0.47,Jaywalking,Adult,Off-Peak,6589,Truck,24.42,1.41,0,Red Light Violation,Fog,1.1,4.19,248.32,Nighttime,Dry,1,Green,Walk,63,1,25,6,High,Child Running,0,Minor
+2024-10-06 15:02:42,8804,1.3,192,2.44,Group Crossing,Child,Peak,5985,Car,10.69,0.48,1,None,Fog,-2.0,3.83,698.72,Daytime,Dry,0,Yellow,Walk,71,0,46,8,Medium,Emergency Vehicle,1,Minor
+2024-10-12 09:53:37,2328,1.75,0,1.31,Group Crossing,Child,Peak,8638,Bus,71.6,-1.51,1,Red Light Violation,Rain,25.5,3.91,707.76,Daytime,Snow-covered,0,Green,Walk,19,0,46,20,High,Child Running,0,Minor
+2024-08-12 19:11:03,6042,1.99,104,1.37,Group Crossing,Adult,Off-Peak,6462,Motorcycle,21.75,0.0,0,Red Light Violation,Snow,27.0,1.54,298.97,Low-light,Dry,1,Yellow,Don't Walk,30,0,32,4,High,Emergency Vehicle,1,Major
+2024-11-14 07:57:57,8559,1.02,122,1.85,Waiting,Elderly,Off-Peak,7240,Bus,37.88,0.54,1,None,Rain,-1.4,9.76,130.2,Low-light,Snow-covered,0,Green,Don't Walk,67,1,22,19,Medium,Emergency Vehicle,0,Minor
+2024-12-22 09:40:14,4710,1.07,209,1.41,Normal,Elderly,Off-Peak,9509,Bus,62.16,1.31,1,None,Clear,31.7,9.82,734.38,Low-light,Wet,1,Red,Don't Walk,85,0,11,4,Medium,Child Running,0,Major
+2024-07-31 01:55:51,3044,1.52,350,2.28,Group Crossing,Adult,Off-Peak,6102,Bus,74.53,2.62,0,Failed to Yield,Fog,10.0,1.17,519.12,Low-light,Snow-covered,0,Yellow,Don't Walk,11,0,33,20,Medium,Emergency Vehicle,0,Major
+2024-03-02 16:14:34,7820,1.93,16,2.29,Jaywalking,Elderly,Peak,7112,Bus,22.01,1.25,0,Failed to Yield,Clear,28.3,6.8,90.95,Daytime,Dry,1,Yellow,Don't Walk,43,0,16,18,High,Emergency Vehicle,1,Major
+2024-02-10 05:30:13,9829,1.67,315,1.49,Normal,Child,Peak,6719,Bicycle,10.31,-1.12,1,None,Fog,21.4,6.66,280.24,Daytime,Dry,0,Green,Don't Walk,62,1,33,7,Medium,Emergency Vehicle,0,Minor
+2024-12-09 07:22:28,3015,1.65,319,1.28,Group Crossing,Elderly,Off-Peak,7798,Motorcycle,10.63,2.56,0,Red Light Violation,Fog,15.5,8.55,939.42,Daytime,Dry,1,Yellow,Don't Walk,30,0,46,20,High,Emergency Vehicle,1,Major
+2024-08-26 22:15:09,3363,0.52,56,1.23,Waiting,Adult,Peak,9995,Bus,78.45,-1.72,1,Red Light Violation,Clear,-4.7,8.96,201.43,Low-light,Snow-covered,1,Green,Don't Walk,11,0,8,15,Low,Emergency Vehicle,0,Fatal
+2024-05-06 13:37:56,9430,1.36,239,0.53,Waiting,Adult,Peak,7007,Car,75.83,1.23,1,Failed to Yield,Rain,26.6,3.11,768.46,Nighttime,Wet,1,Red,Don't Walk,65,1,5,4,Low,Normal,1,Fatal
+2024-05-30 13:29:23,1070,0.85,235,0.82,Group Crossing,Adult,Peak,5079,Bus,68.25,2.95,1,Red Light Violation,Clear,26.2,9.35,685.17,Daytime,Wet,1,Red,Don't Walk,74,0,43,14,Medium,Normal,1,Minor
+2024-05-31 12:03:20,7662,0.7,206,1.8,Group Crossing,Child,Off-Peak,8054,Bicycle,30.31,0.3,0,Red Light Violation,Snow,26.3,9.75,699.16,Nighttime,Wet,0,Red,Don't Walk,39,1,14,12,Low,Child Running,0,Major
+2024-03-01 14:31:40,8378,1.77,97,0.82,Group Crossing,Elderly,Peak,7751,Motorcycle,72.66,1.49,0,Red Light Violation,Clear,18.3,3.06,896.42,Daytime,Wet,1,Red,Walk,54,1,23,12,High,Emergency Vehicle,1,Major
+2024-10-02 18:09:41,6170,0.6,357,2.28,Waiting,Adult,Off-Peak,9633,Truck,19.12,2.36,1,None,Rain,7.2,1.97,239.62,Daytime,Wet,1,Yellow,Don't Walk,29,1,50,5,High,Normal,0,Minor
+2024-09-03 09:57:28,7579,1.04,7,0.18,Jaywalking,Child,Peak,5952,Bicycle,46.77,2.43,1,None,Rain,32.5,8.76,936.83,Daytime,Snow-covered,1,Green,Don't Walk,75,0,44,15,Low,Child Running,1,Major
+2024-10-28 18:14:05,6263,1.94,81,1.43,Group Crossing,Elderly,Peak,7270,Bus,34.52,0.34,1,Red Light Violation,Rain,23.2,9.38,128.05,Nighttime,Dry,0,Green,Walk,27,1,39,7,Low,Emergency Vehicle,1,Fatal
+2024-03-04 03:59:42,3165,1.89,326,1.93,Group Crossing,Adult,Off-Peak,6897,Truck,23.67,1.48,0,Failed to Yield,Snow,23.7,2.04,893.16,Daytime,Dry,0,Red,Walk,30,1,20,3,High,Normal,0,Fatal
+2024-12-05 17:27:06,2815,0.66,232,1.64,Jaywalking,Elderly,Peak,6313,Motorcycle,59.31,-0.3,1,Red Light Violation,Rain,33.5,2.16,154.91,Low-light,Wet,0,Green,Don't Walk,50,1,6,19,High,Emergency Vehicle,1,None
+2024-10-08 14:25:53,1861,0.75,348,0.55,Waiting,Elderly,Peak,8134,Car,66.3,1.72,1,Failed to Yield,Snow,2.2,7.1,108.65,Low-light,Dry,0,Yellow,Walk,67,0,47,12,Low,Emergency Vehicle,0,Fatal
+2024-09-23 22:05:26,6172,1.77,257,1.11,Normal,Elderly,Off-Peak,8341,Bus,31.79,2.77,1,None,Snow,14.6,7.19,463.95,Low-light,Dry,1,Green,Don't Walk,84,0,39,5,Medium,Normal,0,None
+2024-04-12 11:46:15,1485,1.9,38,1.76,Waiting,Adult,Off-Peak,6356,Truck,51.26,-1.91,0,None,Clear,-1.5,1.6,873.15,Low-light,Wet,0,Red,Don't Walk,37,1,47,19,Medium,Child Running,1,None
+2024-03-22 13:45:30,8158,0.64,329,0.75,Group Crossing,Child,Off-Peak,6212,Bus,26.01,2.97,1,Red Light Violation,Rain,20.1,3.56,105.55,Low-light,Dry,1,Red,Don't Walk,58,0,14,16,Low,Emergency Vehicle,1,None
+2024-05-17 16:46:50,2205,1.01,71,0.96,Waiting,Adult,Peak,7464,Motorcycle,65.13,1.21,1,None,Fog,29.1,9.95,305.67,Low-light,Wet,1,Red,Walk,83,1,22,10,Medium,Normal,0,Major
+2024-04-03 20:21:14,7064,1.93,225,1.17,Jaywalking,Adult,Off-Peak,5768,Bus,77.9,0.29,1,Red Light Violation,Snow,7.1,4.24,333.11,Daytime,Wet,1,Green,Walk,88,1,21,3,Medium,Emergency Vehicle,0,Major
+2024-09-22 05:36:00,9119,1.26,152,1.43,Waiting,Child,Peak,8235,Bicycle,37.78,1.53,0,Failed to Yield,Clear,31.9,0.74,526.35,Daytime,Snow-covered,1,Yellow,Don't Walk,30,1,41,19,Medium,Emergency Vehicle,1,Minor
+2024-02-21 04:28:14,8312,1.02,195,1.48,Group Crossing,Elderly,Peak,6297,Car,31.72,-0.35,1,Failed to Yield,Clear,23.5,4.49,53.6,Nighttime,Dry,1,Green,Walk,47,1,18,16,Medium,Emergency Vehicle,1,Major
+2024-12-03 12:21:02,3237,1.91,22,1.76,Waiting,Child,Off-Peak,7434,Bicycle,29.71,0.31,0,None,Snow,15.1,5.85,67.01,Low-light,Snow-covered,0,Green,Walk,70,0,10,7,Low,Child Running,1,Major
+2024-04-20 09:58:41,4856,0.95,316,2.3,Jaywalking,Adult,Peak,6824,Bus,51.9,-0.37,1,Failed to Yield,Rain,-1.8,3.76,315.84,Nighttime,Wet,0,Yellow,Don't Walk,17,0,9,20,Medium,Child Running,0,Major
+2024-02-28 14:46:01,9820,1.55,41,1.57,Jaywalking,Adult,Peak,5503,Car,76.8,-1.22,0,None,Rain,25.9,5.41,367.71,Daytime,Wet,1,Green,Don't Walk,26,0,31,6,Medium,Normal,1,Major
+2024-04-24 12:49:53,7694,0.81,192,0.79,Waiting,Child,Off-Peak,9590,Bus,60.47,1.78,1,Failed to Yield,Snow,31.3,8.91,448.0,Low-light,Snow-covered,0,Yellow,Don't Walk,81,0,47,9,Medium,Emergency Vehicle,1,None
+2024-01-15 19:18:20,9548,1.95,252,1.0,Waiting,Elderly,Peak,7564,Bus,30.56,2.28,0,Red Light Violation,Fog,5.1,2.69,513.72,Low-light,Wet,1,Green,Walk,77,0,46,13,Low,Emergency Vehicle,0,Major
+2024-07-31 08:26:50,9695,1.63,283,2.02,Normal,Child,Off-Peak,5328,Bus,38.36,-1.27,0,Red Light Violation,Fog,25.8,5.16,179.16,Nighttime,Wet,0,Red,Don't Walk,64,1,12,5,High,Emergency Vehicle,1,None
+2024-05-06 07:39:36,2310,1.57,308,1.44,Waiting,Elderly,Peak,7917,Truck,78.68,-1.69,0,Failed to Yield,Clear,28.8,4.93,599.0,Low-light,Snow-covered,0,Yellow,Walk,44,1,30,13,High,Emergency Vehicle,1,None
+2024-12-29 06:55:00,8803,0.96,100,0.88,Normal,Elderly,Peak,8545,Bus,11.7,1.36,1,None,Fog,25.5,3.43,481.51,Nighttime,Wet,0,Yellow,Don't Walk,46,1,19,7,Medium,Normal,0,Fatal
+2024-10-13 17:08:25,9316,1.13,76,2.19,Group Crossing,Adult,Off-Peak,9337,Motorcycle,35.17,0.36,1,Failed to Yield,Clear,2.1,5.51,532.84,Daytime,Wet,1,Yellow,Don't Walk,13,0,22,15,Low,Normal,1,Fatal
+2024-08-13 06:13:47,7285,1.39,343,2.17,Jaywalking,Elderly,Peak,6495,Motorcycle,32.2,-1.92,0,Red Light Violation,Snow,13.2,1.74,441.11,Low-light,Dry,0,Yellow,Don't Walk,49,0,5,16,Medium,Emergency Vehicle,1,Minor
+2024-07-28 08:39:54,9357,1.01,325,0.3,Jaywalking,Child,Peak,8080,Car,49.37,-0.95,0,Red Light Violation,Snow,27.8,5.16,245.65,Daytime,Dry,0,Yellow,Walk,78,1,31,5,Low,Child Running,0,Major
+2024-12-11 04:15:08,2099,1.34,244,2.3,Waiting,Elderly,Peak,9656,Motorcycle,17.74,-1.8,1,Failed to Yield,Snow,12.5,2.96,531.78,Nighttime,Wet,0,Red,Walk,25,1,27,15,Medium,Emergency Vehicle,0,Minor
+2024-08-18 07:45:12,6682,1.76,52,2.24,Group Crossing,Child,Peak,7043,Motorcycle,57.91,0.46,0,None,Snow,31.6,5.01,570.58,Low-light,Dry,1,Red,Walk,39,0,31,5,Low,Emergency Vehicle,1,None
+2024-09-01 18:00:06,8248,1.08,72,2.04,Waiting,Elderly,Peak,7082,Truck,50.57,0.53,0,None,Clear,1.9,6.23,963.88,Daytime,Dry,0,Red,Walk,80,1,35,19,Low,Normal,1,Minor
+2024-10-19 02:43:25,2097,1.4,2,1.41,Waiting,Child,Off-Peak,8597,Truck,27.59,2.38,0,Red Light Violation,Fog,2.7,7.16,558.04,Nighttime,Snow-covered,1,Green,Don't Walk,48,1,25,13,High,Normal,1,None
+2024-11-17 13:20:17,5541,0.66,327,1.26,Waiting,Elderly,Peak,8695,Motorcycle,65.44,1.27,1,None,Fog,21.8,9.78,627.23,Daytime,Snow-covered,0,Red,Don't Walk,42,1,27,6,High,Child Running,0,None
+2024-04-15 17:04:12,7935,1.29,334,0.65,Waiting,Elderly,Peak,8093,Bicycle,14.0,-0.94,0,Failed to Yield,Rain,14.5,2.74,359.26,Low-light,Wet,1,Green,Walk,11,1,29,19,High,Child Running,0,Minor
+2024-12-24 10:33:10,9964,1.22,214,1.94,Jaywalking,Child,Peak,5312,Truck,46.86,0.66,0,Red Light Violation,Fog,8.0,2.91,825.83,Low-light,Wet,1,Green,Don't Walk,19,1,16,8,Medium,Child Running,1,Major
+2024-04-13 20:49:13,3751,0.87,181,1.9,Jaywalking,Adult,Off-Peak,7599,Truck,49.57,2.04,0,Failed to Yield,Fog,14.3,4.46,53.09,Low-light,Snow-covered,1,Red,Don't Walk,18,1,15,9,Low,Child Running,1,None
+2024-08-08 16:43:12,5377,1.17,198,0.31,Waiting,Child,Off-Peak,9858,Truck,63.38,2.17,1,Failed to Yield,Clear,21.1,9.39,106.9,Nighttime,Snow-covered,1,Green,Walk,33,1,22,8,Medium,Child Running,1,None
+2024-11-13 02:57:57,6232,1.22,118,2.0,Jaywalking,Child,Peak,5823,Bicycle,40.22,2.72,0,None,Rain,9.4,3.35,522.68,Low-light,Dry,1,Yellow,Don't Walk,34,0,29,18,Medium,Emergency Vehicle,1,Major
+2024-10-03 01:06:11,2511,1.94,261,1.51,Group Crossing,Elderly,Peak,8418,Truck,43.31,1.95,1,Red Light Violation,Rain,3.2,3.91,683.07,Low-light,Dry,0,Yellow,Walk,14,1,13,1,Low,Emergency Vehicle,0,None
+2024-05-26 03:31:21,7642,0.51,35,1.47,Group Crossing,Elderly,Peak,8745,Bicycle,65.36,-1.37,1,None,Fog,15.0,7.18,300.86,Daytime,Snow-covered,0,Green,Walk,46,0,44,20,Low,Emergency Vehicle,1,Minor
+2024-02-14 02:56:18,1356,1.1,335,2.24,Jaywalking,Child,Peak,9414,Bicycle,64.28,0.36,1,Failed to Yield,Snow,-2.8,7.33,190.7,Low-light,Snow-covered,0,Green,Walk,85,1,33,2,Low,Emergency Vehicle,1,None

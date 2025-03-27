@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ride Sharing Analysis</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .container { display: flex; flex-wrap: wrap; gap: 20px; }
+        .card { border: 1px solid #ddd; border-radius: 5px; padding: 15px; width: 45%; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        .impact-stats { display: flex; flex-wrap: wrap; gap: 20px; margin-bottom: 20px; }
+        .stat-box { flex: 1; min-width: 200px; background-color: #f8f9fa; padding: 15px; border-radius: 5px; text-align: center; }
+        .stat-value { font-size: 24px; font-weight: bold; color: #2c3e50; margin: 10px 0; }
+        .how-it-works { background-color: #e8f4fd; padding: 15px; border-radius: 5px; margin-top: 20px; }
+        .hotspot-item { padding: 8px 0; border-bottom: 1px solid #eee; }
+        .progress { height: 10px; background-color: #e9ecef; border-radius: 5px; margin-top: 5px; }
+        .progress-bar { background-color: #0d6efd; height: 100%; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <h1>Ride Sharing Analysis Dashboard</h1>
+    
+    <!-- Impact Statistics Section -->
+    <div class="impact-stats">
+        <div class="stat-box">
+            <div class="stat-value">{{ impact_stats.vehicles_reduced }}</div>
+            <div>Vehicles removed from roads daily</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-value">{{ impact_stats.congestion_reduction }}</div>
+            <div>Reduction in peak congestion</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-value">{{ impact_stats.peak_hours_impact }}</div>
+            <div>Most impacted hours</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-value">{{ impact_stats.top_routes }}</div>
+            <div>Top optimized routes</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Hotspots Card -->
+        <div class="card">
+            <h2>Top Congestion Hotspots Targeted</h2>
+            <p>Our matching system focuses on these high-congestion areas to maximize impact:</p>
+            <img src="{{ url_for('static', filename=hotspot_plot.replace('static/', '')) }}" alt="Hotspots" style="width:100%; margin-bottom: 15px;">
+            <h3>Top 5 Hotspots</h3>
+            <ul style="list-style: none; padding-left: 0;">
+                {% for hotspot in top_hotspots %}
+                <li class="hotspot-item">
+                    <strong>Hotspot {{ hotspot.id }}:</strong> {{ hotspot.rides }} rides matched
+                    <div class="progress">
+                        <div class="progress-bar" style="width: {{ (hotspot.rides/64)*100 }}%"></div>
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        
+        <!-- How It Works Card -->
+        <div class="card">
+            <h2>How Intelligent Matching Reduces Congestion</h2>
+            <div class="how-it-works">
+                <ol>
+                    <li><strong>Precision Matching:</strong> High similarity scores (0.95-1.00) ensure minimal detours</li>
+                    <li><strong>Temporal Optimization:</strong> Aligning schedules within minutes (e.g., 07:51 vs 07:52)</li>
+                    <li><strong>Route Consolidation:</strong> Combining trips along common corridors</li>
+                    <li><strong>Reciprocal Benefits:</strong> Fair matches that work for both riders</li>
+                </ol>
+                <div style="background-color: #d1e7ff; padding: 10px; border-radius: 5px; margin-top: 15px;">
+                    <strong>Result:</strong> Each matched pair removes one vehicle from the road, directly reducing congestion in targeted hotspots.
+                </div>
+            </div>
+            
+            <h2 style="margin-top: 20px;">Hourly Demand Pattern</h2>
+            <img src="{{ url_for('static', filename=hourly_plot.replace('static/', '')) }}" alt="Hourly Demand" style="width:100%;">
+        </div>
+    </div>
+    
+    <!-- Matches Table -->
+    <div class="card" style="width: 90%; margin-top: 20px;">
+        <h2>Top Carpool Matches</h2>
+        <table>
+            <tr>
+                <th>User ID</th>
+                <th>Match ID</th>
+                <th>Similarity Score</th>
+                <th>Route</th>
+                <th>Your Pickup Time</th>
+                <th>Match Pickup Time</th>
+                <th>Time Difference</th>
+            </tr>
+            {% for match in top_matches %}
+            <tr>
+                <td>{{ match.user_id }}</td>
+                <td>{{ match.match_id }}</td>
+                <td>{{ "%.2f"|format(match.score) }}</td>
+                <td>{{ match.route }}</td>
+                <td>{{ match.your_time }}</td>
+                <td>{{ match.match_time }}</td>
+                <td>
+                    {% set time1 = match.your_time.split(':') %}
+                    {% set time2 = match.match_time.split(':') %}
+                    {% set diff = (time1[0]|int * 60 + time1[1]|int) - (time2[0]|int * 60 + time2[1]|int) %}
+                    {{ diff|abs }} minutes
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

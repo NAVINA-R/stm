@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Signal Optimization System</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .dashboard {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+        .control-panel, .visualization {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .control-panel h2, .visualization h2 {
+            color: #3498db;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        input, select {
+            padding: 10px;
+            margin: 5px 0;
+            width: 100%;
+            box-sizing: border-box;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        input:focus, select:focus {
+            outline: none;
+            border-color: #3498db;
+            box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+        }
+        .checkbox-group {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+        }
+        .checkbox-group input {
+            width: auto;
+            margin-right: 10px;
+        }
+        button {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            margin-top: 10px;
+            width: 100%;
+            transition: all 0.3s ease;
+        }
+        button:hover {
+            background: #2980b9;
+            transform: translateY(-2px);
+        }
+        button:disabled {
+            background: #95a5a6;
+            cursor: not-allowed;
+            transform: none;
+        }
+        .signal-box {
+            display: flex;
+            justify-content: space-around;
+            margin: 30px 0;
+        }
+        .signal {
+            width: 120px;
+            height: 300px;
+            background: #2c3e50;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            padding: 15px 0;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        .light {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background: #555;
+            transition: all 0.3s ease;
+        }
+        .light.active {
+            box-shadow: 0 0 25px 10px rgba(255,255,255,0.6);
+        }
+        .red.active { background: #e74c3c; }
+        .yellow.active { background: #f1c40f; }
+        .green.active { background: #2ecc71; }
+        .signal-label {
+            color: white;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .traffic-flow {
+            height: 250px;
+            background: #ecf0f1;
+            position: relative;
+            overflow: hidden;
+            margin-top: 20px;
+            border-radius: 5px;
+            border: 2px solid #bdc3c7;
+        }
+        .vehicle {
+            position: absolute;
+            width: 35px;
+            height: 18px;
+            background: #3498db;
+            border-radius: 4px;
+            transition: all 0.5s ease;
+        }
+        .truck {
+            width: 45px;
+            height: 20px;
+            background: #e67e22;
+        }
+        .bus {
+            width: 40px;
+            height: 18px;
+            background: #9b59b6;
+        }
+        .motorcycle {
+            width: 25px;
+            height: 12px;
+            background: #1abc9c;
+        }
+        .bicycle {
+            width: 20px;
+            height: 10px;
+            background: #27ae60;
+        }
+        .result {
+            margin-top: 25px;
+            padding: 20px;
+            background: #e8f4fc;
+            border-radius: 8px;
+            border-left: 5px solid #3498db;
+        }
+        .result h3 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+        .error {
+            color: #e74c3c;
+            font-weight: bold;
+            background: #fadbd8;
+            padding: 10px;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        .success {
+            color: #27ae60;
+            font-weight: bold;
+        }
+        #signal-status {
+            margin-top: 20px;
+            padding: 15px;
+            background: #f9f9f9;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        #countdown {
+            font-weight: bold;
+            color: #e74c3c;
+            font-size: 18px;
+        }
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(255,255,255,.3);
+            border-radius: 50%;
+            border-top-color: #fff;
+            animation: spin 1s ease-in-out infinite;
+            margin-right: 10px;
+        }
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        .sample-data-btn {
+            background: #9b59b6;
+            margin-bottom: 15px;
+        }
+        .sample-data-btn:hover {
+            background: #8e44ad;
+        }
+    </style>
+</head>
+<body>
+    <h1>Traffic Signal Optimization System</h1>
+    
+    <div class="dashboard">
+        <div class="control-panel">
+            <h2>Traffic Input Parameters</h2>
+            
+            <button id="load-sample" class="sample-data-btn">Load Sample Data</button>
+            
+            <div class="form-group">
+                <label for="vehicle_count">Vehicle Count:</label>
+                <input type="number" id="vehicle_count" value="25" min="0" max="100">
+            </div>
+            
+            <div class="form-group">
+                <label for="vehicle_type">Primary Vehicle Type:</label>
+                <select id="vehicle_type">
+                    <option value="1.0">Car</option>
+                    <option value="1.8">Truck</option>
+                    <option value="1.5">Bus</option>
+                    <option value="0.7">Motorcycle</option>
+                    <option value="0.5">Bicycle</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="speed">Average Speed (km/h):</label>
+                <input type="number" id="speed" value="40" min="0" max="120">
+            </div>
+            
+            <div class="form-group">
+                <label for="density">Traffic Density (0-2):</label>
+                <input type="number" id="density" value="0.8" min="0" max="2" step="0.1">
+            </div>
+            
+            <div class="form-group">
+                <label for="lanes">Number of Lanes:</label>
+                <input type="number" id="lanes" value="2" min="1" max="4">
+            </div>
+            
+            <div class="checkbox-group">
+                <input type="checkbox" id="pedestrian" checked>
+                <label for="pedestrian">Pedestrian Crossing Active</label>
+            </div>
+            
+            <div class="checkbox-group">
+                <input type="checkbox" id="bike_lane" checked>
+                <label for="bike_lane">Bicycle Lane Present</label>
+            </div>
+            
+            <div class="form-group">
+                <label for="historical">Historical Vehicle Count:</label>
+                <input type="number" id="historical" value="28" min="0">
+            </div>
+            
+            <button id="predict-btn">
+                <span id="predict-btn-text">Calculate Optimal Green Duration</span>
+            </button>
+            <button id="control-btn" disabled>
+                <span id="control-btn-text">Apply to Traffic Signal</span>
+            </button>
+            
+            <div class="result" id="result">
+                <h3>Prediction Result</h3>
+                <p>Submit parameters to calculate optimal green light duration.</p>
+            </div>
+        </div>
+        
+        <div class="visualization">
+            <h2>Intersection Visualization</h2>
+            
+            <div class="signal-box">
+                <div class="signal" id="ns-signal">
+                    <div class="light red" id="ns-red"></div>
+                    <div class="light yellow" id="ns-yellow"></div>
+                    <div class="light green" id="ns-green"></div>
+                    <div class="signal-label">North-South</div>
+                </div>
+                
+                <div class="signal" id="ew-signal">
+                    <div class="light red" id="ew-red"></div>
+                    <div class="light yellow" id="ew-yellow"></div>
+                    <div class="light green" id="ew-green"></div>
+                    <div class="signal-label">East-West</div>
+                </div>
+            </div>
+            
+            <div class="traffic-flow" id="traffic-flow">
+                <!-- Vehicles will be added here by JavaScript -->
+            </div>
+            
+            <div id="signal-status">
+                <p>Current signal state: North-South <strong>Red</strong>, East-West <strong>Green</strong></p>
+                <p>Green duration remaining: <span id="countdown">0</span> seconds</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // DOM elements
+        const predictBtn = document.getElementById('predict-btn');
+        const predictBtnText = document.getElementById('predict-btn-text');
+        const controlBtn = document.getElementById('control-btn');
+        const controlBtnText = document.getElementById('control-btn-text');
+        const resultDiv = document.getElementById('result');
+        const countdownSpan = document.getElementById('countdown');
+        const loadSampleBtn = document.getElementById('load-sample');
+        
+        // Input fields
+        const vehicleCountInput = document.getElementById('vehicle_count');
+        const vehicleTypeInput = document.getElementById('vehicle_type');
+        const speedInput = document.getElementById('speed');
+        const densityInput = document.getElementById('density');
+        const lanesInput = document.getElementById('lanes');
+        const pedestrianInput = document.getElementById('pedestrian');
+        const bikeLaneInput = document.getElementById('bike_lane');
+        const historicalInput = document.getElementById('historical');
+        
+        // Signal lights
+        const nsRed = document.getElementById('ns-red');
+        const nsYellow = document.getElementById('ns-yellow');
+        const nsGreen = document.getElementById('ns-green');
+        const ewRed = document.getElementById('ew-red');
+        const ewYellow = document.getElementById('ew-yellow');
+        const ewGreen = document.getElementById('ew-green');
+        
+        // Traffic flow
+        const trafficFlow = document.getElementById('traffic-flow');
+        
+        // Current state
+        let currentGreenDirection = 'ew'; // 'ns' or 'ew'
+        let greenDuration = 0;
+        let countdown = 0;
+        let timer;
+        let vehicleIntervals = [];
+        
+        // Initialize
+        updateSignalLights();
+        simulateTraffic();
+        
+        // Event listeners
+        predictBtn.addEventListener('click', predictOptimalDuration);
+        controlBtn.addEventListener('click', controlSignal);
+        loadSampleBtn.addEventListener('click', loadSampleData);
+        
+        // Load sample data from backend
+        async function loadSampleData() {
+            try {
+                loadSampleBtn.disabled = true;
+                loadSampleBtn.innerHTML = '<span class="loading"></span> Loading...';
+                
+                const response = await fetch('http://localhost:5000/sample_data');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                const data = await response.json();
+                
+                if (data.status === 'success') {
+                    const sample = data.sample_data;
+                    
+                    // Update form inputs
+                    vehicleCountInput.value = Math.round(sample.Vehicle_Count);
+                    speedInput.value = Math.round(sample.Speed_kmh);
+                    densityInput.value = sample.Density.toFixed(1);
+                    lanesInput.value = Math.round(sample.Number_of_Lanes);
+                    pedestrianInput.checked = sample.Pedestrian_Crossing > 0;
+                    bikeLaneInput.checked = sample.Bicycle_Lane > 0;
+                    historicalInput.value = Math.round(sample.Historical_Vehicle_Count);
+                    
+                    // Set vehicle type based on weighted count ratio
+                    const ratio = sample.Weighted_Vehicle_Count / sample.Vehicle_Count;
+                    if (ratio > 1.6) vehicleTypeInput.value = "1.8"; // Truck
+                    else if (ratio > 1.3) vehicleTypeInput.value = "1.5"; // Bus
+                    else if (ratio < 0.6) vehicleTypeInput.value = "0.5"; // Bicycle
+                    else if (ratio < 0.8) vehicleTypeInput.value = "0.7"; // Motorcycle
+                    else vehicleTypeInput.value = "1.0"; // Car
+                    
+                    resultDiv.innerHTML = '<h3>Prediction Result</h3><p>Sample data loaded. Click "Calculate" to predict.</p>';
+                }
+                
+            } catch (error) {
+                resultDiv.innerHTML = `
+                    <h3>Error</h3>
+                    <div class="error">
+                        <p>Failed to load sample data: ${error.message}</p>
+                    </div>
+                `;
+                console.error('Sample data error:', error);
+            } finally {
+                loadSampleBtn.disabled = false;
+                loadSampleBtn.textContent = 'Load Sample Data';
+            }
+        }
+        
+        // Predict optimal duration
+        async function predictOptimalDuration() {
+            const data = {
+                vehicle_count: parseInt(vehicleCountInput.value),
+                vehicle_type: vehicleTypeInput.value,
+                speed: parseInt(speedInput.value),
+                density: parseFloat(densityInput.value),
+                lanes: parseInt(lanesInput.value),
+                pedestrian: pedestrianInput.checked ? 1 : 0,
+                bike_lane: bikeLaneInput.checked ? 1 : 0,
+                historical: parseInt(historicalInput.value)
+            };
+            
+            try {
+                // Show loading state
+                predictBtn.disabled = true;
+                predictBtnText.innerHTML = '<span class="loading"></span> Calculating...';
+                resultDiv.innerHTML = '<h3>Prediction Result</h3><p>Calculating optimal duration...</p>';
+                
+                const response = await fetch('http://localhost:5000/predict', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(data)
+                });
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                const result = await response.json();
+                greenDuration = result.optimal_duration;
+                
+                resultDiv.innerHTML = `
+                    <h3>Prediction Result</h3>
+                    <p class="success"><strong>Optimal Green Light Duration:</strong> ${greenDuration.toFixed(1)} seconds</p>
+                    <p><strong>Calculated at:</strong> ${new Date(result.timestamp).toLocaleString()}</p>
+                    <p>This duration accounts for:</p>
+                    <ul>
+                        <li><strong>${data.vehicle_count}</strong> vehicles (weighted: ${(data.vehicle_count * parseFloat(data.vehicle_type)).toFixed(1)})</li>
+                        <li>Primary vehicle type: <strong>${vehicleTypeInput.options[vehicleTypeInput.selectedIndex].text}</strong></li>
+                        <li>${data.pedestrian ? '✅' : '❌'} Pedestrian crossing</li>
+                        <li>${data.bike_lane ? '✅' : '❌'} Bicycle lane</li>
+                        <li>Traffic density: <strong>${data.density.toFixed(1)}</strong></li>
+                        <li>Average speed: <strong>${data.speed} km/h</strong></li>
+                    </ul>
+                `;
+                
+                // Enable control button
+                controlBtn.disabled = false;
+                
+            } catch (error) {
+                resultDiv.innerHTML = `
+                    <h3>Prediction Result</h3>
+                    <div class="error">
+                        <p>Failed to get prediction: ${error.message}</p>
+                        <p>Please ensure the backend server is running at http://localhost:5000</p>
+                    </div>
+                `;
+                console.error('Prediction error:', error);
+            } finally {
+                predictBtn.disabled = false;
+                predictBtnText.textContent = 'Calculate Optimal Green Duration';
+            }
+        }
+        
+        // Control traffic signal
+        async function controlSignal() {
+            if (!greenDuration) {
+                alert('Please calculate optimal duration first');
+                return;
+            }
+            
+            try {
+                // Show loading state
+                controlBtn.disabled = true;
+                controlBtnText.innerHTML = '<span class="loading"></span> Updating Signal...';
+                
+                const response = await fetch('http://localhost:5000/control_signal', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ duration: greenDuration })
+                });
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                const result = await response.json();
+                console.log('Control signal response:', result);
+                
+                // Switch the active direction
+                currentGreenDirection = currentGreenDirection === 'ns' ? 'ew' : 'ns';
+                updateSignalLights();
+                
+                // Update traffic simulation
+                simulateTraffic();
+                
+                // Start countdown
+                if (timer) clearInterval(timer);
+                countdown = greenDuration;
+                updateCountdown();
+                
+                timer = setInterval(() => {
+                    countdown--;
+                    updateCountdown();
+                    
+                    if (countdown <= 0) {
+                        clearInterval(timer);
+                        // Auto-switch after yellow
+                        setTimeout(() => {
+                            currentGreenDirection = currentGreenDirection === 'ns' ? 'ew' : 'ns';
+                            updateSignalLights();
+                            simulateTraffic();
+                        }, 3000); // 3 second yellow
+                    }
+                }, 1000);
+                
+                // Update status
+                document.getElementById('signal-status').innerHTML = `
+                    <p>Signal successfully updated at ${new Date().toLocaleTimeString()}</p>
+                    <p>Current signal state: 
+                        North-South <strong>${currentGreenDirection === 'ns' ? 'Green' : 'Red'}</strong>, 
+                        East-West <strong>${currentGreenDirection === 'ew' ? 'Green' : 'Red'}</strong>
+                    </p>
+                    <p>Green duration remaining: <span id="countdown">${countdown}</span> seconds</p>
+                `;
+                
+            } catch (error) {
+                document.getElementById('signal-status').innerHTML = `
+                    <div class="error">
+                        <p>Failed to control signal: ${error.message}</p>
+                        <p>Please check backend server connection</p>
+                    </div>
+                `;
+                console.error('Signal control error:', error);
+            } finally {
+                controlBtn.disabled = false;
+                controlBtnText.textContent = 'Apply to Traffic Signal';
+            }
+        }
+        
+        // Update signal lights display
+        function updateSignalLights() {
+            // Reset all
+            nsRed.classList.remove('active');
+            nsYellow.classList.remove('active');
+            nsGreen.classList.remove('active');
+            ewRed.classList.remove('active');
+            ewYellow.classList.remove('active');
+            ewGreen.classList.remove('active');
+            
+            if (currentGreenDirection === 'ns') {
+                nsGreen.classList.add('active');
+                ewRed.classList.add('active');
+            } else {
+                ewGreen.classList.add('active');
+                nsRed.classList.add('active');
+            }
+        }
+        
+        // Update countdown display
+        function updateCountdown() {
+            countdownSpan.textContent = countdown;
+            
+            // Show yellow when 3 seconds remain
+            if (countdown <= 3 && countdown > 0) {
+                if (currentGreenDirection === 'ns') {
+                    nsGreen.classList.remove('active');
+                    nsYellow.classList.add('active');
+                } else {
+                    ewGreen.classList.remove('active');
+                    ewYellow.classList.add('active');
+                }
+            }
+        }
+        
+        // Simulate traffic flow
+        function simulateTraffic() {
+            // Clear existing vehicles and intervals
+            trafficFlow.innerHTML = '';
+            vehicleIntervals.forEach(interval => clearInterval(interval));
+            vehicleIntervals = [];
+            
+            // Add vehicles based on current settings
+            const vehicleCount = parseInt(vehicleCountInput.value) || 10;
+            const vehicleType = vehicleTypeInput.value;
+            
+            for (let i = 0; i < Math.min(vehicleCount, 30); i++) {
+                const vehicle = document.createElement('div');
+                vehicle.className = 'vehicle';
+                
+                // Assign vehicle class based on type
+                const vehicleTypeText = vehicleTypeInput.options[vehicleTypeInput.selectedIndex].text;
+                if (vehicleTypeText === 'Truck') vehicle.classList.add('truck');
+                else if (vehicleTypeText === 'Bus') vehicle.classList.add('bus');
+                else if (vehicleTypeText === 'Motorcycle') vehicle.classList.add('motorcycle');
+                else if (vehicleTypeText === 'Bicycle') vehicle.classList.add('bicycle');
+                
+                // Random starting position
+                if (currentGreenDirection === 'ns') {
+                    vehicle.style.bottom = `${Math.random() * 50}px`;
+                    vehicle.style.left = `${Math.random() * 900}px`;
+                } else {
+                    vehicle.style.bottom = `${Math.random() * 200}px`;
+                    vehicle.style.left = `${Math.random() * 50}px`;
+                }
+                
+                trafficFlow.appendChild(vehicle);
+                
+                // Animate vehicle movement based on signal
+                const interval = setInterval(() => {
+                    if ((currentGreenDirection === 'ns' && parseInt(vehicle.style.bottom || 0) < 200) ||
+                        (currentGreenDirection === 'ew' && parseInt(vehicle.style.left || 0) < 900)) {
+                        
+                        if (currentGreenDirection === 'ns') {
+                            const currentPos = parseInt(vehicle.style.bottom || 0);
+                            const newPos = currentPos + (1 + Math.random() * 3);
+                            vehicle.style.bottom = `${newPos}px`;
+                            
+                            if (newPos > 200) {
+                                vehicle.style.bottom = `${Math.random() * 50}px`;
+                                vehicle.style.left = `${Math.random() * 900}px`;
+                            }
+                        } else {
+                            const currentPos = parseInt(vehicle.style.left || 0);
+                            const newPos = currentPos + (1 + Math.random() * 3);
+                            vehicle.style.left = `${newPos}px`;
+                            
+                            if (newPos > 900) {
+                                vehicle.style.left = `${Math.random() * 50}px`;
+                                vehicle.style.bottom = `${Math.random() * 200}px`;
+                            }
+                        }
+                    }
+                }, 50);
+                
+                vehicleIntervals.push(interval);
+            }
+        }
+        
+        // Update traffic simulation when parameters change
+        vehicleCountInput.addEventListener('change', simulateTraffic);
+        vehicleTypeInput.addEventListener('change', simulateTraffic);
+    </script>
+</body>
+</html>
